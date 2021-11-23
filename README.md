@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    andre.dietrich@informatik.tu-freiberg.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: en
 
@@ -21,19 +21,20 @@ icon:     pic/logo.png
 # CrossLAB
 
     --{{0}}--
-This presentation about the CrossLAB project is given by André Dietrich, and
-is part of the CrossLAB workshop at the [EXPAT2020]. For more information about
-the project checkout also the following links.
+This presentation about the CrossLAB project is given by André Dietrich, and is
+part of the CrossLAB workshop at the
+[EXPAT2021](https://expat.org.pt/other-events/expatws21/). For more information
+about the project checkout also the following links.
 
 
 > __WebSite:__ https://cross-lab.org
 >
 > __Twitter:__ [\@Cross_Labs](https://twitter.com/Cross_Labs)
 >
-> __Presetation at:__ https://github.com/Cross-Lab-Project/EXPAT2020
+> __Presetation at:__ https://github.com/Cross-Lab-Project/EXPAT2021
 
 
-[qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/EXPAT2020/main/README.md#1)
+[qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/EXPAT2021/main/README.md#1)
 
 
 ## Goals I
