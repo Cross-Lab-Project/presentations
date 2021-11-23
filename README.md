@@ -23,6 +23,11 @@ icon:     pic/logo.png
 > __WebSite:__ https://cross-lab.org
 >
 > __Twitter:__ [\@Cross_Labs](https://twitter.com/Cross_Labs)
+>
+> __Presetation at:__ https://github.com/Cross-Lab-Project/EXPAT2020
+
+
+[qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/EXPAT2020/main/README.md#1)
 
 
 ## Goals I
