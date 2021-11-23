@@ -9,16 +9,13 @@ language: en
 
 narrator: US English Female
 
-comment:  Try to write a short comment about
-          your course, multiline is also okay.
-
 import:   https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 
 icon:     pic/logo.png
 
 -->
 
-# CrossLAB
+# EXPAT2021 Workshop - CrossLAB
 
     --{{0}}--
 This presentation about the CrossLAB project is given by André Dietrich, and is
@@ -27,11 +24,11 @@ part of the CrossLAB workshop at the
 about the project checkout also the following links.
 
 
-> __WebSite:__ https://cross-lab.org
+> __Website:__ https://cross-lab.org
 >
 > __Twitter:__ [\@Cross_Labs](https://twitter.com/Cross_Labs)
 >
-> __Presetation at:__ https://github.com/Cross-Lab-Project/EXPAT2021
+> __Presentation at:__ https://github.com/Cross-Lab-Project/EXPAT2021
 
 
 [qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/EXPAT2021/main/README.md#1)
@@ -69,19 +66,17 @@ Well, it worked and also quite good, but we could identify a few conceptual
 problems, that we tried to tackle:
 
     --{{2}}--
-First of all, we separated the presentation, from the actual lab-functionality,
-nowadays this would be called a headless lab. An entire IDE might be
+First, we separated the presentation, from the actual lab-functionality,
+nowadays, this would be called a headless lab. An entire IDE might be
 overwhelming for students that start to learn programming and also to learn
 about algorithms. That is why, we started to develop LiaScript, a language based
-on Markdown, that can be used to separate content into smaler and digestable
+on Markdown, that can be used to separate content into smaller and digestible
 learning chunks.
 
-
     --{{3}}--
-Additionally we created some kind of a macro-notation, which allowed us to
-define custom functionalities, such as attaching a script to a Markdown
-code-block, which turns the piece of code into an executable and editable
-example.
+Additionally, we created some kind of macro-notation, which allowed us to define
+custom functionalities, such as attaching a script to a Markdown code-block,
+which turns the piece of code into an executable and editable example.
 
 
     --{{4}}--
@@ -90,6 +85,7 @@ transported via simple simulations. There are JavaScript libraries for nearly
 every thinkable purpose and by adding such elements into the courses, we could
 minify the usage of real and fragile hardware by diving a bit deeper into some
 aspects of the curriculum.
+
 
       {{1}}
 **Lessons learned**
@@ -145,7 +141,7 @@ aspects of the curriculum.
     --{{0}}--
 The CrossLAB project is a cooperation between four partner universities, which
 is funded by the German foundation "Stiftung Innovation in der Hochschullehre".
-The foundation was established in 2019 by the the German federal and state
+The foundation was established in 2019 by the German federal and state
 governments. The goals are the increase of quality in German higher education by
 promoting innovation, exchange, networking and transfer in study and teaching.
 
@@ -160,12 +156,12 @@ The partners of this project in short are
 (not necessarily in the following order):
 
     --{{1}}--
-The Technical University Dortmund has a long lasting background on developing and
+The Technical University Dortmund has a long-lasting background on developing and
 applying remote labs with a strong focus on **didactic concepts**.
 
     --{{2}}--
 The Nordakademie University of Applied Sciences in Elmshorn is part of this
-project due to their heigh expertise in **Usabilty** analysis for remotly
+project due to their high expertise in **usability** analysis for remotely
 operated labs.
 
     --{{3}}--
@@ -177,7 +173,7 @@ And the TU Bergakademie of Freiberg has ...
 
 * {{1}} TU **Dortmund** (_didactic_)
 * {{2}} Nordakademie University of Applied Sciences **Elmshorn** (_usability_)
-* {{3}} TU **Ilmenau** (_infrascturcture_)
+* {{3}} TU **Ilmenau** (_infrastructure_)
 * {{4}} TU Bergakademie **Freiberg** (_a bit of everything_)
 
 ### Goals II
@@ -226,7 +222,7 @@ representing the semantics in the Web 3.0 approach.
   - Logging & Learning Analytics
 
       {{3}}
-* Disribted Lab-Services aka Web 3.0
+* Distributed Lab-Services, aka Web 3.0
 
       {{4}}
 * Combine different and distributed Labs/Simulations "dynamically"
