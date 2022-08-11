@@ -139,7 +139,7 @@ CROSS ---+       -------------+----------------+-----------------+--------------
 }
 ```
 
-![edrys_example](./CrossLabEdrysSolution.jpeg "Resulting Edrys Laboratory Configuration")<!-- style="width: 50%; float: right" -->
+![edrys_example](./CrossLabEdrysSolution.jpeg "Resulting Edrys Laboratory Configuration")
 
 
 ## Thanks for your interest
