@@ -9,7 +9,7 @@ narrator: Deutsch Female
 icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2022_Adaptability/CrossLab_GeCon2022)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2022_Adaptability/CrossLab_GeCon2022.md)
 
 # Adaptable Digital Labs
 <h2>Motivation and Vision of the CrossLab Project </h2>
