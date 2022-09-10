@@ -4,7 +4,8 @@ email:    sebastian.zug@informatik.tu-freiberg.de & andre.dietrich@informatik.tu
 
 version:  0.0.1
 language: de
-narrator: Deutsch Female
+narrator: English Female
+mode:     Textbook
 
 icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
 -->
