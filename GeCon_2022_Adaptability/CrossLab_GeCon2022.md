@@ -3,9 +3,8 @@ author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de & andre.dietrich@informatik.tu-freiberg.de
 
 version:  0.0.1
-language: de
-narrator: English Female
-mode:     Textbook
+language: en
+narrator: UK English Female
 
 icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
 -->
