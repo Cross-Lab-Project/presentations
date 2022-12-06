@@ -12,7 +12,7 @@ icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2022_Adaptability/CrossLab_GeCon2022.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/HDF_CommunityGroup_2022/CWG_Presentation.md#1)
 
 # Adaption von Digitalen Laboren
 <h2>Motivation und Stand des Vorhabens CrossLab </h2>
