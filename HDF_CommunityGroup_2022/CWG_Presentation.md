@@ -68,7 +68,7 @@ CROSS ---+
 ```
 [1] Aubel et al, _Adaptable Digital Labs -Motivation and Vision of the CrossLab Project_, GECON 2022, [Link](https://www.researchgate.net/publication/365384986_Adaptable_Digital_Labs_-Motivation_and_Vision_of_the_CrossLab_Project)
 
-### Challenges
+### Herausforderungen
 
 ```ascii
 
@@ -94,7 +94,7 @@ CROSS ---+                   |              |   |              |   |            
                              .--------------.   .--------------.   .--------------.
 ```
 
-### Requierments
+### Anforderungen
 
 ```ascii
 
@@ -344,17 +344,17 @@ modules:
     height: tall
 ```
 
-![edrys_example](./Screenshot.png "Resulting Edrys Laboratory Configuration")
+![edrys_example](./Screenshot.png "Resultierendes Edrys Labor")
 
 
-## Thanks for your interest
+## Ausblick
 
 > Die im Rahmen dieser Präsentation gezeigte Demo basiert auf den Arbeiten von André Dietrich, Karl Fessel und der edrys Community.
 
 | Reference          | Link                                                                         |
 |--------------------|------------------------------------------------------------------------------|
-| Project website    | [https://cross-lab.org/](https://cross-lab.org/)                             |
-| Project repository | [https://github.com/Cross-Lab-Project](https://github.com/Cross-Lab-Project) |
-| Edrys repository   | [https://edrys.org/](https://github.com/Cross-Lab-Project/edrys)             |
+| Projekt Website    | [https://cross-lab.org/](https://cross-lab.org/)                             |
+| Project Repository | [https://github.com/Cross-Lab-Project](https://github.com/Cross-Lab-Project) |
+| Edrys Repository   | [https://edrys.org/](https://github.com/Cross-Lab-Project/edrys)             |
 
 > ___CrossLab_ is founded by Stiftung Innovation in der Hochschullehre [Link](https://stiftung-hochschullehre.de/projekt/crosslab/).__
