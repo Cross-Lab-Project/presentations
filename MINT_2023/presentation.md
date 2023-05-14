@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.9
+version:  1.0.10
 language: de
 repository: 
 narrator: Deutsch Female
@@ -194,9 +194,10 @@ Es verlangt niemand, dass jede Pädagogin und jede Pädagogin alle Aspekte eines
 | `verarbeiten`                | Umgestaltung und Adaption                  |
 | `vermischen`                 | Kombination und Extraktion                 |
 | `verbreiten`                 | (digitale) Publikation                     |
-</details>
 
-*_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER*
+*_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER
+
+</details>
 
 ********************************************************************
 
@@ -216,14 +217,14 @@ Ganzheitliche Konzepte zur Arbeit an MINT Themen, die digitale und "analoge" Ele
 
 ********************************************************************
 
-                    {{2-3}}
+                    {{3-4}}
 ********************************************************************
 
 **Lösungsansatz 3 - Robotik als Anwendungsfeld**
 
 > Das Vorhaben fokussiert sich auf das Themenfeld Robotik und adressiert damit sowohl übergreifende MINT Fachgebiete als auch ein gesellschaftlich bedeutsames Feld. 
 
-TODO Bilder roboter in Freiberg
+![AnwendungRobotik](./images/Husky_on_tour.png "Beispiele aus dem Roboterzoo der Arbeitsgruppe")
 
 ********************************************************************
 
