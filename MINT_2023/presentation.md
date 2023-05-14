@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.0
+version:  1.0.1
 language: de
 repository: 
 narrator: Deutsch Female
@@ -61,11 +61,16 @@ Dieses Material ist – sofern nicht anders an einzelnen Objekten ausgewiesen �
 | [MINTsportRERION](https://www.solaris-fzu.de/projekte/schule-und-ausbildung/mint-sportregion.html)    | Chemnitz|  08.2022 - 07.2025 (ggf. Juli 2027) |
 | [MINOS](https://minos-macht-schlau.de/) | Ostsachsen (Bautzen)|  01.2021 - 12.2023 | 
 
+                               {{1-2}}
+*************************************************************************
+
 **Ausschreibung III**
 
 > _" ... Klimawandel und Digitalisierung zu meistern ... . Deshalb wollen wir die Anzahl der MINT-Cluster mit einem zusätzlichen Förderwettbewerb weiter ausbauen. ... Jetzt sollen 15 bis 20 weitere Cluster hinzukommen ..._" (Pressemittlung BMBF 18/2023)
 
 > _"... Regelmäßige MINT-Angebote sollen durch die Förderung von MINT-Clustern soselbstverständlich werden wie der Besuch des Sportvereins oder der Musikschule. ..."_ (Ausschreibung BANZ 6.03.2023)
+
+*************************************************************************
 
 [^MINT_Cluster_BMBF]: Webseite des BMBF - https://www.bildung-forschung.digital/digitalezukunft/de/bildung/mint-cluster/mint-cluster_node.html
 
@@ -81,10 +86,17 @@ Dieses Material ist – sofern nicht anders an einzelnen Objekten ausgewiesen �
 
 ... wobei die Materialien aber nur in sehr eingeschränkten Zeitfenstern zur Verfügung stehen.
 
+![ClusterWebseite](./imges/InformatikSchule.jpg)
+
+                               {{1-2}}
+*************************************************************************
+
 > An dieser Stelle werden seit Jahren zwei Lösungsansätze beschrieben
 >
 > + Digitalisierung / Virtualisierung der Lehre
 > + außerschulische Angebote für praktische Erfahrungen
+
+*************************************************************************
 
 ### Ansatz 1 - Digitalisierung
 
