@@ -79,9 +79,13 @@ Aktuelle Ausschreibung
 
 > _"... Regelmäßige MINT-Angebote sollen durch die Förderung von MINT-Clustern soselbstverständlich werden wie der Besuch des Sportvereins oder der Musikschule. ..."_ (Ausschreibung BANZ 6.03.2023)
 
-<iframe src="https://www.bildung-forschung.digital/digitalezukunft/de/bildung/mint-cluster/mint-cluster-iii/mint-cluster-iii_node.html
-" width="900" height="400" name="SELFHTML_in_a_box">
-</iframe>
+Der vollständige Text der Ausschreibung findet sich unter [https://www.bildung-forschung.digital/digitalezukunft/de/bildung/mint-cluster/mint-cluster-iii/mint-cluster-iii_node.html](https://www.bildung-forschung.digital/digitalezukunft/de/bildung/mint-cluster/mint-cluster-iii/mint-cluster-iii_node.html)
+
+Avisierte Förderschwerpunkte:
+
+1. Förderung bildungsbenachteiligter Kinder und Jugendlicher durch MINT-Cluster
+
+2. Förderung von Mädchen und jungen Frauen durch MINT-Cluster
 
 *************************************************************************
 
