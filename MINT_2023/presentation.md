@@ -26,7 +26,7 @@ import: https://github.com/liascript/CodeRunner
 | **Veranstaltung:**       | `Perspektiven eines Antrages zur Dritte Förderrichtlinie zu MINT-Clustern`                           |
 | **Hochschule:**          | `TU Bergakademie Freiberg`                                                                           |
 | **Inhalte:**             | @comment                                                                                             |
-| **Repository**           |                                              |
+| **Repository**           | [https://github.com/Cross-Lab-Project/presentations/tree/main/MINT_2023](https://github.com/Cross-Lab-Project/presentations/tree/main/MINT_2023)                                            |
  
 
 ---------------------------------------------------------------------
