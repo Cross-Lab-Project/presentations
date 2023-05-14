@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.3
+version:  1.0.4
 language: de
 repository: 
 narrator: Deutsch Female
