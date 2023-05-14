@@ -99,7 +99,7 @@ Aktuelle Ausschreibung
 
 ... wobei die Materialien aber nur in sehr eingeschränkten Zeitfenstern zur Verfügung stehen.
 
-![ClusterWebseite](./images/InformatikSchule.jpg)
+![ClusterWebseite](./images/InformatikSchule.jpg "Autorin: Katja Anokhina,  Forum Bildung Digitalisierung e.V. [^2]")
 
                                {{1-2}}
 *************************************************************************
@@ -110,6 +110,8 @@ Aktuelle Ausschreibung
 > + außerschulische Angebote für praktische Erfahrungen
 
 *************************************************************************
+
+[^2]: Forum Digitalisierung - LEARNTEC 2018, Karlsruhe [https://www.flickr.com/photos/160200532@N02/](https://www.flickr.com/photos/160200532@N02/)
 
 ### Ansatz 1 - Digitalisierung
 
@@ -143,19 +145,58 @@ Allein die Übersicht der in den MINT-Clustern geförderten Projekte dokumentier
 
 ![ClusterWebseite](./imges/WebseiteMINTcluster.png)
 
-## Visionen und potentielle Schwerpunkt
+## Potentielle Leitlinien des Antrags
 
-> Statement: Die Herausforderungen einer zeitgemäßen MINT Lehre lassen sich nur in schulübergreifenden Verbünden lösen. 
+> **Vision 1**: Die Herausforderungen einer zeitgemäßen MINT Lehre lassen sich nur in schulübergreifenden Verbünden von Lehrenden lösen. 
+>
+> **Vision 2**: Die MINT Lehre braucht neue Konzepte der Verzahnung zwischen traditionellen Formaten und digitalen Elementen.
+>
+> **Vision 3**: MINT Lehre muss die unterschiedlichen Lerngeschwindigkeiten der Kinder und Jugendlichen bei der Arbeit mit praktischen Elementen berücksichtigen. 
 
-**Punkt 1 - Offen Materialien**
+
+TODO Grafik einfügen
+
+                    {{1-2}}
+********************************************************************
+
+**Lösungsansatz 1 - Offen Materialien**
 
 Es verlangt niemand, dass jede Pädagogin und jede Pädagogin alle Aspekte eines Materials selbst umsetzen. Vielmehr sollten sie existierende Materialien anpassen und mit Blick auf ein spezifisches didaktisches Ziel aufwerten - Hochschullehrern geht es auch so :-)
 
 ![Kursübersicht](./imges/ScreenshotOERMaterialien.png "Übersicht der Materialien der Arbeitsgruppe unter [Link](https://github.com/TUBAF-IfI-LiaScript)")
 
-> Lösungskontext 1 - Verwendung von OER - Materialien
+> Lösungskontext 1 - Verwendung von OER - Materialien, die bedarfsgerecht und im Unterricht und darüber hinaus genutzt werden könenn.
 
-**Punkt 2 - Offene Labore**
+<details>
+<summary>Exkurs OER Visionen</summary>
+
+>  **Open Courseware / Open Educational Resources** ... teaching, learning and
+> research materials in any medium, digital or otherwise,that reside in the
+> **public domain** or have been released under an open license that permits
+> no-cost access, use, **adaptation** and **redistribution** by others with no or 4
+> limited restrictions. Open licensing is built within the existing framework of
+> intellectual property rights as defined by relevant international conventions
+> and respects the authorship of the work
+>
+> -- UNESCO 2002 Forum on the Impact of Open Courseware for Higher Education in Developing Countries [(Link)](https://unesdoc.unesco.org/ark:/48223/pf0000128515)
+
+| Anforderung                  | Bedeutung                                  |
+|------------------------------|--------------------------------------------|
+| `verwahren/vervielfältigen ` | Download, Speicherung und Vervielfältigung |
+| `verwenden`                  | Nutzung im Lernkontext                     |
+| `verarbeiten`                | Umgestaltung und Adaption                  |
+| `vermischen`                 | Kombination und Extraktion                 |
+| `verbreiten`                 | (digitale) Publikation                     |
+</details>
+
+*_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER*
+
+********************************************************************
+
+                    {{2-3}}
+********************************************************************
+
+**Lösungsansatz 2 - Offene Labore**
 
 Ganzheitliche Konzepte zur Arbeit an MINT Themen, die digitale und "analoge" Elemente kombinieren, die eine hohe Verfügbarkeit und Bandbreite gewährleisten.
 
@@ -166,7 +207,19 @@ Ganzheitliche Konzepte zur Arbeit an MINT Themen, die digitale und "analoge" Ele
 | universitäre Labore  als Remote-Labor | Einstiegs Roboterplattformen |  unbeschränkt |  
 | Labore der Hochschule   | Outdoor Roboter der TUBAF |  beschränkt |  
 
+********************************************************************
+
+                    {{2-3}}
+********************************************************************
+
+**Lösungsansatz 3 - Robotik als Anwendungsfeld**
+
 > Das Vorhaben fokussiert sich auf das Themenfeld Robotik und adressiert damit sowohl übergreifende MINT Fachgebiete als auch ein gesellschaftlich bedeutsames Feld. 
+
+TODO Bilder roboter in Freiberg
+
+********************************************************************
+
 
 ## Implementierungen und Demonstration
 
