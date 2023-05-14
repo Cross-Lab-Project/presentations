@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.2
+version:  1.0.3
 language: de
 repository: 
 narrator: Deutsch Female
@@ -99,7 +99,7 @@ Aktuelle Ausschreibung
 
 ... wobei die Materialien aber nur in sehr eingeschränkten Zeitfenstern zur Verfügung stehen.
 
-![ClusterWebseite](./imges/InformatikSchule.jpg)
+![ClusterWebseite](./images/InformatikSchule.jpg)
 
                                {{1-2}}
 *************************************************************************
