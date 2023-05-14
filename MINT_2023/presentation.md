@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.1
+version:  1.0.2
 language: de
 repository: 
 narrator: Deutsch Female
@@ -48,11 +48,17 @@ Mai 2023
 Dieses Material ist – sofern nicht anders an einzelnen Objekten ausgewiesen – lizenziert unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) (Logos ausgenommen). Das Material selbst finden Sie unter oben genanntem Link.<br>
 </div>
 
-## Fokus der Ausschreibung
+## Motivation
 
-![](https://static1.bmbfcluster.de/5/6/6/0/2_3a9f286acb23372/56602vpo_70572fc076acf9d.jpg "Bestehende MINT Cluster aus der Förderinitative des BMBF [^MINT_Cluster_BMBF]")
+                               {{0-1}}
+*************************************************************************
 
-**Existierende Sächsische Cluster**
+Bestehende MINT-Cluster
+------------------------
+
+![](https://static1.bmbfcluster.de/5/6/6/0/2_3a9f286acb23372/56602vpo_70572fc076acf9d.jpg "Bestehende MINT Cluster aus der Förderinitative des BMBF [^MINT_Cluster_BMBF]")<!--
+      width = "600px"
+    -->
 
 <!-- data-type="none" -->
 | Sächsische Cluster | Standort | Laufzeit | 
@@ -61,14 +67,21 @@ Dieses Material ist – sofern nicht anders an einzelnen Objekten ausgewiesen �
 | [MINTsportRERION](https://www.solaris-fzu.de/projekte/schule-und-ausbildung/mint-sportregion.html)    | Chemnitz|  08.2022 - 07.2025 (ggf. Juli 2027) |
 | [MINOS](https://minos-macht-schlau.de/) | Ostsachsen (Bautzen)|  01.2021 - 12.2023 | 
 
+*************************************************************************
+
                                {{1-2}}
 *************************************************************************
 
-**Ausschreibung III**
+Aktuelle Ausschreibung
+------------------------
 
 > _" ... Klimawandel und Digitalisierung zu meistern ... . Deshalb wollen wir die Anzahl der MINT-Cluster mit einem zusätzlichen Förderwettbewerb weiter ausbauen. ... Jetzt sollen 15 bis 20 weitere Cluster hinzukommen ..._" (Pressemittlung BMBF 18/2023)
 
 > _"... Regelmäßige MINT-Angebote sollen durch die Förderung von MINT-Clustern soselbstverständlich werden wie der Besuch des Sportvereins oder der Musikschule. ..."_ (Ausschreibung BANZ 6.03.2023)
+
+<iframe src="https://www.bildung-forschung.digital/digitalezukunft/de/bildung/mint-cluster/mint-cluster-iii/mint-cluster-iii_node.html
+" width="900" height="400" name="SELFHTML_in_a_box">
+</iframe>
 
 *************************************************************************
 
