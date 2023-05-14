@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.7
+version:  1.0.8
 language: de
 repository: 
 narrator: Deutsch Female
@@ -31,7 +31,7 @@ import: https://github.com/liascript/CodeRunner
 
 ---------------------------------------------------------------------
 
-Prof. Dr. Sebastian Zug, Dr. André Dietrich
+Prof. Dr. Sebastian Zug, Dr. André Dietrich, Dr. Thomas Schumann
 
 Technische Universität Bergakademie Freiberg
 
