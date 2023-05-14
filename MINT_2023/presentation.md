@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.4
+version:  1.0.6
 language: de
 repository: 
 narrator: Deutsch Female
@@ -143,7 +143,7 @@ print("... sind hier gefragt!")
 
 Allein die Übersicht der in den MINT-Clustern geförderten Projekte dokumentieren ein großes Engagement und Erfolg der Beteiligten. Allerdings bleibt der Eindruck einer "Geschlossenheit" der Angebote.
 
-![ClusterWebseite](./imges/WebseiteMINTcluster.png)
+![ClusterBeispiel](./images/WebseiteMINTcluster.png "Webseite eines bestehenden MINT Projetkes")
 
 ## Potentielle Leitlinien des Antrags
 
