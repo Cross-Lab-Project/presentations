@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.6
+version:  1.0.7
 language: de
 repository: 
 narrator: Deutsch Female
@@ -117,6 +117,7 @@ Aktuelle Ausschreibung
 
 > _"Da muss ich ja Informatik studiert haben und sehr viel Zeit mitbringen."_ (Pädagoge bei OER Demonstration)
 
+{{0-1}}
 | Animal          | weight in kg | Lifespan years |
 | --------------- | ------------:| --------------:|
 | Mouse           |        0.028 |              2 |
@@ -125,8 +126,10 @@ Aktuelle Ausschreibung
 | Sheep           |           90 |             12 |
 | Human           |           68 |             70 |
 
+{{1-2}}
 @PeriodicTable
 
+{{2-3}}
 ```python  Greetings.py
 mint = ["Mathematik", "Informatik", "Naturwissenschaft", "Technik"]
 
@@ -163,7 +166,7 @@ TODO Grafik einfügen
 
 Es verlangt niemand, dass jede Pädagogin und jede Pädagogin alle Aspekte eines Materials selbst umsetzen. Vielmehr sollten sie existierende Materialien anpassen und mit Blick auf ein spezifisches didaktisches Ziel aufwerten - Hochschullehrern geht es auch so :-)
 
-![Kursübersicht](./imges/ScreenshotOERMaterialien.png "Übersicht der Materialien der Arbeitsgruppe unter [Link](https://github.com/TUBAF-IfI-LiaScript)")
+![Kursübersicht](./images/ScreenshotOERMaterialien.png "Übersicht der Materialien der Arbeitsgruppe unter [Link](https://github.com/TUBAF-IfI-LiaScript)")
 
 > Lösungskontext 1 - Verwendung von OER - Materialien, die bedarfsgerecht und im Unterricht und darüber hinaus genutzt werden könenn.
 
