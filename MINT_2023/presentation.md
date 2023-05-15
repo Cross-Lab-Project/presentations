@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.10
+version:  1.0.11
 language: de
 repository: 
 narrator: Deutsch Female
@@ -231,8 +231,10 @@ Ganzheitliche Konzepte zur Arbeit an MINT Themen, die digitale und "analoge" Ele
 
 ## Implementierungen und Demonstration
 
-**Remote-Labor meets OER**[^CrossLab]
+                    {{0-1}}
+********************************************************************
 
+**Remote-Labor meets OER**[^CrossLab]
 
 ```ascii 
                                         +-----------+
@@ -269,26 +271,29 @@ Weitere Informationen unter:
 
 [^CrossLab]: Aubel et al, _Adaptable Digital Labs -Motivation and Vision of the CrossLab Project_, GECON 2022, [Link](https://www.researchgate.net/publication/365384986_Adaptable_Digital_Labs_-Motivation_and_Vision_of_the_CrossLab_Project)
 
+********************************************************************
+
+                    {{1-2}}
+********************************************************************
+
 **RoboLab der TU Bergakademie**
 
 An der Bergakademie wird ab August 2023 das RoboLab in einem Geschäft der Burgstraße eingerichtet.
 
 TODO Bild einfügen
 
+********************************************************************
+
 ## Kernelemente des Antrages
 
-1. Avisiertes Konsortium
+1. Avisiertes Konsortium (aktuell in der Planung)
 
-    + Partner im Antragsverfahren:
+| Partner  |  Assoziierte Partner |
+|------|------|
+| Landkreis Mittelsachsen als Schulträger | Gymnasium im erweiterten Bereich "Mittelsachsen"|
+| TU Bergakademie |  Industrieunternehmen |
+| | IHK |
 
-      + Landkreis Mittelsachsen als Schulträger einiger der beteiligten Gymnasien
-      + 
-      + TU Bergakademie
-    
-    + Assoziierte Partner
-
-      + Gymnasium im Bereich "Mittelsachsen"
-      + Industrieunternehmen / IHK 
 
 2. Beschaffung von Materialien für die an den Schulstandorten notwendigen Materialien 
 
@@ -304,3 +309,5 @@ TODO Bild einfügen
 | Project Repository | [https://github.com/Cross-Lab-Project](https://github.com/Cross-Lab-Project) |
 | Edrys Repository   | [https://edrys.org/](https://github.com/Cross-Lab-Project/edrys)             |
 | LiaScript          | [https://liascript.github.io/](https://liascript.github.io/)
+
+
