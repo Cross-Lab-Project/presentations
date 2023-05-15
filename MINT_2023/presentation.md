@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.12
+version:  1.0.13
 language: de
 repository: 
 narrator: Deutsch Female
@@ -277,24 +277,26 @@ Weitere Informationen unter:
 
 An der Bergakademie wird ab August 2023 das RoboLab in einem Geschäft der Burgstraße eingerichtet.
 
-TODO Bild einfügen
+![AnwendungRobotik](./images/RundkursRoboter.png "Lage des RoboLab in Freiberg")
 
 ********************************************************************
 
 ## Kernelemente des Antrages
 
-1. Avisiertes Konsortium (aktuell in der Planung)
+1. Lokale Wissenvermittlung: Bereitstellung von Roboterlaborequipment auf Seiten der Schulen / Begleitung der Einführung durch Materialien und beratende Experten
 
-| Partner  |  Assoziierte Partner |
-|------|------|
-| Landkreis Mittelsachsen als Schulträger | Gymnasium im erweiterten Bereich "Mittelsachsen"|
-| TU Bergakademie |  Industrieunternehmen |
-| | IHK |
+2. Übergreifende Wissenvermittlung anhand der Remote-Labore 
+
+3. Spezifische Wissensvermittlung im RoboLab
 
 
-2. Beschaffung von Materialien für die an den Schulstandorten notwendigen Materialien 
-
-3. Betreuung der Aktivitäten durch einen Bildungsträger / TU Bergakademie an den Standorten der Schulen 
+>Avisiertes Konsortium (aktuell in der Planung)
+>
+>| Partner  |  Assoziierte Partner |
+>|------|------|
+>| Landkreis Mittelsachsen als Schulträger | Gymnasium im erweiterten Bereich "Mittelsachsen"|
+>| TU Bergakademie |  Industrieunternehmen |
+>| | IHK |
 
 ## Ausblick
 
