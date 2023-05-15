@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.13
+version:  1.0.14
 language: de
 repository: 
 narrator: Deutsch Female
@@ -307,6 +307,6 @@ An der Bergakademie wird ab August 2023 das RoboLab in einem Geschäft der Burgs
 | Projekt Website    | [https://cross-lab.org/](https://cross-lab.org/)                             |
 | Project Repository | [https://github.com/Cross-Lab-Project](https://github.com/Cross-Lab-Project) |
 | Edrys Repository   | [https://edrys.org/](https://github.com/Cross-Lab-Project/edrys)             |
-| LiaScript          | [https://liascript.github.io/](https://liascript.github.io/)
+| LiaScript          | [https://liascript.github.io/](https://liascript.github.io/)                 |
 
 
