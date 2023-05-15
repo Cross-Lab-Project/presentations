@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.11
+version:  1.0.12
 language: de
 repository: 
 narrator: Deutsch Female
@@ -159,9 +159,6 @@ Allein die Übersicht der in den MINT-Clustern geförderten Projekte dokumentier
 > **Vision 2**: Die MINT Lehre braucht neue Konzepte der Verzahnung zwischen traditionellen Formaten und digitalen Elementen.
 >
 > **Vision 3**: MINT Lehre muss die unterschiedlichen Lerngeschwindigkeiten der Kinder und Jugendlichen bei der Arbeit mit praktischen Elementen berücksichtigen. 
-
-
-TODO Grafik einfügen
 
                     {{1-2}}
 ********************************************************************
