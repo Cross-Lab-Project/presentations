@@ -91,13 +91,13 @@ Avisierte Förderschwerpunkte:
 
 [^MINT_Cluster_BMBF]: Webseite des BMBF - https://www.bildung-forschung.digital/digitalezukunft/de/bildung/mint-cluster/mint-cluster_node.html
 
-## Herausforderungen der Lehre für MINT Themen
+## Herausforderungen der Lehre für MINT-Themen
 
 > _"MINT lebt vom interaktiven Erleben und der praktischen Anwendung."_
 
 ...  nur ergeben sich dabei erhebliche Herausforderungen:
 
-1. Aufwändige physische Realsierungen in Form von Laborinstallationen
+1. Aufwändige physische Realsierung in Form von Laborinstallationen
 2. Aufwändige Vorbereitungen im IT Kontext (Installation von Schülerrechnern)
 3. Aufwändige Aufbereitung der Inhalte in begleitenden Materialien
 
@@ -108,7 +108,7 @@ Avisierte Förderschwerpunkte:
                                {{1-2}}
 *************************************************************************
 
-> An dieser Stelle werden seit Jahren zwei Lösungsansätze beschrieben
+> An dieser Stelle werden seit Jahren zwei Lösungsansätze beschrieben:
 >
 > + Digitalisierung / Virtualisierung der Lehre
 > + außerschulische Angebote für praktische Erfahrungen
@@ -154,22 +154,22 @@ Allein die Übersicht der in den MINT-Clustern geförderten Projekte dokumentier
 
 ## Potentielle Leitlinien des Antrags
 
-> **Vision 1**: Die Herausforderungen einer zeitgemäßen MINT Lehre lassen sich nur in schulübergreifenden Verbünden von Lehrenden lösen. 
+> **Vision 1**: Die Herausforderungen einer zeitgemäßen MINT-Lehre lassen sich nur in schulübergreifenden Verbünden von Lehrenden lösen. 
 >
-> **Vision 2**: Die MINT Lehre braucht neue Konzepte der Verzahnung zwischen traditionellen Formaten und digitalen Elementen.
+> **Vision 2**: Die MINT-Lehre braucht neue Konzepte der Verzahnung zwischen traditionellen Formaten und digitalen Elementen.
 >
-> **Vision 3**: MINT Lehre muss die unterschiedlichen Lerngeschwindigkeiten der Kinder und Jugendlichen bei der Arbeit mit praktischen Elementen berücksichtigen. 
+> **Vision 3**: MINT-Lehre muss die unterschiedlichen Lerngeschwindigkeiten der Kinder und Jugendlichen bei der Arbeit mit praktischen Elementen berücksichtigen. 
 
                     {{1-2}}
 ********************************************************************
 
 **Lösungsansatz 1 - Offen Materialien**
 
-Es verlangt niemand, dass jede Pädagogin und jede Pädagogin alle Aspekte eines Materials selbst umsetzen. Vielmehr sollten sie existierende Materialien anpassen und mit Blick auf ein spezifisches didaktisches Ziel aufwerten - Hochschullehrern geht es auch so :-)
+Es verlangt niemand, dass jede Pädagoge und jede Pädagogin alle Aspekte eines Materials selbst umsetzen. Vielmehr sollten sie existierende Materialien anpassen und mit Blick auf ein spezifisches didaktisches Ziel aufwerten - Hochschullehrern geht es auch so :-)
 
 ![Kursübersicht](./images/ScreenshotOERMaterialien.png "Übersicht der Materialien der Arbeitsgruppe unter [Link](https://github.com/TUBAF-IfI-LiaScript)")
 
-> Lösungskontext 1 - Verwendung von OER - Materialien, die bedarfsgerecht und im Unterricht und darüber hinaus genutzt werden könenn.
+> Lösungskontext 1 - Verwendung von OER - Materialien, die bedarfsgerecht und im Unterricht und darüber hinaus genutzt werden.
 
 <details>
 <summary>Exkurs OER Visionen</summary>
@@ -203,14 +203,14 @@ Es verlangt niemand, dass jede Pädagogin und jede Pädagogin alle Aspekte eines
 
 **Lösungsansatz 2 - Offene Labore**
 
-Ganzheitliche Konzepte zur Arbeit an MINT Themen, die digitale und "analoge" Elemente kombinieren, die eine hohe Verfügbarkeit und Bandbreite gewährleisten.
+Ganzheitliche Konzepte zur Arbeit an MINT-Themen, die digitale und "analoge" Elemente kombinieren, die eine hohe Verfügbarkeit und Bandbreite gewährleisten.
 
 | Laborform | Beispiel    | Zeitkontext |
 |-----|----|-- |
 | außerschulische Angebote im Schulkontext | Lego Roboter | beschränkt |  
 | Simulationen  | Arduino Roboter |  unbeschränkt | 
 | universitäre Labore  als Remote-Labor | Einstiegs Roboterplattformen |  unbeschränkt |  
-| Labore der Hochschule   | Outdoor Roboter der TUBAF |  beschränkt |  
+| Labore der Hochschule   | Roboter der TUBAF |  beschränkt |  
 
 ********************************************************************
 
@@ -219,7 +219,7 @@ Ganzheitliche Konzepte zur Arbeit an MINT Themen, die digitale und "analoge" Ele
 
 **Lösungsansatz 3 - Robotik als Anwendungsfeld**
 
-> Das Vorhaben fokussiert sich auf das Themenfeld Robotik und adressiert damit sowohl übergreifende MINT Fachgebiete als auch ein gesellschaftlich bedeutsames Feld. 
+> Das Vorhaben fokussiert sich auf das Themenfeld Robotik und adressiert damit sowohl übergreifende MINT-Fachgebiete als auch ein gesellschaftlich bedeutsames Feld. 
 
 ![AnwendungRobotik](./images/Husky_on_tour.png "Beispiele aus dem Roboterzoo der Arbeitsgruppe")
 
