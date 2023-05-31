@@ -21,12 +21,12 @@ import: https://github.com/liascript/CodeRunner
 
 <h2>Herzlich Willkommen!</h2>
 
-| Parameter                | Kursinformationen                                                                                    |
-| ------------------------ | ---------------------------------------------------------------------------------------------------- |
-| **Veranstaltung:**       | `Perspektiven eines Antrages zur Dritte Förderrichtlinie zu MINT-Clustern`                           |
-| **Hochschule:**          | `TU Bergakademie Freiberg`                                                                           |
-| **Inhalte:**             | @comment                                                                                             |
-| **Repository**           | [https://github.com/Cross-Lab-Project/presentations/tree/main/MINT_2023](https://github.com/Cross-Lab-Project/presentations/tree/main/MINT_2023)                                            |
+| Parameter          | Kursinformationen                                                                                                                                |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Veranstaltung:** | `Perspektiven eines Antrages zur Dritte Förderrichtlinie zu MINT-Clustern`                                                                       |
+| **Hochschule:**    | `TU Bergakademie Freiberg`                                                                                                                       |
+| **Inhalte:**       | @comment                                                                                                                                         |
+| **Repository**     | [https://github.com/Cross-Lab-Project/presentations/tree/main/MINT_2023](https://github.com/Cross-Lab-Project/presentations/tree/main/MINT_2023) |
  
 
 ---------------------------------------------------------------------
@@ -61,11 +61,11 @@ Bestehende MINT-Cluster
     -->
 
 <!-- data-type="none" -->
-| Sächsische Cluster | Standort | Laufzeit | 
-|-----|-----|-----|
-| [MINT-Aktiv](https://mint-aktiv.com/)  | Leipzig |  12.2020 - 11.2023 |
-| [MINTsportRERION](https://www.solaris-fzu.de/projekte/schule-und-ausbildung/mint-sportregion.html)    | Chemnitz|  08.2022 - 07.2025 (ggf. Juli 2027) |
-| [MINOS](https://minos-macht-schlau.de/) | Ostsachsen (Bautzen)|  01.2021 - 12.2023 | 
+| Sächsische Cluster                                                                                 | Standort             | Laufzeit                           |
+|----------------------------------------------------------------------------------------------------|----------------------|------------------------------------|
+| [MINT-Aktiv](https://mint-aktiv.com/)                                                              | Leipzig              | 12.2020 - 11.2023                  |
+| [MINTsportRERION](https://www.solaris-fzu.de/projekte/schule-und-ausbildung/mint-sportregion.html) | Chemnitz             | 08.2022 - 07.2025 (ggf. Juli 2027) |
+| [MINOS](https://minos-macht-schlau.de/)                                                            | Ostsachsen (Bautzen) | 01.2021 - 12.2023                  |
 
 *************************************************************************
 
@@ -108,32 +108,48 @@ Avisierte Förderschwerpunkte:
                                {{1-2}}
 *************************************************************************
 
-> An dieser Stelle werden seit Jahren zwei Lösungsansätze beschrieben:
+> Lösungsansätze
 >
-> + Digitalisierung / Virtualisierung der Lehre
+> + Digitalisierung / Virtualisierung der MINT-Lehre
 > + außerschulische Angebote für praktische Erfahrungen
 
 *************************************************************************
 
 [^2]: Forum Digitalisierung - LEARNTEC 2018, Karlsruhe [https://www.flickr.com/photos/160200532@N02/](https://www.flickr.com/photos/160200532@N02/)
 
-### Ansatz 1 - Digitalisierung
+### Ansatz 1 - Digitalisierung der Materialien
 
 > _"Da muss ich ja Informatik studiert haben und sehr viel Zeit mitbringen."_ (Pädagoge bei OER Demonstration)
 
-{{0-1}}
+Beispiele für interaktive Lehrinhalte anhand von LiaScript-Elementen.
+
+                     {{0-1}}
+**********************************************************
+Explorierbare Tabellenstrukturen / Diagramme
+
 | Animal          | weight in kg | Lifespan years |
-| --------------- | ------------:| --------------:|
+|-----------------|-------------:|---------------:|
 | Mouse           |        0.028 |              2 |
 | Flying squirrel |        0.085 |             15 |
 | Brown bat       |        0.020 |             30 |
 | Sheep           |           90 |             12 |
 | Human           |           68 |             70 |
 
-{{1-2}}
+***********************************************************
+
+                      {{1-2}}
+**********************************************************
+Interaktive Lernmittel
+
 @PeriodicTable
 
-{{2-3}}
+**********************************************************
+
+                     {{2-3}}
+**********************************************************
+
+Ausführbarer / Editierbarer Code
+
 ```python  Greetings.py
 mint = ["Mathematik", "Informatik", "Naturwissenschaft", "Technik"]
 
@@ -143,6 +159,8 @@ for topic in mint:
 print("... sind hier gefragt!")
 ```
 @LIA.eval(`["main.py"]`, `none`, `python3 main.py`)
+
+**********************************************************
 
 ### Ansatz 2 - außerschulische Angebote
 
@@ -205,12 +223,12 @@ Es verlangt niemand, dass jede Pädagoge und jede Pädagogin alle Aspekte eines 
 
 Ganzheitliche Konzepte zur Arbeit an MINT-Themen, die digitale und "analoge" Elemente kombinieren, die eine hohe Verfügbarkeit und Bandbreite gewährleisten.
 
-| Laborform | Beispiel    | Zeitkontext |
-|-----|----|-- |
-| außerschulische Angebote im Schulkontext | Lego Roboter | beschränkt |  
-| Simulationen  | Arduino Roboter |  unbeschränkt | 
-| universitäre Labore  als Remote-Labor | Einstiegs Roboterplattformen |  unbeschränkt |  
-| Labore der Hochschule   | Roboter der TUBAF |  beschränkt |  
+| Laborform                                | Beispiel                     | Zeitkontext  |
+|------------------------------------------|------------------------------|--------------|
+| außerschulische Angebote im Schulkontext | Lego Roboter                 | beschränkt   |
+| Simulationen                             | Arduino Roboter              | unbeschränkt |
+| universitäre Labore  als Remote-Labor    | Einstiegs Roboterplattformen | unbeschränkt |
+| Labore der Hochschule                    | Roboter der TUBAF            | beschränkt   |
 
 ********************************************************************
 
@@ -283,20 +301,55 @@ An der Bergakademie wird ab August 2023 das RoboLab in einem Geschäft der Burgs
 
 ## Kernelemente des Antrages
 
+                    {{0-1}}
+********************************************************************
+
+__Ebenen der MINT-Ausbildung__
+
 1. Lokale Wissenvermittlung: Bereitstellung von Roboterlaborequipment auf Seiten der Schulen / Begleitung der Einführung durch Materialien und beratende Experten
 
-2. Übergreifende Wissenvermittlung anhand der Remote-Labore 
+2. Übergreifende Wissenvermittlung anhand der Remote-Labore / Simulationen
 
 3. Spezifische Wissensvermittlung im RoboLab
 
+********************************************************************
 
->Avisiertes Konsortium (aktuell in der Planung)
->
->| Partner  |  Assoziierte Partner |
->|------|------|
->| Landkreis Mittelsachsen als Schulträger | Gymnasium im erweiterten Bereich "Mittelsachsen"|
->| TU Bergakademie |  Industrieunternehmen |
->| | IHK |
+                    {{1-2}}
+********************************************************************
+
+
+__Avisiertes Konsortium__
+
+| Projektpartner                          | Rolle                                                                                            |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------|
+| Landkreis Mittelsachsen als Schulträger | Identifikation von Akteuren, Bedarfsanalyse                                                      |
+| TU Bergakademie                         | Koordination des Clusters, Kompentenzträger OER                                                  |
+| IHK                                     | Definition des Berufsbezuges, Erweiterung des Clusters, Einbettung von Bezügen der Berufsbildung |
+
+
+| assoziierte Projektpartner                     | Rolle                                                                        |
+|------------------------------------------------|------------------------------------------------------------------------------|
+| Schulen im erweiterten Bereich "Mittelsachsen" | Producer / Consumer von MINT-Materialien                                     |
+| Zivilgesellschaftliche Akteure im MINT Bereich |                                                                              |
+| LaSuB                                          | Begleitung des Vorhabens aus Sicht der Lehrplangestaltung, Materialbewertung |
+| Industrieunternehmen                           | Einbettung im Advisory Board, Bereitstellung von realen Datensätzen          |
+
+********************************************************************
+
+## Angebote für die Schulen
+
+1. Inhaltlich-fachliche Unterstützung 
+
++ Vermittlung der technologischen Grundlagen für die Erstellung von OER-Materialien
++ Initierung einer Open-Source-Kultur zwischen Akteuren 
++ Unterstützung bei der Erstellung von eignen Materialen
++ Koordination der Qualitätssicherung 
+
+2. Laborausstattung
+
++ Bereitstellung von bedarfsgerechten Basislaborsets für die beteiligten Schulen 
++ Beschaffung von spezifischen Setups
++ Etablierung eines Tauschkonzeptes für die breite Nutzung des Equipments
 
 ## Ausblick
 
@@ -308,5 +361,3 @@ An der Bergakademie wird ab August 2023 das RoboLab in einem Geschäft der Burgs
 | Project Repository | [https://github.com/Cross-Lab-Project](https://github.com/Cross-Lab-Project) |
 | Edrys Repository   | [https://edrys.org/](https://github.com/Cross-Lab-Project/edrys)             |
 | LiaScript          | [https://liascript.github.io/](https://liascript.github.io/)                 |
-
-
