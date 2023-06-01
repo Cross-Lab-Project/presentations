@@ -2,7 +2,7 @@
 
 author:   Sebastian Zug, André Dietrich
 email:    sebastian.zug@informatik.tu-freiberg.de
-version:  1.0.15
+version:  1.0.16
 language: de
 repository: 
 narrator: Deutsch Female
@@ -125,7 +125,8 @@ Beispiele für interaktive Lehrinhalte anhand von LiaScript-Elementen.
 
                      {{0-1}}
 **********************************************************
-Explorierbare Tabellenstrukturen / Diagramme
+
+Explorierbare Tabellenstrukturen - _Sortieren Sie die Einträge in absteigender Reihung. Betrachten Sie die Diagrammdarstellung._
 
 | Animal          | weight in kg | Lifespan years |
 |-----------------|-------------:|---------------:|
@@ -139,7 +140,7 @@ Explorierbare Tabellenstrukturen / Diagramme
 
                       {{1-2}}
 **********************************************************
-Interaktive Lernmittel
+Interaktive Lernmittel - _Erkunden Sie die Elemente mit der Maus._
 
 @PeriodicTable
 
@@ -148,7 +149,7 @@ Interaktive Lernmittel
                      {{2-3}}
 **********************************************************
 
-Ausführbarer / Editierbarer Code
+Ausführbarer Code - _Fügen Sie der Liste `mint` weitere Begriffe zu_
 
 ```python  Greetings.py
 mint = ["Mathematik", "Informatik", "Naturwissenschaft", "Technik"]
@@ -161,6 +162,20 @@ print("... sind hier gefragt!")
 @LIA.eval(`["main.py"]`, `none`, `python3 main.py`)
 
 **********************************************************
+
+                        {{3-4}}
+*******************************************************************
+
+Quizze  / Lückentexte - _Füllen Sie den Lückentext aus und überprüfen Sie Ihre Aussprache! (Achtung, der Ton sollte auf dem Rechner aktiviert sein.)_
+
+                  {{UK English Male |>}}
+The film that I saw [[(that)|those|these|then]] night wasn’t very good.
+It was all [[ about ]] a man [[ who ]] built a
+time machine so he [[ could ]] travel back in time.
+It took him ages and ages [[ to ]] build the machine.
+
+*******************************************************************
+
 
 ### Ansatz 2 - außerschulische Angebote
 
