@@ -12,11 +12,15 @@ narrator: UK English Female
 icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
 
 link:     style.css
+
+import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
+          https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
+          https://raw.githubusercontent.com/liaTemplates/TextAnalysis/main/README.md
 -->
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md)
 
-# Digital Laboratories as Open Educational Ressources
+# Digital Laboratories as Open Educational Resources
 
 <div class="left">
 
@@ -234,18 +238,173 @@ Concepts    TP0   TP1
 
 ************************************************************
 
-### Text based learning materials 
+### Text based learning materials
 
-LiaScript explanation
+* Project: https://github.com/Cross-Lab-Project/presentations/blob/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md
+* Editor: https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md
+
+    --{{0}}--
+We have attempted to expand the text format around Markdown to make it equally understandable and straightforward while meeting today's demands.
+One advantage for us is that the same course can be consumed in different formats.
+If you click on the icon for the presentation mode above, you can choose between the formats _textbook_, _presentation_, and _slides_.
+In other words, a text document can be used either as a book or interactive presentation for self-study, or we can use the slides mode for our lectures.
+And yes, most browsers have a Text-To-Speech Engine, which allows you to have comments and dialogues read out loud.
+
+    --{{1}}--
+First, the paragraph appears in a single line.
+
+      {{1}}
+A **thick** paragraph spans
+across two,
+no, three lines.
+
+    --{{2}}--
+Followed by the list.
+
+      {{2}}
+* List with
+
+* Subpoints:
+
+  1. Point
+  2. Points  
 
 
-### Meta data 
+      {{3}}
+| Animal          | weight in kg | Lifespan years | Mitogen |
+| --------------- | ------------:| --------------:| -------:|
+| Mouse           |        0.028 |             02 |      95 |
+| Flying squirrel |        0.085 |             15 |      50 |
+| Brown bat       |        0.020 |             30 |      10 |
+| Sheep           |           90 |             12 |      95 |
+| Human           |           68 |             70 |      10 |
+
+    --{{3}}--
+Tables are internally analyzed to see if they potentially represent a dataset that can be visualized in different formats and interactively.
+
+    --{{4}}--
+If possible, external sources can also be embedded. Two preceding question marks before a link tell LiaScript to try everything possible to display the content in the document.
+
+      {{4}}
+??[Familienschacht, Freiberg, Germany](https://sketchfab.com/3d-models/familienschacht-freiberg-germany-7c7d30506c554385a4a4321366e2e601)
+
+    --{{5}}--
+Quizzes are also self-explanatory, we hope.
+
+      {{5}}
+*******************************************************************
+
+How did you like the demo so far?
+
+- [( )] Just okay ...
+- [( )] Not impressive
+- [(X)] Very good, but what's next?
+
+---
+
+Fill in the blanks and check your pronunciation!
+
+      {{|>}}
+The film that I saw [[(that)|those|these|then]] night wasn’t very good.
+It was all [[ about ]] a man [[ who ]] built a
+time machine so he [[ could ]] travel back in time.
+It took him ages and ages [[ to ]] build the machine.
+
+
+*******************************************************************
+
+#### Extensions
+
+__Search for extensions: https://github.com/topics/liascript-template __
+
+                     {{0-1}}
+<section>
+
+<div id="example">
+<wokwi-led color="red"   pin="13" label="13"></wokwi-led>
+<wokwi-led color="green" pin="12" label="12"></wokwi-led>
+<wokwi-led color="blue"  pin="11" label="11"></wokwi-led>
+<wokwi-led color="blue"  pin="10" label="10"></wokwi-led>
+<span id="simulation-time"></span>
+</div>
+
+``` cpp
+byte leds[] = {13, 12, 11, 10};
+void setup() {
+  Serial.begin(115200);
+  for (byte i = 0; i < sizeof(leds); i++) {
+    pinMode(leds[i], OUTPUT);
+  }
+}
+
+int i = 0;
+void loop() {
+  Serial.print("LED: ");
+  Serial.println(i);
+  digitalWrite(leds[i], HIGH);
+  delay(250);
+  digitalWrite(leds[i], LOW);
+  i = (i + 1) % sizeof(leds);
+}
+```
+@AVR8js.sketch(example)
+
+</section>
+
+
+                     {{1-2}}
+``` abc
+% channel: 0
+X:353
+T: GLUECK AUF DER STEIGER KOEMMT
+N: E1512
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Bergmanns - Lied
+M: 4/4
+L: 1/16
+K: G
+ | G8F4A4 | G8z8 |
+B8A4c4 | B8z4
+G2A2 | B4B4B4A2B2 | c4A3AA4
+A2B2 | c4c4c4B2c2 | d4B3BB4
+A4 | G8F8 | G4e4d4
+c2A2 | B8A8 | G8z8
+```
+@ABCJS.eval
+
+
+                    {{2-3}}
+```
+Playing games has always been thought to be important to
+the development of well-balanced and creative children;
+however, what part, if any, they should play in the lives
+of adults has never been researched that deeply. I believe
+that playing games is every bit as important for adults
+as for children. Not only is taking time out to play games
+with our children and other adults valuable to building
+interpersonal relationships but is also a wonderful way
+to release built up tension.
+```
+@Textanalysis.FULL
+
+
 
 
 ### Artificial Intelligence
 
+    {{1}}
+<section>
 
-Try a LiaScript quiz prompt:
+#### Generating online-courses with ChatGPT
+
+![Chat](https://raw.githubusercontent.com/LiaPlayground/University-Future-Festival-2023/main/img/ChatGPT.png "source: https://aneesha.medium.com/act-as-a-learning-designer-getting-chatgpt-to-generate-an-online-module-8a16a2813bd6")
+
+</section>
+
+    {{2}}
+<section>
+
+### Try some prompts
 
 ``` markdown   Prompt excerpt for quizzes
 Create quizzes using LiaScript syntax. There are four types of quizzes: Single-Choice, Multiple-Choice, Text-Quiz, and Gap-Text.
@@ -272,9 +431,16 @@ Question: What is the capital of France?
 
 ---
 
-__Demo:__
+__Demo:__ https://chat.openai.com/share/e3c0ad08-c561-4834-b5ca-b8402346f9e5
 
-https://chat.openai.com/share/e3c0ad08-c561-4834-b5ca-b8402346f9e5
+</section>
+
+
+
+### Meta data 
+
+
+
 
 ### Obstacles for OER  
 
