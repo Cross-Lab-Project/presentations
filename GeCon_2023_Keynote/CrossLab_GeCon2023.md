@@ -241,6 +241,39 @@ LiaScript explanation
 ### Meta data 
 
 
+### Artificial Intelligence
+
+
+Try a LiaScript quiz prompt:
+
+``` markdown   Prompt excerpt for quizzes
+Create quizzes using LiaScript syntax. There are four types of quizzes: Single-Choice, Multiple-Choice, Text-Quiz, and Gap-Text.
+
+For Single-Choice Quiz:
+- Each quiz consists of a question and four answer options.
+- Only one answer option is correct.
+- Use square brackets with round brackets inside to mark the answer options.
+- Place an "X" inside the round brackets to indicate the correct answer option.
+- Separate each quiz with a blank line.
+
+...
+
+**Single-Choice Quiz Example:**
+
+Question: What is the capital of France?
+
+- [( )] London
+- [( )] Berlin
+- [(X)] Paris
+- [( )] Rome
+...
+```
+
+---
+
+__Demo:__
+
+https://chat.openai.com/share/e3c0ad08-c561-4834-b5ca-b8402346f9e5
 
 ### Obstacles for OER  
 
