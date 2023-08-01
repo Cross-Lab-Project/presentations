@@ -624,3 +624,6 @@ https://phet.colorado.edu/en/simulations/filter?subjects=chemistry&type=html,pro
 yaml für Edrys Klassenraum:
 
 https://github.com/Cross-Lab-Project/demo-classroom
+
+
+Web3 Klassenraum CRDT und Browser
