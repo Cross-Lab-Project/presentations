@@ -158,12 +158,8 @@ __TP0__ Motivation:  _Increase the distance between student and laboratory equip
 ![eLabRemoteInstallation](./elab_setup.png "Final installation of 6 remotely controlable, small size robots")
 ![eLabRemoteInstallation](./elab_streakmodel.png "Streak model of the remote laboratory for an individual student")
 
-LINK auf das Paper 
+LINK auf das Paper[^1] 
 
-Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich
-Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden
-
-https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145
 
 ************************************************************
 
@@ -175,6 +171,11 @@ https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksich
 | Development environment perfectly matching the requirements                                                                            |                                                                                           |
 | The remote system allows the application of learning analytics methods for improving the online appliction and corresponding lectures. | No immediate support by supervisors comparable to traditional exercises in a a laboratory |
 |                                                                                                                                        | Technical efforts for installation and maintenance                                        |
+
+
+[^1]: Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich:
+      _Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden._
+      https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145
 
 
 ## TP1 - Concepts for variability and openness
@@ -289,6 +290,9 @@ https://chat.openai.com/share/e3c0ad08-c561-4834-b5ca-b8402346f9e5
 |     |                              | <!-- Style="color:red" -->"_Das OER kann ich nicht in mein LMS XY!_"                             |
 
 > MOER Projekt - Multi-Autoren-Tool für OER-Inhalte [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/querschnittsprojekte/moer/moer_node.html) (2020) - TU Bergakademie Freiberg
+
+<!-- style="background: red" -->
+> Dieser Text soll rot sein
 
 ## TP2 - Seamless Integration of Laboratory Elements 
 
