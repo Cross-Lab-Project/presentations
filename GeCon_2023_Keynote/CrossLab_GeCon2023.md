@@ -161,13 +161,14 @@ __TP0__ Motivation:  _Increase the distance between student and laboratory equip
 ![eLabRemoteInstallation](./OldRemoteLabMagdeburg.png "First remote-lab implementation [Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html)")
 ![eLabRemoteInstallation](./elab_setup.png "Final installation of 6 remotely controlable, small size robots")
 ![eLabRemoteInstallation](./elab_streakmodel.png "Streak model of the remote laboratory for an individual student")
+!?[Industrial eLab - Demo](https://www.youtube.com/watch?v=bICfKRyKTwE "eLab - Labor mit Fernzugriff an der Otto-von-Guericke-Universität Magdeburg")
 
 LINK auf das Paper[^1] 
 
 
 ************************************************************
 
-{{2-3}}
+    {{2-3}}
 | Advantages                                                                                                                             | Disadvantages                                                                             |
 | :------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
 | Student centric implementation of practical education in  laboratory - permanent availability                                          |                                                                                           |
@@ -609,3 +610,17 @@ Turning Points:
 
 
 ### ????
+
+
+??[online circuit Simulator](https://falstad.com/circuit/circuitjs.html)
+
+CodeRunner?
+
+??[Chemical Simulation](https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html)
+
+https://phet.colorado.edu/en/simulations/filter?subjects=chemistry&type=html,prototype
+
+
+yaml für Edrys Klassenraum:
+
+https://github.com/Cross-Lab-Project/demo-classroom
