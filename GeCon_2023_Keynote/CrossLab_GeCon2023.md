@@ -270,9 +270,9 @@ LiaScript Beispiel Mikrocontroller als Video und als Simulation
                         /          .-O---> for OER           Laboratory                 
                        /             ^                        as OER                 
       -------O-*---O--.              |                       ----*----->             
-Traditional  ^     ^   \            TP2      multi-typed             Visions and 
-Laboratory   |     |    \            |    .--->                      Challenges
-Concepts    TP0   TP1    \           v   /                              
+ Traditional  ^     ^   \            TP2      multi-typed             Visions and 
+ Laboratory   |     |    \            |    .--->                      Challenges
+ Concepts    TP0   TP1    \           v   /                              
                           .----------O--.                                   
                             Digital      \                           
                             Laboratories  .---->  
@@ -286,23 +286,24 @@ Concepts    TP0   TP1    \           v   /
 
 ```ascii
 
-                            +--------------------------------------------------------+
-         +-->    elements   | composition of varying laboratory objects              |
-         |                  +--------------------------------------------------------+
+                            +----------------------------------------------------+
+         +-->    elements   | composition of varying laboratory objects          |
+         |                  +----------------------------------------------------+
          |
-         |                  +--------------------------------------------------------+
-         +-->       types   | mixture of different types of laboratories             |
-         |                  +--------------------------------------------------------+
+         |                  +----------------------------------------------------+
+         +-->       types   | mixture of different types of laboratories         |
+         |                  +----------------------------------------------------+
 CROSS ---+
-         |                  +--------------------------------------------------------+
-         +--> disciplinary  | sharing laboratories between different disciplines     |
-         |                  +--------------------------------------------------------+
+         |                  +----------------------------------------------------+
+         +--> disciplinary  | sharing laboratories between different disciplines |
+         |                  +----------------------------------------------------+
          |
-         |                  +--------------------------------------------------------+
-         +-->   university  | formation of a laboratory cluster                      |
-                            +--------------------------------------------------------+
+         |                  +----------------------------------------------------+
+         +-->   university  | formation of a laboratory cluster                  |
+                            +----------------------------------------------------+
 
 ```
+
 
 Types of digital Laboratories 
 
@@ -319,22 +320,22 @@ Types of digital Laboratories
 ## TP3 - Modularization / Adaptibility of digital laboratories
 
 `````````````````````````````````````````````````````
-                                      text based                                   
-                                   .-----> -----------.                              
-                            OER   /   meta data        \                             
-             Remote       .------.------->              \                           
-           Laboratory    /        \   obstacles          \    Digital                       
-                        /          .-O---> for OER        \  Laboratory                 
-                       /             ^                     \  as OER                 
-      -------O-*---O--.              |                      .----*----->             
-Traditional  ^     ^   \            TP2      multi-typed   /         Visions and 
-Laboratory   |     |    \            |    .---> ----------.           Challenges
-Concepts    TP0   TP1    \           v   /               /                        
-                          .----------O--.               /                             
-                            Digital      \  composable /                           
-                            Laboratories  .------o->--.                                           
-                                                 ^                                        
-                                                 | TP3                                    
+                                      text based                                
+                                   .-----> -----------.                         
+                            OER   /   meta data        \                        
+             Remote       .------.------->              \                       
+           Laboratory    /        \   obstacles          \    Digital           
+                        /          .-O---> for OER        \  Laboratory         
+                       /             ^                     \  as OER            
+      -------O-*---O--.              |                      .----*----->        
+ Traditional ^     ^   \            TP2      multi-typed   /         Visions and
+ Laboratory  |     |    \            |    .---> ----------.           Challenges
+ Concepts   TP0   TP1    \           v   /               /                      
+                          .----------O--.               /                       
+                            Digital      \  composable /                        
+                            Laboratories  .------o->--.                         
+                                                 ^                              
+                                                 | TP3                          
 `````````````````````````````````````````````````````
 
 
@@ -353,6 +354,50 @@ json File und Edrys Beispiel
 | TP1           | Limitations of the developed solution                     | Concepts for variable description of learning contents |
 | TP2           | Need for interactive laboratory elements in OER materials | Generic concepts for digital laboratories              |
 | TP3           |                                                           | Description format for digital                         |
+
+// TODO: Vorschlag, anstatt einer Tabelle eine Liste in dem folgenden Format? 
+
+Turning Points:
+
+{{0}}
+- Identified requirements / drawbacks
+
+  - Disadvantages of traditional laboratories installations
+
+- Development goal:
+
+  - Remote Laboratories
+
+
+{{1}}
+- Identified requirements / drawbacks
+
+  - Limitations of the developed solution
+
+- Development goal:
+
+  - Concepts for variable description of learning contents
+
+
+{{2}}
+- Identified requirements / drawbacks
+
+  - Need for interactive laboratory elements in OER materials
+
+- Development goal:
+
+  - Generic concepts for digital laboratories 
+
+
+{{3}}
+- Identified requirements / drawbacks
+
+  - TODO
+
+- Development goal:
+
+  - Description format for digital 
+
 
 ### Challenge I Application of Web 3.0 technologies
 
