@@ -42,69 +42,88 @@ TU Bergakademie Freiberg
 
 ## Motivation of the presentation
 
-{{0-1}}
+                    {{0-1}}
+**************************************************
+
+> Agenda of todays presentation as a timeline ...
+
 `````````````````````````````````````````````````````
-                                                                                   
-                                                                                     
-                                                                                     
-             Remote                                                                 
-           Laboratory                                         Digital                       
-                                                             Laboratory                 
-                                                              as OER                 
-      ---------*------                                       ----*----->             
-Traditional                                                         Visions and 
+                                                                               
+                                                                               
+                                                                               
+             Remote                                                            
+           Laboratory                                         Digital          
+                                                             Laboratory        
+                                                              as OER           
+      ---------*------                                       ----*----->       
+Traditional                                                         Visions and
 Laboratory                                                           Challenges
 Concepts                                                                    
-                                                                                      
-                                                                                   
-                                                                                  
-                                                                                     
-                                                                                      
+                                                                               
+                                                                               
+ 2014       2017               2020     2021                   2023            
+                                                                               
+                                                                               
 `````````````````````````````````````````````````````
 
-{{1-2}}
+**************************************************
+
+                     {{1-2}}
+**************************************************
+
+> Agenda of todays presentation as a timeline,  __as a research road map__
+
 `````````````````````````````````````````````````````
-                                                                                 
-                                   .------>                                             
-                            OER   /                                                 
-             Remote       .------.-------->                                            
-           Laboratory    /        \                         Digital                       
-                        /          .------>               \  Laboratory                 
-                       /                                   \  as OER                 
-      ---------*------.                                     .----*----->             
-Traditional            \                                   /         Visions and 
-Laboratory              \                 .--->           /           Challenges
-Concepts                 \               /                                          
-                          .-------------.                                                     
-                            Digital      \                                             
-                            Laboratories  .------->                                           
-                                                                                     
-                                                                                      
+                                                                               
+                                   .------>                                    
+                            OER   /                                            
+             Remote       .------.-------->                                    
+           Laboratory    /        \                         Digital            
+                        /          .------>               \  Laboratory        
+                       /                                   \  as OER           
+      ---------*------.                                     .----*----->       
+Traditional            \                                   /        Visions and
+Laboratory              \                 .--->           /          Challenges
+Concepts                 \               /                                     
+                          .-------------.                                      
+                            Digital      \                                     
+                            Laboratories  .------->                            
+                                                                               
+                                                                               
 `````````````````````````````````````````````````````
 
+**************************************************
 
-{{2-3}}
+                     {{2-4}}
+**************************************************
+
+> Agenda of todays presentation as a timeline, as a research road map and __as a sum of lessoned learned__.
+
+
 `````````````````````````````````````````````````````
-                                                                                 
-                                   .------>                                             
-                            OER   /                                                 
-             Remote       .------.-------->                                            
-           Laboratory    /        \                      \   Digital                       
-                        /          .-O---->               \  Laboratory                 
-                       /             ^                     \  as OER                 
-      -------O-*---O--.              |                      .----*----->             
-Traditional  ^     ^   \            TP2                    /         Visions and 
-Laboratory   |     |    \            |    .--->          -.           Challenges
-Concepts    TP0   TP1    \           v   /               /                           
-                          .----------O--.                                                
-                            Digital      \                                             
-                            Laboratories  .------o->                                           
-                                                 ^                                        
-                                                 | TP3                                    
+                                                                               
+                                   .------>                                    
+                            OER   /                                            
+             Remote       .------.-------->                                    
+           Laboratory    /        \                      \   Digital           
+                        /          .-O---->               \  Laboratory        
+                       /             ^                     \  as OER           
+      -------O-*---O--.              |                      .----*----->       
+Traditional  ^     ^   \            TP2                    /        Visions and
+Laboratory   |     |    \            |    .--->          -.          Challenges
+Concepts    TP0   TP1    \           v   /               /                     
+                          .----------O--.                                      
+                            Digital      \                                     
+                            Laboratories  .------o->                           
+                                                 ^                             
+                                                 | TP3                         
 `````````````````````````````````````````````````````
 
-                  {{2-3}}
-********************************************
+**************************************************
+
+                     {{3-4}}
+**************************************************
+
 
 | Turning Point | Identified requirements / drawbacks | Development goal                                      |
 | :------------ | :---------------------------------- | ----------------------------------------------------- |
@@ -134,34 +153,57 @@ __TP0__ Motivation:  _Increase the distance between student and laboratory equip
 
 ![eLabRemoteInstallation](./OldRemoteLabMagdeburg.png "First remote-lab implementation [Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html)")
 ![eLabRemoteInstallation](./elab_setup.png "Final installation of 6 remotely controlable, small size robots")
+![eLabRemoteInstallation](./elab_streakmodel.png "Streak model of the remote laboratory for an individual student")
+
+LINK auf das Paper 
+
+Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich
+Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden
+
+https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145
 
 ************************************************************
 
 {{2-3}}
-| Advantages                                                                                    | Disadvantages                                                                             |
-| :-------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
-| Student centric implementation of practical education in  laboratory - permanent availability | No immediate support by supervisors comparable to traditional exercises in a a laboratory |
-| Students work with real hardware                                                              | Technical efforts for installation and maintenance                                        |
-| Development environment perfectly matching the requirements                                   |                                                                                           |
+| Advantages                                                                                                                             | Disadvantages                                                                             |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
+| Student centric implementation of practical education in  laboratory - permanent availability                                          |                                                                                           |
+| Students work with real hardware                                                                                                       |                                                                                           |
+| Development environment perfectly matching the requirements                                                                            |                                                                                           |
+| The remote system allows the application of learning analytics methods for improving the online appliction and corresponding lectures. | No immediate support by supervisors comparable to traditional exercises in a a laboratory |
+|                                                                                                                                        | Technical efforts for installation and maintenance                                        |
 
 
 ## TP1 - Concepts for variability and openness
 
-> __Success!__
-
-![eLabRemoteInstallation](./elab_streakmodel.png "Streak model of the remote laboratory for an individual student")
-
-
-                        {{1-2}}
+                        {{0-1}}
 ************************************************************
 
-> __... but ...__ Besides the technical efforts, the implementation did not provide any kind of adaptability:
+> __Success, but ...__ Besides the technical efforts, the implementation did not provide any kind of adaptability:
 
 + technical solutions depended on the specific hardware
 + the implementation was not reusable for other learning contexts
 + ...
-+ the learning content was "hard coded" into the implementation
++ __the learning content was "hard coded" into the implementation__
 
+************************************************************
+
+                        {{1-3}}
+************************************************************
+
+> __Requierments__:
+>
+> + Separate handling of actual learning contents
+> + Adaptable materials 
+> + Reusable learning content 
+> + Open to different authors 
+> + ...
+>     $\sum = $ Open Educational Ressources (OER)
+
+************************************************************
+
+                        {{2-3}}
+************************************************************
 
 `````````````````````````````````````````````````````
                                       text based                                 
@@ -182,15 +224,16 @@ Concepts    TP0   TP1
                                                                                      
 `````````````````````````````````````````````````````
 
+> Industrial eLab Projekt - Industrial eLab [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html) (2017-2020)
+
+> Programmieren im Team - DiP-iT [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/dritte-foerderlinie-zur-digitalen-hochschulbildung/dip-it/dip-it_node) (2020-2023) - TU Bergakademie Freiberg, Otto-von-Guericke Universität Magdeburg, Humboldt Universität zu Berlin
+
 ************************************************************
 
 ### Text based learning materials 
 
 LiaScript explanation
 
-> Industrial eLab Projekt - Industrial eLab [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html) (2017-2020)
-
-> Programmieren im Team - DiP-iT [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/dritte-foerderlinie-zur-digitalen-hochschulbildung/dip-it/dip-it_node) (2020-2023) - TU Bergakademie Freiberg, Otto-von-Guericke Universität Magdeburg, Humboldt Universität zu Berlin
 
 ### Meta data 
 
