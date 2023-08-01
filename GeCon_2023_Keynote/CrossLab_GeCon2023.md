@@ -6,15 +6,20 @@ version:  0.0.1
 language: en
 narrator: UK English Female
 
-icon:     
+icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
+
+link:     style.css
 -->
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md)
 
 # Digital Laboratories as Open Educational Ressources
-<h2> Challenges and Solutions</h2>
 
-<div style="width: 46%; float: left">
+<div class="left">
+
+## Challenges and Solutions
+
+---
 
 Prof. Dr. Sebastian Zug
 
@@ -22,12 +27,17 @@ Institute of Computer Science
 
 TU Bergakademie Freiberg
 
+---
+
+### IEEE German Education Conference 2023 (GeCon 2023), Berlin, 3.08.2023
+
 </div>
 
-![partner_map](./ChemistryLab.png "Digital laboratory at TU Bergakademie Freiberg")<!-- style="width: 50%; float: right" -->
+<div class="right">
 
+![partner_map](./ChemistryLab.png "Digital laboratory at TU Bergakademie Freiberg")
 
-<h5>IEEE German Education Conference 2023 (GeCon 2023), Berlin, 3.08.2023</h5>
+</div>
 
 
 ## Motivation of the presentation
