@@ -1,9 +1,12 @@
 <!--
-author:   Sebastian Zug, André Dietrich
-email:    sebastian.zug@informatik.tu-freiberg.de & andre.dietrich@informatik.tu-freiberg.de
+author:   Sebastian Zug; André Dietrich
+
+email:    sebastian.zug@informatik.tu-freiberg.de
 
 version:  0.0.1
+
 language: en
+
 narrator: UK English Female
 
 icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
@@ -35,7 +38,7 @@ TU Bergakademie Freiberg
 
 <div class="right">
 
-![partner_map](./ChemistryLab.png "Digital laboratory at TU Bergakademie Freiberg")
+![partner_map](./ChemistryLab.png "Abb.: Digital laboratory at TU Bergakademie Freiberg")
 
 </div>
 
@@ -48,22 +51,22 @@ TU Bergakademie Freiberg
 > Agenda of todays presentation as a timeline ...
 
 `````````````````````````````````````````````````````
-                                                                               
-                                                                               
-                                                                               
-             Remote                                                            
-           Laboratory                                         Digital          
-                                                             Laboratory        
-                                                              as OER           
-      ---------*------                                       ----*----->       
-Traditional                                                         Visions and
-Laboratory                                                           Challenges
-Concepts                                                                    
-                                                                               
-                                                                               
- 2014       2017               2020     2021                   2023            
-                                                                               
-                                                                               
+
+
+
+             Remote
+           Laboratory                                       Digital
+                                                             Laboratory
+                                                              as OER
+      ----------*-----                                       ----*----->
+ Traditional                                                        Visions and
+ Laboratory                                                          Challenges
+ Concepts
+
+
+ 2014       2017               2020     2021                   2023
+
+
 `````````````````````````````````````````````````````
 
 **************************************************
@@ -74,22 +77,22 @@ Concepts
 > Agenda of todays presentation as a timeline,  __as a research road map__
 
 `````````````````````````````````````````````````````
-                                                                               
-                                   .------>                                    
-                            OER   /                                            
-             Remote       .------.-------->                                    
-           Laboratory    /        \                         Digital            
-                        /          .------>               \  Laboratory        
-                       /                                   \  as OER           
-      ---------*------.                                     .----*----->       
-Traditional            \                                   /        Visions and
-Laboratory              \                 .--->           /          Challenges
-Concepts                 \               /                                     
-                          .-------------.                                      
-                            Digital      \                                     
-                            Laboratories  .------->                            
-                                                                               
-                                                                               
+
+                                   .------>
+                            OER   /
+             Remote       .------+-------->
+           Laboratory    /        \                         Digital
+                        /          .------>               \  Laboratory
+                       /                                   \  as OER
+      ----------*-----+                                     +----*----->
+ Traditional           \                                   /        Visions and
+ Laboratory             \                 .--->           /          Challenges
+ Concepts                \               /
+                          .-------------+
+                            Digital      \
+                            Laboratories  .------->
+
+
 `````````````````````````````````````````````````````
 
 **************************************************
@@ -101,22 +104,22 @@ Concepts                 \               /
 
 
 `````````````````````````````````````````````````````
-                                                                               
-                                   .------>                                    
-                            OER   /                                            
-             Remote       .------.-------->                                    
-           Laboratory    /        \                      \   Digital           
-                        /          .-O---->               \  Laboratory        
-                       /             ^                     \  as OER           
-      -------O-*---O--.              |                      .----*----->       
-Traditional  ^     ^   \            TP2                    /        Visions and
-Laboratory   |     |    \            |    .--->          -.          Challenges
-Concepts    TP0   TP1    \           v   /               /                     
-                          .----------O--.                                      
-                            Digital      \                                     
-                            Laboratories  .------o->                           
-                                                 ^                             
-                                                 | TP3                         
+
+                                   .------>
+                            OER   /
+             Remote       .------+-------->
+           Laboratory    /        \                      \  Digital
+                        /          .-O---->               \  Laboratory
+                       /             ^                     \  as OER
+      --------O-*---O-+              |                      +----*----->
+ Traditional  ^     ^  \            TP2                    /        Visions and
+ Laboratory   |     |   \            |    .--->          -+          Challenges
+ Concepts    TP0   TP1   \           v   /               /
+                          .----------O--+
+                            Digital      \
+                            Laboratories  .-----o->
+                                                ^
+                                                | TP3
 `````````````````````````````````````````````````````
 
 **************************************************
