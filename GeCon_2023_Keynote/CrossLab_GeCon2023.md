@@ -166,8 +166,7 @@ https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksich
 
 ## TP1 - Concepts for variability and openness
 
-
-                        {{1-2}}
+                        {{0-1}}
 ************************************************************
 
 > __Success, but ...__ Besides the technical efforts, the implementation did not provide any kind of adaptability:
@@ -175,8 +174,26 @@ https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksich
 + technical solutions depended on the specific hardware
 + the implementation was not reusable for other learning contexts
 + ...
-+ the learning content was "hard coded" into the implementation
++ __the learning content was "hard coded" into the implementation__
 
+************************************************************
+
+                        {{1-3}}
+************************************************************
+
+> __Requierments__:
+>
+> + Separate handling of actual learning contents
+> + Adaptable materials 
+> + Reusable learning content 
+> + Open to different authors 
+> + ...
+>     $\sum = $ Open Educational Ressources (OER)
+
+************************************************************
+
+                        {{2-3}}
+************************************************************
 
 `````````````````````````````````````````````````````
                                       text based                                 
@@ -197,15 +214,16 @@ Concepts    TP0   TP1
                                                                                      
 `````````````````````````````````````````````````````
 
+> Industrial eLab Projekt - Industrial eLab [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html) (2017-2020)
+
+> Programmieren im Team - DiP-iT [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/dritte-foerderlinie-zur-digitalen-hochschulbildung/dip-it/dip-it_node) (2020-2023) - TU Bergakademie Freiberg, Otto-von-Guericke Universität Magdeburg, Humboldt Universität zu Berlin
+
 ************************************************************
 
 ### Text based learning materials 
 
 LiaScript explanation
 
-> Industrial eLab Projekt - Industrial eLab [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html) (2017-2020)
-
-> Programmieren im Team - DiP-iT [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/dritte-foerderlinie-zur-digitalen-hochschulbildung/dip-it/dip-it_node) (2020-2023) - TU Bergakademie Freiberg, Otto-von-Guericke Universität Magdeburg, Humboldt Universität zu Berlin
 
 ### Meta data 
 
