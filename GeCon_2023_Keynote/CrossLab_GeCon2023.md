@@ -9,13 +9,14 @@ language: en
 
 narrator: UK English Female
 
-icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
+icon:     https://media.aubi-plus.com/institution/thumbnail/3f3de48-technische-universitaet-bergakademie-freiberg-logo.jpg
 
 link:     style.css
 
 import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
           https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
           https://raw.githubusercontent.com/liaTemplates/TextAnalysis/main/README.md
+          https://raw.githubusercontent.com/LiaScript/CodeRunner/master/README.md
 -->
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md)
@@ -126,7 +127,7 @@ TU Bergakademie Freiberg
  Traditional  ^     ^  \            TP2                    /        Visions and
  Laboratory   |     |   \            |    .--->          -+          Challenges
  Concepts    TP0   TP1   \           v   /               /
-                          .----------O--+
+                          .----------O--+                
                             Digital      \
                             Laboratories  .-----o->
                                                 ^
@@ -145,7 +146,7 @@ TU Bergakademie Freiberg
 | :------------ | :---------------------------------- | ----------------------------------------------------- |
 | TP0           |                                     | Remote Laboratory                                     |
 | TP1           |                                     | Description Language for learning contexts            |
-| TP2           |                                     | Seamless Integration of Laboratory Elements           |
+| TP2           |                                     | Seamless combination of laboratory elements           |
 | TP3           |                                     | Modularization / Adaptability of digital laboratories |
 
 *******************************************
@@ -163,8 +164,6 @@ Auditorium's background
 **************************************************
 
 
-
-
 ## TP 0 - Remote Laboratories
 
                         {{0-1}}
@@ -173,7 +172,7 @@ Auditorium's background
 __Motivation of TP 0:__
 _Increase the distance between student and laboratory equipment :-)._
 
-![eLabRemoteInstallation](./batteryDesaster.png "Why does the robot not work?")
+![eLabRemoteInstallation](./batteryDesaster.png "Why does the robot not work?")<!-- width="50%" -->
 
 > __Definition:__
 > Remote laboratories provide an access to real hardware over the internet without being near the actual equipment.
@@ -224,11 +223,11 @@ _Increase the distance between student and laboratory equipment :-)._
 ************************************************************
 
 > __Success, but ...__ Besides the technical efforts, the implementation did not provide any kind of adaptability:
-
-+ technical solutions depended on the specific hardware
-+ the implementation was not reusable for other learning contexts
-+ ...
-+ __the learning content was "hard coded" into the implementation__
+> 
+> + technical solutions depended on the specific hardware
+> + the implementation was not reusable for other learning contexts
+> + ...
+> + __the learning content was "hard coded" into the implementation__
 
 ************************************************************
 
@@ -242,13 +241,16 @@ _Increase the distance between student and laboratory equipment :-)._
 > + Reusable learning content 
 > + Open to different authors 
 > + ...
->     $\sum = $ Open Educational Ressources (OER)
-
-__Motivation of TP 1:__  _Define a language not an environnement for Open Educational Resources._
+>
+> $\sum = $ Open Educational Ressources (OER)
 
 ************************************************************
 
-                        {{2-3}}
+
+    {{2-3}}
+__Motivation of TP 1:__  _Define a language not an environnement for Open Educational Resources._
+
+                        {{3-4}}
 ************************************************************
 
 
@@ -414,53 +416,18 @@ to release built up tension.
 The following list was extracted from a survey of 42 teachers at the TU Bergakademie Freiberg.
 The study focuses on the obstacles for the use of OER in teaching.
 
-{{1}}
-- __Emotional Classification:__
+|     | Level                    | Core Statement                                                                           |
+| --- | ------------------------ | ---------------------------------------------------------------------------------------- |
+| 1   | Emotional Classification | "_Anyone can use my work for themselves!_"                                               |
+|     |                          | "_Anyone can scrutinize me!_"                                                            |
+| 2   | Quality                  | "_Who ensures that the quality of the offerings is high?_"                               |
+| 3   | Legal Challenges         | "_I use many graphics, and I'm uncertain about their copyright in the best case!_"       |
+| 4   | Findability              | "_I can't find any content that I can integrate profitably into my teaching!_"           |
+| 5   | Effort                   | "_You have to have studied computer science for that!_"                                  |
+| 6   | Coverage                 | "_I can't integrate the OER into my LMS XY!_"                                            |
+|     |                          | <!-- style="color:red" --> "_But I'm missing the interfaces for my practical tools XY!_" |
 
-  - "_Anyone can use my work for themselves!_"
-
-  - "_Anyone can scrutinize me!_"
-
-{{2}}
-- __Quality:__
-
-  "_Who ensures that the quality of the offerings is high?_"
-
-{{3}}
-- __Legal Challenges:__
-
-  "_I use many graphics, and I'm uncertain about their copyright in the best case!_"
-
-{{4}}
-- __Discoverability:__
-
-  "_I can't find any content that I can integrate profitably into my teaching!_"
-
-{{5}}
-- __Efforts:__
-
-  "_You have to have studied computer science for that!_"
-
-{{6}}
-- __Coverage:__
-
-  <!-- style="color:red" -->
-  - "_But I'm missing the interfaces for my tools XY!_"
-  - "_I can't integrate the OER into my LMS XY!_"
-
-
-|     | Level                    | Core Statement                                                                     |
-| --- | ------------------------ | ---------------------------------------------------------------------------------- |
-| 1   | Emotional Classification | "_Anyone can use my work for themselves!_"                                         |
-|     |                          | "_Anyone can scrutinize me!_"                                                      |
-| 2   | Quality                  | "_Who ensures that the quality of the offerings is high?_"                         |
-| 3   | Legal Challenges         | "_I use many graphics, and I'm uncertain about their copyright in the best case!_" |
-| 4   | Findability              | "_I can't find any content that I can integrate profitably into my teaching!_"     |
-| 5   | Effort                   | "_You have to have studied computer science for that!_"                            |
-| 6   | Coverage                 | <!-- style="color:red" --> "_But I'm missing the interfaces for my tools XY!_"     |
-|     |                          | <!-- style="color:red" --> "_I can't integrate the OER into my LMS XY!_"           |
-
-
+   {{1-2}}
 `````````````````````````````````````````````````````
                                       text based
                                    .------>
@@ -524,12 +491,11 @@ void setup() {
   for (byte i = 0; i < sizeof(leds); i++) {
     pinMode(leds[i], OUTPUT);
   }
+  Serial.print("Running Led started ... ");
 }
 
 int i = 0;
 void loop() {
-  Serial.print("LED: ");
-  Serial.println(i);
   digitalWrite(leds[i], HIGH);
   delay(250);
   digitalWrite(leds[i], LOW);
@@ -577,46 +543,12 @@ https://datavizpyr.com/heatmaps-with-seaborn-in-python/
 
 
 
-### Edrys
+### Generic Remote Laboratory Framework - Edrys
 
-    {{0-1}}
+     {{0-1}}
 <section>
 
-#### Elements of a RemoteLab
-
-
-``` ascii
-
-  Laboratory Level
-                                                         Learner's View
-  n Instances
-                                                           m Instances 
-                                                                 .
-      +-----------------+         +-----------------+            .  
-      | Instrumentation |░        |    Management   |░           .
-      +--------.        |░        +--------.        |░  
- +-----------+  \       |░   +-----------+  \       |░   +----------------+
- | 👩🏻‍🔬 Actual  \  \      |--->|  Gateway   \  \      |--->|  Web Browser   |
- | Laboratory /  /      |<---|     🖥     /  /      |<---|      🧑‍💻        |
- +-----------+  /       |░   +-----------+  /       |░   +----------------+
-      +--------'        |░        +--------'        |░   Student's Computer
-      |                 |░        |                 |░
-      +-----------------+░        +-----------------+░           .
-        ░░░░░░░░░░░░░░░░░░          ░░░░░░░░░░░░░░░░░░           .
-                   .                                             .
-                   .
-                   .                                             
-
-```
-
-</section>
-
-
-    {{1-2}}
-<section>
-
-#### Implementation using a Centralized Server-Architecture
-
+> Traditional Laboratory Implementation
 
 ``` ascii
 
@@ -643,10 +575,11 @@ https://datavizpyr.com/heatmaps-with-seaborn-in-python/
 
 </section>
 
-    {{2-3}}
+
+     {{1-2}}
 <section>
 
-#### _Divide and Conquer_ in the context of a RemoteLab
+> _Divide and Conquer_ in the context of a RemoteLab
 
 
 ``` ascii
@@ -675,7 +608,9 @@ https://datavizpyr.com/heatmaps-with-seaborn-in-python/
 
 </section>
 
-    {{3-4}}
+
+
+    {{2-3}}
 <section>
 
 ![](https://github.com/Cross-Lab-Project/presentations/blob/main/HDF_CommunityGroup_2022/Screenshot.png?raw=true "Remote Laboratory")
@@ -714,6 +649,12 @@ __Motivation of TP 3:__
 _Merge OER concepts and modular configurable digital laboratories as OER materials!_
 
 
+<!-- class="reference" -->
+> __Reference:__
+> Ines Aubel et al
+> _Adaptable Digital Labs - Motivation and Vision ofthe CrossLab Project_
+> GeCon 2022
+> [Link](https://www.researchgate.net/publication/365384986_Adaptable_Digital_Labs_-Motivation_and_Vision_of_the_CrossLab_Project)
 
 
 ### Existing Modules and Classrooms
@@ -761,19 +702,225 @@ _Merge OER concepts and modular configurable digital laboratories as OER materia
 
 *****************************************************************************************
 
-                                       {{2-3}}
-*****************************************************************************************
+### Exemplary Edrys course as OER 
 
-json File und Edrys Beispiel
+```yaml   edrys_arduino_example.yaml
+id: 867h9k2xYapYq324ezDQX
+createdBy: andredietrich@web.de
+dateCreated: 1683560033614
+name: Arduino Kurs
+members:
+  teacher:
+    - andre.dietrich@informatik.tu-freiberg.de
+    - sebastian.zug@informatik.tu-freiberg.de
+    - test@web.de
+    - andredietrich@web.de
+  student: []
+modules:
+  - url: https://cross-lab-project.github.io/edrys_module-markdown-it/index.html
+    config: >-
+      # Was ist Arduino?
 
-<!-- class="reference" -->
-> __Reference:__
-> Ines Aubel et al
-> _Adaptable Digital Labs - Motivation and Vision ofthe CrossLab Project_
-> GeCon 2022
-> [Link](https://www.researchgate.net/publication/365384986_Adaptable_Digital_Labs_-Motivation_and_Vision_of_the_CrossLab_Project)
 
-*****************************************************************************************
+      Arduino ist eine Open-Source-Plattform für Elektronik-Projekte, die aus
+      einer einfachen Hardware und einer benutzerfreundlichen Software besteht.
+      Es wurde entwickelt, um es für Menschen leichter zu machen, interaktive
+      Objekte oder Systeme zu bauen und zu programmieren.
+
+
+      Die Hardware besteht aus einer Leiterplatte mit einem Mikrocontroller, der
+      eine Vielzahl von Ein- und Ausgängen hat, die es ermöglichen, verschiedene
+      elektronische Komponenten wie Sensoren, LEDs, Motoren und andere Module
+      anzuschließen.
+
+
+      Die Software, auch bekannt als Arduino Integrated Development Environment
+      (IDE), ist eine Plattform, die es ermöglicht, den Mikrocontroller auf
+      einfache Weise zu programmieren. Es ist eine textbasierte
+      Programmiersprache, die auf C++ basiert und für Anfänger leicht zu
+      erlernen ist.
+
+
+      ## Kurze Einführung zur Programmierung von Arduino
+
+      Um einen Arduino zu programmieren, benötigt man die Arduino-IDE-Software,
+      die kostenlos heruntergeladen und installiert werden kann. Die IDE enthält
+      eine Bibliothek von vorgefertigten Funktionen, die es einfach machen, mit
+      der Hardware zu interagieren und Projekte zu erstellen.
+
+      Die Programmierung von Arduino erfolgt durch das Schreiben von Code in der
+      Arduino-IDE. Der Code wird in der IDE geschrieben, kompiliert und dann auf
+      den Mikrocontroller des Arduino-Boards hochgeladen. Sobald der Code
+      hochgeladen wurde, kann der Mikrocontroller die angeschlossenen
+      elektronischen Komponenten steuern und damit das gewünschte Verhalten
+      erzeugen.
+
+      Es gibt eine Vielzahl von Online-Ressourcen, Tutorials und Projekten, die
+      sich speziell an Anfänger richten und dabei helfen, die Programmierung von
+      Arduino zu erlernen. Mit etwas Übung kann jeder schnell und einfach
+      Projekte erstellen und damit eine Menge Spaß haben.
+
+      ## Weitere Informationen
+
+      * Was ist Arduino: https://de.wikipedia.org/wiki/Arduino_(Plattform)
+
+      * Wo finde ich das Projekt:  https://www.arduino.cc
+
+      ---
+
+      <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/L6hfG-v7GL4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+       </iframe>
+    showInCustom: lobby
+    width: full
+    height: tall
+  - url: https://edrys-org.github.io/module-liascript/
+    config:
+      course: >-
+        https://raw.githubusercontent.com/TUBAF-IfI-LiaScript/VL_EingebetteteSysteme/master/00_Einfuehrung.md
+    showInCustom: room 1
+    width: full
+    height: tall
+  - url: https://cross-lab-project.github.io/edrys_module-markdown-it/index.html
+    config: >-
+      # Aufgabenstellung
+
+
+      Implementiert einen Knight-Rider LED Effekt, bei dem sich das Licht von
+      links nach rechts und von rechts nach links bewegt.
+
+
+      <div
+      style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe
+      src="https://giphy.com/embed/Bo2WsocASVBm0" width="100%" height="100%"
+      style="position:absolute" frameBorder="0" class="giphy-embed"
+      allowFullScreen></iframe></div><p><a
+      href="https://giphy.com/gifs/80s-nbc-knight-rider-Bo2WsocASVBm0">via
+      GIPHY</a></p>
+    showInCustom: room 2
+    width: full
+    height: tall
+    teacherConfig: |-
+      # Lösung
+
+      ``` cpp
+      // todo
+      ```
+  - url: https://cross-lab-project.github.io/edrys_module-editor/index.html
+    showInCustom: room 2
+    width: full
+    height: tall
+    config:
+      runCommand: execute
+      language: cpp
+      theme: light
+      editorText: |
+        byte leds[] = {13, 12, 11, 10};
+
+        void setup() {
+          Serial.begin(9600);
+          for (byte i = 0; i < sizeof(leds); i++) {
+            pinMode(leds[i], OUTPUT);
+          }
+        }
+
+        int i = 0;
+
+        void loop() {
+          Serial.print("LED: ");
+          Serial.println(i);
+          digitalWrite(leds[i], HIGH);
+          delay(250);
+          digitalWrite(leds[i], LOW);
+          i = (i + 1) % sizeof(leds);
+        }
+  - url: https://cross-lab-project.github.io/edrys_module-avr8js/index.html
+    showInCustom: room 2
+    width: full
+    height: tall
+    config:
+      execute: execute
+      modules: |
+        <wokwi-led color='red'   pin='13' label='13'></wokwi-led>
+        <wokwi-led color='green' pin='12' label='12'></wokwi-led>
+        <wokwi-led color='blue'  pin='11' label='11'></wokwi-led>
+        <wokwi-led color='blue'  pin='10' label='10'></wokwi-led>
+        <span id='simulation-time'></span>
+  - url: https://cross-lab-project.github.io/edrys_module-markdown-it/index.html
+    showInCustom: station
+    width: full
+    height: tall
+  - url: https://cross-lab-project.github.io/edrys_module-editor/index.html
+    showInCustom: station
+    width: full
+    height: tall
+    config:
+      runCommand: execute
+      language: cpp
+      theme: light
+      editorText: |
+        byte leds[] = {13, 12, 11, 10};
+        void setup() {
+          Serial.begin(9600);
+          for (byte i = 0; i < sizeof(leds); i++) {
+            pinMode(leds[i], OUTPUT);
+          }
+        }
+        int i = 0;
+        void loop() {
+          Serial.print("LED: ");
+          Serial.println(i);
+          digitalWrite(leds[i], HIGH);
+          delay(250);
+          digitalWrite(leds[i], LOW);
+          i = (i + 1) % sizeof(leds);
+        }
+  - url: https://cross-lab-project.github.io/edrys_module-pyxtermjs/index.html
+    config:
+      server: http://localhost:5000/pty
+      execute: execute
+      script: |
+        {
+        SKETCH=Test
+        arduino-cli sketch new -f ${SKETCH}
+
+        olddir=$(pwd)
+        cd ${SKETCH}
+        echo $CODE | base64 --decode > ${SKETCH}.ino
+
+        arduino-cli board attach -p /dev/ttyACM0
+        arduino-cli compile
+        arduino-cli upload
+        cd $olddir
+        arduino-cli monitor -p /dev/ttyACM0
+        }
+      enable:
+        teacher: true
+        student: true
+    showInCustom: station
+    width: full
+    height: tall
+  - url: https://cross-lab-project.github.io/module-video-chat-jitsi/
+    config:
+      instance: https://meet.jit.si
+      config: '&config.startWithAudioMuted=true'
+    studentConfig:
+      config: '&config.startWithVideoMuted=true&stud'
+    teacherConfig:
+      config: '&config.startWithVideoMuted=true&teach'
+    stationConfig:
+      config: '&config.startWithVideoMuted=false&station'
+    showInCustom: station
+    width: full
+    height: tall
+
+```
 
 ## Summary & Next Steps
 
@@ -815,25 +962,27 @@ Turning Points:
 {{3}}
 - Identified requirements / drawbacks
 
-  - TODO
+  - Need for modularization and adaptability of digital laboratories
 
 - Development goal:
 
-  - Description format for digital 
+  - Description format for digital laboratories
 
 
 ## Challenges
 
-<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/l2YWFxG9GxXk8A7w4" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/obama-barack-obama-potus-l2YWFxG9GxXk8A7w4">via GIPHY</a></p>
 
-### I. Application of Web 3.0 technologies
+1. Application of Web 3.0 technologies
+2. Metadata formats for Digital Laboratories as OER  
+3. Artificial Intelligence
+
+   {{1-2}}
+> Many thanks for your interest and attention!
 
 
-### II. Metadata formats for Digital Laboratories as OER  
+## Backup Slides
 
-
-### III.  Artificial Intelligence
-
+### Artificial Intelligence
     {{1}}
 <section>
 
@@ -846,7 +995,7 @@ Turning Points:
     {{2}}
 <section>
 
-### Try some prompts
+#### Try some prompts
 
 ``` markdown   Prompt excerpt for quizzes
 Create quizzes using LiaScript syntax. There are four types of quizzes: Single-Choice, Multiple-Choice, Text-Quiz, and Gap-Text.
@@ -877,23 +1026,25 @@ __Demo:__ https://chat.openai.com/share/e3c0ad08-c561-4834-b5ca-b8402346f9e5
 
 </section>
 
-
-
-
-## Links and References
+### Additional examples 
 
 ??[online circuit Simulator](https://falstad.com/circuit/circuitjs.html)
 
-CodeRunner?
-
 ??[Chemical Simulation](https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html)
 
-https://phet.colorado.edu/en/simulations/filter?subjects=chemistry&type=html,prototype
+```csharp    CSharpHelloWorld.cs
+Console.WriteLine("Hello, World!");
+```
+```xml       projectfile
+<Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
 
-yaml für Edrys Klassenraum:
-
-https://github.com/Cross-Lab-Project/demo-classroom
-
-
-Web3 Klassenraum CRDT und Browser
+</Project>
+```
+@LIA.eval(`["Program.cs", "project.csproj"]`, `dotnet build -nologo`, `dotnet run`)
