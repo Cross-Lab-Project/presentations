@@ -36,7 +36,11 @@ TU Bergakademie Freiberg
 
 ---
 
-### IEEE German Education Conference 2023 (GeCon 2023), Berlin, 3.08.2023
+### IEEE German Education Conference 2023 
+
+### (GeCon 2023) Berlin, 3.08.2023
+
+---
 
 </div>
 
@@ -141,34 +145,34 @@ TU Bergakademie Freiberg
 
 *******************************************
 
+                     {{4-5}}
+**************************************************
+
+Auditorium's background 
+----------------------------------------------
+
+- [ ] Who of you has already implemented a remote laboratory?
+- [ ] Who uses OER materials in his teaching?
+- [ ] Who provides OER materials for others?
+
+**************************************************
 
 ## TP 0 - Remote Laboratories
 
                         {{0-1}}
 ************************************************************
 
-__TP0__ Motivation:  _Increase the distance between student and laboratory equipment :-)._ 
+__Motivation of TP 0:__  _Increase the distance between student and laboratory equipment :-)._
 
-![eLabRemoteInstallation](./elab_robot.png "Final robot configuration implemented in [Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html)")
+![eLabRemoteInstallation](./batteryDesaster.png "Why does the robot not work?")
 
-> __Remote laboratories__ provide an access to real hardware over the internet without being near the actual equipment.
-
-************************************************************
-
-                        {{1-3}}
-************************************************************
-
-![eLabRemoteInstallation](./OldRemoteLabMagdeburg.png "First remote-lab implementation [Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html)")
-![eLabRemoteInstallation](./elab_setup.png "Final installation of 6 remotely controlable, small size robots")
-![eLabRemoteInstallation](./elab_streakmodel.png "Streak model of the remote laboratory for an individual student")
-!?[Industrial eLab - Demo](https://www.youtube.com/watch?v=bICfKRyKTwE "eLab - Labor mit Fernzugriff an der Otto-von-Guericke-Universität Magdeburg")
-
-LINK auf das Paper[^1] 
-
+> __Definition:__ Remote laboratories provide an access to real hardware over the internet without being near the actual equipment.
 
 ************************************************************
 
-    {{2-3}}
+                        {{1-2}}
+************************************************************
+
 | Advantages                                                                                                                             | Disadvantages                                                                             |
 | :------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
 | Student centric implementation of practical education in  laboratory - permanent availability                                          |                                                                                           |
@@ -178,10 +182,24 @@ LINK auf das Paper[^1]
 |                                                                                                                                        | Technical efforts for installation and maintenance                                        |
 
 
-[^1]: Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich:
-      _Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden._
-      https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145
+<!-- style="background: LightYellow" -->
+> __Project:__ Industrial eLab Projekt - Industrial eLab [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html) - TU Freiberg, Otto-von-Guericke Universität Magdeburg (2017-2020)
 
+************************************************************
+
+                        {{2-3}}
+************************************************************
+
+![eLabRemoteInstallation](./elab_robot.png "Final robot configuration implemented in [Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html)")
+![eLabRemoteInstallation](./OldRemoteLabMagdeburg.png "First remote-lab implementation [Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html)")
+![eLabRemoteInstallation](./elab_setup.png "Final installation of 6 remotely controlable, small size robots")
+![eLabRemoteInstallation](./elab_streakmodel.png "Streak model of the remote laboratory for an individual student")
+!?[Industrial eLab - Demo](https://www.youtube.com/watch?v=bICfKRyKTwE "eLab - Labor mit Fernzugriff an der Otto-von-Guericke-Universität Magdeburg")
+
+<!-- style="background: #D3D3D3" -->
+> __Reference:__ Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich _Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden._ [Link](https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145)
+
+************************************************************
 
 ## TP1 - Concepts for variability and openness
 
@@ -209,6 +227,8 @@ LINK auf das Paper[^1]
 > + ...
 >     $\sum = $ Open Educational Ressources (OER)
 
+__Motivation of TP 1:__  _Define a language not an environnement for Open Educational Resources._
+
 ************************************************************
 
                         {{2-3}}
@@ -233,16 +253,21 @@ Concepts    TP0   TP1
                                                                                      
 `````````````````````````````````````````````````````
 
-> Industrial eLab Projekt - Industrial eLab [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html) (2017-2020)
+<!-- style="background: LightYellow" -->
+> __Project:__ MOER Projekt - Multi-Autoren-Tool für OER-Inhalte [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/querschnittsprojekte/moer/moer_node.html) (2020) - TU Bergakademie Freiberg
 
+<!-- style="background: LightYellow" -->
+> __Project:__ 
 > Programmieren im Team - DiP-iT [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/dritte-foerderlinie-zur-digitalen-hochschulbildung/dip-it/dip-it_node) (2020-2023) - TU Bergakademie Freiberg, Otto-von-Guericke Universität Magdeburg, Humboldt Universität zu Berlin
 
 ************************************************************
 
-### Text based learning materials
+### Text based learning materials - LiaScript
 
-* Project: https://github.com/Cross-Lab-Project/presentations/blob/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md
-* Editor: https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md
+<!-- style="background: #D3D3D3" -->
+> __Reference:__ The current presentation ist an OER too - [Project](https://github.com/Cross-Lab-Project/presentations/blob/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md), [Editor](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md)
+
+> __Definition:__ LiaScript is a Markdown dialect that allows you to create interactive online courses. The matrial is provided by textural content representations and semantic annotations. Common Markdown is enriched with interactive elements.
 
     --{{0}}--
 We have attempted to expand the text format around Markdown to make it equally understandable and straightforward while meeting today's demands.
@@ -314,46 +339,9 @@ It took him ages and ages [[ to ]] build the machine.
 
 *******************************************************************
 
-#### Extensions
+                     {{6-7}}
+*******************************************************************
 
-__Search for extensions: https://github.com/topics/liascript-template __
-
-                     {{0-1}}
-<section>
-
-<div id="example">
-<wokwi-led color="red"   pin="13" label="13"></wokwi-led>
-<wokwi-led color="green" pin="12" label="12"></wokwi-led>
-<wokwi-led color="blue"  pin="11" label="11"></wokwi-led>
-<wokwi-led color="blue"  pin="10" label="10"></wokwi-led>
-<span id="simulation-time"></span>
-</div>
-
-``` cpp
-byte leds[] = {13, 12, 11, 10};
-void setup() {
-  Serial.begin(115200);
-  for (byte i = 0; i < sizeof(leds); i++) {
-    pinMode(leds[i], OUTPUT);
-  }
-}
-
-int i = 0;
-void loop() {
-  Serial.print("LED: ");
-  Serial.println(i);
-  digitalWrite(leds[i], HIGH);
-  delay(250);
-  digitalWrite(leds[i], LOW);
-  i = (i + 1) % sizeof(leds);
-}
-```
-@AVR8js.sketch(example)
-
-</section>
-
-
-                     {{1-2}}
 ``` abc
 % channel: 0
 X:353
@@ -388,57 +376,11 @@ to release built up tension.
 ```
 @Textanalysis.FULL
 
-
-
-
-### Artificial Intelligence
-
-    {{1}}
-<section>
-
-#### Generating online-courses with ChatGPT
-
-![Chat](https://raw.githubusercontent.com/LiaPlayground/University-Future-Festival-2023/main/img/ChatGPT.png "source: https://aneesha.medium.com/act-as-a-learning-designer-getting-chatgpt-to-generate-an-online-module-8a16a2813bd6")
-
-</section>
-
-    {{2}}
-<section>
-
-### Try some prompts
-
-``` markdown   Prompt excerpt for quizzes
-Create quizzes using LiaScript syntax. There are four types of quizzes: Single-Choice, Multiple-Choice, Text-Quiz, and Gap-Text.
-
-For Single-Choice Quiz:
-- Each quiz consists of a question and four answer options.
-- Only one answer option is correct.
-- Use square brackets with round brackets inside to mark the answer options.
-- Place an "X" inside the round brackets to indicate the correct answer option.
-- Separate each quiz with a blank line.
-
-...
-
-**Single-Choice Quiz Example:**
-
-Question: What is the capital of France?
-
-- [( )] London
-- [( )] Berlin
-- [(X)] Paris
-- [( )] Rome
-...
-```
-
----
-
-__Demo:__ https://chat.openai.com/share/e3c0ad08-c561-4834-b5ca-b8402346f9e5
-
-</section>
-
-
+*******************************************************************
 
 ### Meta data 
+
+> __Definition__: Meta data for OER describe the content, quality, and conditions of use of a learning resource.
 
 
 
@@ -456,14 +398,44 @@ __Demo:__ https://chat.openai.com/share/e3c0ad08-c561-4834-b5ca-b8402346f9e5
 | 6   | Abdeckung                    | <!-- Style="color:red" -->"_Da fehlen mir aber die Schnittstellen für meine Tools XY!_"          |
 |     |                              | <!-- Style="color:red" -->"_Das OER kann ich nicht in mein LMS XY!_"                             |
 
-> MOER Projekt - Multi-Autoren-Tool für OER-Inhalte [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/querschnittsprojekte/moer/moer_node.html) (2020) - TU Bergakademie Freiberg
-
-<!-- style="background: red" -->
-> Dieser Text soll rot sein
 
 ## TP2 - Seamless Integration of Laboratory Elements 
 
-LiaScript Beispiel Mikrocontroller als Video und als Simulation
+<section>
+
+<div id="example">
+<wokwi-led color="red"   pin="13" label="13"></wokwi-led>
+<wokwi-led color="green" pin="12" label="12"></wokwi-led>
+<wokwi-led color="blue"  pin="11" label="11"></wokwi-led>
+<wokwi-led color="blue"  pin="10" label="10"></wokwi-led>
+<span id="simulation-time"></span>
+</div>
+
+``` cpp
+byte leds[] = {13, 12, 11, 10};
+void setup() {
+  Serial.begin(115200);
+  for (byte i = 0; i < sizeof(leds); i++) {
+    pinMode(leds[i], OUTPUT);
+  }
+}
+
+int i = 0;
+void loop() {
+  Serial.print("LED: ");
+  Serial.println(i);
+  digitalWrite(leds[i], HIGH);
+  delay(250);
+  digitalWrite(leds[i], LOW);
+  i = (i + 1) % sizeof(leds);
+}
+```
+@AVR8js.sketch(example)
+
+</section>
+
+
+
 
 `````````````````````````````````````````````````````
                                       text based                                   
@@ -474,9 +446,9 @@ LiaScript Beispiel Mikrocontroller als Video und als Simulation
                         /          .-O---> for OER           Laboratory                 
                        /             ^                        as OER                 
       -------O-*---O--.              |                       ----*----->             
- Traditional  ^     ^   \            TP2      multi-typed             Visions and 
- Laboratory   |     |    \            |    .--->                      Challenges
- Concepts    TP0   TP1    \           v   /                              
+ Traditional  ^     ^   \           TP2      multi-typed             Visions and 
+ Laboratory   |     |    \           |    .--->                      Challenges
+ Concepts    TP0   TP1    \          v   /                              
                           .----------O--.                                   
                             Digital      \                           
                             Laboratories  .---->  
@@ -520,6 +492,10 @@ Types of digital Laboratories
 
 
 > The extended bandwidth of digital laboratories requires a new description format for learning materials.
+
+
+
+
 
 ## TP3 - Modularization / Adaptibility of digital laboratories
 
@@ -609,8 +585,55 @@ Turning Points:
 ### Challenge II Metadata formats for Digital Laboratories as OER  
 
 
-### ????
+### Challenge III  Artificial Intelligence
 
+    {{1}}
+<section>
+
+#### Generating online-courses with ChatGPT
+
+![Chat](https://raw.githubusercontent.com/LiaPlayground/University-Future-Festival-2023/main/img/ChatGPT.png "source: https://aneesha.medium.com/act-as-a-learning-designer-getting-chatgpt-to-generate-an-online-module-8a16a2813bd6")
+
+</section>
+
+    {{2}}
+<section>
+
+### Try some prompts
+
+``` markdown   Prompt excerpt for quizzes
+Create quizzes using LiaScript syntax. There are four types of quizzes: Single-Choice, Multiple-Choice, Text-Quiz, and Gap-Text.
+
+For Single-Choice Quiz:
+- Each quiz consists of a question and four answer options.
+- Only one answer option is correct.
+- Use square brackets with round brackets inside to mark the answer options.
+- Place an "X" inside the round brackets to indicate the correct answer option.
+- Separate each quiz with a blank line.
+
+...
+
+**Single-Choice Quiz Example:**
+
+Question: What is the capital of France?
+
+- [( )] London
+- [( )] Berlin
+- [(X)] Paris
+- [( )] Rome
+...
+```
+
+---
+
+__Demo:__ https://chat.openai.com/share/e3c0ad08-c561-4834-b5ca-b8402346f9e5
+
+</section>
+
+
+
+
+## Links and References
 
 ??[online circuit Simulator](https://falstad.com/circuit/circuitjs.html)
 
