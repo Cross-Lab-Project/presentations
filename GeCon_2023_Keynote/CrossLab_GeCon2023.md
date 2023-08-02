@@ -20,6 +20,7 @@ import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md)
 
+
 # Digital Laboratories as Open Educational Resources
 
 <div class="left">
@@ -36,7 +37,7 @@ TU Bergakademie Freiberg
 
 ---
 
-### IEEE German Education Conference 2023 
+### IEEE German Education Conference 2023
 
 ### (GeCon 2023) Berlin, 3.08.2023
 
@@ -51,6 +52,7 @@ TU Bergakademie Freiberg
 </div>
 
 
+
 ## Motivation of the presentation
 
                     {{0-1}}
@@ -59,7 +61,6 @@ TU Bergakademie Freiberg
 > Agenda of todays presentation as a timeline ...
 
 `````````````````````````````````````````````````````
-
 
 
              Remote
@@ -79,13 +80,14 @@ TU Bergakademie Freiberg
 
 **************************************************
 
+
+
                      {{1-2}}
 **************************************************
 
-> Agenda of todays presentation as a timeline,  __as a research road map__
+> Agenda of todays presentation as a timeline, __as a research road map__
 
 `````````````````````````````````````````````````````
-
                                    .------>
                             OER   /
              Remote       .------+-------->
@@ -105,6 +107,8 @@ TU Bergakademie Freiberg
 
 **************************************************
 
+
+
                      {{2-4}}
 **************************************************
 
@@ -112,7 +116,6 @@ TU Bergakademie Freiberg
 
 
 `````````````````````````````````````````````````````
-
                                    .------>
                             OER   /
              Remote       .------+-------->
@@ -132,6 +135,8 @@ TU Bergakademie Freiberg
 
 **************************************************
 
+
+
                      {{3-4}}
 **************************************************
 
@@ -141,7 +146,7 @@ TU Bergakademie Freiberg
 | TP0           |                                     | Remote Laboratory                                     |
 | TP1           |                                     | Description Language for learning contexts            |
 | TP2           |                                     | Seamless Integration of Laboratory Elements           |
-| TP3           |                                     | Modularization / Adaptibility of digital laboratories |
+| TP3           |                                     | Modularization / Adaptability of digital laboratories |
 
 *******************************************
 
@@ -157,16 +162,21 @@ Auditorium's background
 
 **************************************************
 
+
+
+
 ## TP 0 - Remote Laboratories
 
                         {{0-1}}
 ************************************************************
 
-__Motivation of TP 0:__  _Increase the distance between student and laboratory equipment :-)._
+__Motivation of TP 0:__
+_Increase the distance between student and laboratory equipment :-)._
 
 ![eLabRemoteInstallation](./batteryDesaster.png "Why does the robot not work?")
 
-> __Definition:__ Remote laboratories provide an access to real hardware over the internet without being near the actual equipment.
+> __Definition:__
+> Remote laboratories provide an access to real hardware over the internet without being near the actual equipment.
 
 ************************************************************
 
@@ -182,7 +192,7 @@ __Motivation of TP 0:__  _Increase the distance between student and laboratory e
 |                                                                                                                                        | Technical efforts for installation and maintenance                                        |
 
 
-<!-- style="background: LightYellow" -->
+<!-- class="highlight" -->
 > __Project:__ Industrial eLab Projekt - Industrial eLab [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html) - TU Freiberg, Otto-von-Guericke Universität Magdeburg (2017-2020)
 
 ************************************************************
@@ -196,10 +206,17 @@ __Motivation of TP 0:__  _Increase the distance between student and laboratory e
 ![eLabRemoteInstallation](./elab_streakmodel.png "Streak model of the remote laboratory for an individual student")
 !?[Industrial eLab - Demo](https://www.youtube.com/watch?v=bICfKRyKTwE "eLab - Labor mit Fernzugriff an der Otto-von-Guericke-Universität Magdeburg")
 
-<!-- style="background: #D3D3D3" -->
-> __Reference:__ Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich _Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden._ [Link](https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145)
+
+<!-- class="reference" -->
+> __Reference:__ 
+> Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich
+> _Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden._
+> [Link](https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145)
 
 ************************************************************
+
+
+
 
 ## TP1 - Concepts for variability and openness
 
@@ -234,40 +251,46 @@ __Motivation of TP 1:__  _Define a language not an environnement for Open Educat
                         {{2-3}}
 ************************************************************
 
+
 `````````````````````````````````````````````````````
-                                      text based                                 
-                                   .----->                                  
-                            OER   /   meta data                                 
-             Remote       .------.------->                                         
-           Laboratory    /        \   obstacles               Digital                      
-                        /          .-----> for OER           Laboratory                 
-                       /                                      as OER                 
-      -------O-*---O--.                                      ----*----->             
-Traditional  ^     ^                                                 Visions and 
-Laboratory   |     |                                                  Challenges
-Concepts    TP0   TP1                                                                
-                                                                                     
-                                                                                   
-                                                                                           
-                                                                                     
-                                                                                     
+                                      text based
+                                   .------>
+                            OER   /   meta data
+             Remote       .------+-------->
+           Laboratory    /        \   obstacles             Digital
+                        /          .------>                  Laboratory
+                       /                                      as OER
+      --------O-*---O-+                                      ----*----->
+ Traditional  ^     ^                                               Visions and
+ Laboratory   |     |                                                Challenges
+ Concepts    TP0   TP1
 `````````````````````````````````````````````````````
 
-<!-- style="background: LightYellow" -->
-> __Project:__ MOER Projekt - Multi-Autoren-Tool für OER-Inhalte [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/querschnittsprojekte/moer/moer_node.html) (2020) - TU Bergakademie Freiberg
 
-<!-- style="background: LightYellow" -->
+<!-- class="highlight" -->
+> __Project:__
+> MOER Projekt - Multi-Autoren-Tool für OER-Inhalte
+> [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/querschnittsprojekte/moer/moer_node.html) (2020) - TU Bergakademie Freiberg
+
+<!-- class="highlight" -->
 > __Project:__ 
-> Programmieren im Team - DiP-iT [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/dritte-foerderlinie-zur-digitalen-hochschulbildung/dip-it/dip-it_node) (2020-2023) - TU Bergakademie Freiberg, Otto-von-Guericke Universität Magdeburg, Humboldt Universität zu Berlin
+> Programmieren im Team - DiP-iT
+> [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/dritte-foerderlinie-zur-digitalen-hochschulbildung/dip-it/dip-it_node) (2020-2023) - TU Bergakademie Freiberg, Otto-von-Guericke Universität Magdeburg, Humboldt Universität zu Berlin
 
 ************************************************************
 
+
+
+
 ### Text based learning materials - LiaScript
 
-<!-- style="background: #D3D3D3" -->
-> __Reference:__ The current presentation ist an OER too - [Project](https://github.com/Cross-Lab-Project/presentations/blob/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md), [Editor](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md)
+<!-- class="reference" -->
+> __Reference:__
+> The current presentation ist an OER too - 
+> [Project](https://github.com/Cross-Lab-Project/presentations/blob/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md),
+> [Editor](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md)
 
-> __Definition:__ LiaScript is a Markdown dialect that allows you to create interactive online courses. The matrial is provided by textural content representations and semantic annotations. Common Markdown is enriched with interactive elements.
+> __Definition:__ LiaScript is a Markdown dialect that allows you to create interactive online courses. The material is provided by textural content representations and semantic annotations. Common Markdown is enriched with interactive elements.
 
     --{{0}}--
 We have attempted to expand the text format around Markdown to make it equally understandable and straightforward while meeting today's demands.
@@ -288,13 +311,12 @@ no, three lines.
 Followed by the list.
 
       {{2}}
-* List with
+- List with
 
-* Subpoints:
+- Sub-points:
 
   1. Point
   2. Points  
-
 
       {{3}}
 | Animal          | weight in kg | Lifespan years | Mitogen |
@@ -339,9 +361,7 @@ It took him ages and ages [[ to ]] build the machine.
 
 *******************************************************************
 
-                     {{6-7}}
-*******************************************************************
-
+      {{6}}
 ``` abc
 % channel: 0
 X:353
@@ -362,7 +382,7 @@ c2A2 | B8A8 | G8z8
 @ABCJS.eval
 
 
-                    {{2-3}}
+      {{7}}
 ```
 Playing games has always been thought to be important to
 the development of well-balanced and creative children;
@@ -376,48 +396,90 @@ to release built up tension.
 ```
 @Textanalysis.FULL
 
-*******************************************************************
+
+
 
 ### Meta data 
 
-> __Definition__: Meta data for OER describe the content, quality, and conditions of use of a learning resource.
+> __Definition__:
+> Meta data for OER describe the content, quality, and conditions of use of a learning resource.
 
 ![Missing Meta Data](https://github.com/SebastianZug/WillkommenAufLiaScript/blob/master/images/OERMissingMetaInformation.png?raw=true "Analysis of existing Meta data in OPAL based OER materials")
 
+
+
+
 ### Obstacles for OER  
 
-The following list was extracted from a survey of 42 teachers at the TU Bergakademie Freiberg. The study focuses on the obstacles for the use of OER in teaching.
+The following list was extracted from a survey of 42 teachers at the TU Bergakademie Freiberg.
+The study focuses on the obstacles for the use of OER in teaching.
 
-|     | Ebene                        | Kernaussage                                                                                      |
-| --- | ---------------------------- | ------------------------------------------------------------------------------------------------ |
-| 1   | Emotionale Einordnung        | "_Da kann ja jeder meine Arbeit für sich nutzen!_"                                               |
-|     |                              | "_Da kann mich ja jeder kontrollieren!_"                                                         |
-| 2   | Qualität                     | "Wer sorgt denn dafür, dass die QUalität der Angebote hoch ist?"                                 |
-| 3   | Rechtliche Herausforderungen | "_Ich verwende viele Grafiken, die bei deren Urheberrecht ich mir im besten Fall unsicher bin!_" |
-| 4   | Auffindbarkeit               | "_Ich finde keine Inhalte, die ich in meiner Lehre gewinnbringend integrieren kann!_"            |
-| 5   | Aufwand                      | "_Da muss man ja Informatik studiert haben!_"                                                    |
-| 6   | Abdeckung                    | <!-- Style="color:red" -->"_Da fehlen mir aber die Schnittstellen für meine Tools XY!_"          |
-|     |                              | <!-- Style="color:red" -->"_Das OER kann ich nicht in mein LMS XY!_"                             |
+{{1}}
+- __Emotional Classification:__
+
+  - "_Anyone can use my work for themselves!_"
+
+  - "_Anyone can scrutinize me!_"
+
+{{2}}
+- __Quality:__
+
+  "_Who ensures that the quality of the offerings is high?_"
+
+{{3}}
+- __Legal Challenges:__
+
+  "_I use many graphics, and I'm uncertain about their copyright in the best case!_"
+
+{{4}}
+- __Discoverability:__
+
+  "_I can't find any content that I can integrate profitably into my teaching!_"
+
+{{5}}
+- __Efforts:__
+
+  "_You have to have studied computer science for that!_"
+
+{{6}}
+- __Coverage:__
+
+  <!-- style="color:red" -->
+  - "_But I'm missing the interfaces for my tools XY!_"
+  - "_I can't integrate the OER into my LMS XY!_"
+
+
+|     | Level                    | Core Statement                                                                     |
+| --- | ------------------------ | ---------------------------------------------------------------------------------- |
+| 1   | Emotional Classification | "_Anyone can use my work for themselves!_"                                         |
+|     |                          | "_Anyone can scrutinize me!_"                                                      |
+| 2   | Quality                  | "_Who ensures that the quality of the offerings is high?_"                         |
+| 3   | Legal Challenges         | "_I use many graphics, and I'm uncertain about their copyright in the best case!_" |
+| 4   | Findability              | "_I can't find any content that I can integrate profitably into my teaching!_"     |
+| 5   | Effort                   | "_You have to have studied computer science for that!_"                            |
+| 6   | Coverage                 | <!-- style="color:red" --> "_But I'm missing the interfaces for my tools XY!_"     |
+|     |                          | <!-- style="color:red" --> "_I can't integrate the OER into my LMS XY!_"           |
 
 
 `````````````````````````````````````````````````````
-                                      text based                                   
-                                   .-----> -----------.                              
-                            OER   /   meta data                                      
-             Remote       .------.------->                                          
-           Laboratory    /        \   obstacles               Digital                       
-                        /          .-O---> for OER           Laboratory                 
-                       /             ^                        as OER                 
-      -------O-*---O--.              |                       ----*----->             
- Traditional  ^     ^   \           TP2      multi-typed             Visions and 
- Laboratory   |     |    \           |    .--->                      Challenges
- Concepts    TP0   TP1    \          v   /                              
-                          .----------O--.                                   
-                            Digital      \                           
-                            Laboratories  .---->  
-                                                                  
-                                                      
+                                      text based
+                                   .------>
+                            OER   /   meta data
+             Remote       .------+-------->
+           Laboratory    /        \   obstacles             Digital
+                        /          .-O---->                  Laboratory
+                       /             ^                        as OER
+      --------O-*---O-+              |                      -----*----->
+ Traditional  ^     ^  \            TP2      multi-typed            Visions and
+ Laboratory   |     |   \            |    .--->                      Challenges
+ Concepts    TP0   TP1   \           v   /
+                          .----------O--+
+                            Digital      \
+                            Laboratories  .------>
 `````````````````````````````````````````````````````
+
+
+
 
 ## TP2 - Switching Laboratory Contexts 
 
@@ -432,6 +494,10 @@ __Motivation of TP 2:__  _Do not cling to one concept!_
 | ...                |                                                                                   |
 | Data sets          | Focusses the outcome of the experiment and provides material for analysis         |
 | Movies             | Static records of the experiment                                                  |
+
+
+
+
 
 ### LiaScript Extensions
 
@@ -507,192 +573,192 @@ https://datavizpyr.com/heatmaps-with-seaborn-in-python/
 
 ******************************************************
 
-### Edrys 
 
-                                      {{0-1}}
-*****************************************************************************************
 
-> Elemente der Umsetzung eines Remote-Labors
 
-```ascii
 
-    Laborebene      .                                                      Lernendensicht
-                    .
-    n Instanzen     .                                                      m Instanzen
-  
+### Edrys
+
+    {{0-1}}
+<section>
+
+#### Elements of a RemoteLab
+
+
+``` ascii
+
+  Laboratory Level
+                   .                                                   Learner's View
+  n Instances      .
+                   .                                                     m Instances 
                                                                                .
           +-----------------+                 +-----------------+              .  
-          |Instrumentierung |                 |Management       |              .
-          +---------+       |                 +---------+       |   
- +----------------+ |       |        +----------------+ |       |      +----------------+         
- |eigentlicher    | |       |========|Gateway         | |       |======|Webbrowser      |              
- |Laborgegenstand | |       |        |                | |       |      |                |     
- +----------------+ |       |        +----------------+ |       |      +----------------+   
-          +---------+       |                 +---------+       |      Studentischer Rechner
-          |                 |                 |                 |
-          +-----------------+                 +-----------------+              .
-                                                                               .
-                    .                                                          .
-                    .
-                    .
-        
+          | Instrumentation |░                |    Management   |░             .
+          +--------.        |░                +--------.        |░  
+ +---------------+  \       |░       +---------------+  \       |░     +----------------+
+ | Actual         \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
+ | Laboratory     /  /      |<-------|                /  /      |<-----|                |
+ +---------------+  /       |░       +---------------+  /       |░     +----------------+
+          +--------'        |░                +--------'        |░     Student's Computer
+          |                 |░                |                 |░
+          +-----------------+░                +-----------------+░             .
+            ░░░░░░░░░░░░░░░░░░                  ░░░░░░░░░░░░░░░░░░             .
+                   .                                                           .
+                   .
+                   .                                             
 
 ```
 
-*****************************************************************************************
+</section>
 
 
-                                           {{1-2}}
-*****************************************************************************************
+    {{1-2}}
+<section>
 
-> Realisierung mittels zentraler Serverarchitektur
+#### Implementation using a Centralized Server-Architecture
 
 
-```ascii
+``` ascii
 
-    Laborebene                    Monolitische                             Lernendensicht
-                              Server-Infrastruktur
-    n Instanzen       .-----------------------------------------.          m Instanzen
-                      |                                         |
+  Laboratory Level                  Monolithic
+                               Server-Infrastructure                   Learner's View
+  n Instances      .-------------------------------------------.
+                   |                                           |         m Instances 
                                                                                .
           +-----------------+                 +-----------------+              .  
-          |Instrumentierung |                 |Management       |              .
-          +---------+       |                 +---------+       |   
- +----------------+ |       |        +----------------+ |       |      +----------------+         
- |eigentlicher    | |       |========|Gateway         | |       |======|Webbrowser      |              
- |Laborgegenstand | |       |        |                | |       |      |                |     
- +----------------+ |       |        +----------------+ |       |      +----------------+   
-          +---------+       |                 +---------+       |      Studentischer Rechner
-          |                 |                 |                 |
-          +-----------------+                 +-----------------+              .
-                                                                               .
-                    .                                                          .
-                    .
-                    .
-        
-
+          | Instrumentation |░                |    Management   |░             .
+          +--------.        |░                +--------.        |░
+ +---------------+  \       |░       +---------------+  \       |░     +----------------+
+ | Actual         \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
+ | Laboratory     /  /      |<-------|                /  /      |<-----|                |
+ +---------------+  /       |░       +---------------+  /       |░     +----------------+
+          +--------'        |░                +--------'        |░     Student's Computer
+          |                 |░                |                 |░
+          +-----------------+░                +-----------------+░             .
+            ░░░░░░░░░░░░░░░░░░                  ░░░░░░░░░░░░░░░░░░             .
+                   .                                                           .
+                   .
+                   .                                             
 ```
 
-*****************************************************************************************
+</section>
 
-                                       {{2-3}}
-*****************************************************************************************
+    {{2-3}}
+<section>
 
-> _Teile und Herrsche_ am Beispiel eines Remote-Labors
+#### _Divide and Conquer_ in the context of a RemoteLab
 
-```ascii
 
-                                                      bestehende
-                                                 Modulimplementierungen                              
-                                                      aus dem Netz     
-                                                           |
-                                                           v                   .
+``` ascii
+
+                                                    Existing
+                                             Module Implementations
+                                                  from the Web
+                                                       |
+                                                       v                       .
           +-----------------+                 +-----------------+              .  
-          |Instrumentierung |                 |Management       |              .
-          +---------+       |                 +---------+       |   
- +----------------+ |       |        +----------------+ |       |      +----------------+         
- |eigentlicher    | |       |========|Gateway         | |       |======|Webbrowser      |              
- |Laborgegenstand | |       |        |                | |       |      |                |     
- +----------------+ |       |        +----------------+ |       |      +----------------+   
-          +---------+       |                 +---------+       |      Studentischer Rechner
-          |                 |                 |                 |
-          +-----------------+                 +-----------------+              .
-                                                                               .
-
-          |                                 | |                   |
-          .---------------------------------. .-------------------.
-                    Edrys Station                Edrys Classroom
-                    PC im Browser!                    Server
+          | Instrumentation |░                |    Management   |░             .
+          +--------.        |░                +--------.        |░   
+ +---------------+  \       |░       +---------------+  \       |░     +----------------+
+ | Actual         \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
+ | Laboratory     /  /      |<-------|                /  /      |<-----|                |
+ +---------------+  /       |░       +---------------+  /       |░     +----------------+
+          +--------'        |░                +--------'        |░     Student's Computer
+          |                 |░                |                 |░
+          +-----------------+░                +-----------------+░             .
+            ░░░░░░░░░░░░░░░░░░                  ░░░░░░░░░░░░░░░░░░             .
+          |                                | |                     |
+          '--------------------------------' '---------------------'
+                     Edrys Station                Edrys Classroom
+                   PC in the Browser!                 Server
 ```
 
-*****************************************************************************************
+</section>
 
-                                       {{3-4}}
-*****************************************************************************************
-
+    {{3-4}}
+<section>
 
 ![](https://github.com/Cross-Lab-Project/presentations/blob/main/HDF_CommunityGroup_2022/Screenshot.png?raw=true "Remote Laboratory")
 
-<!-- style="background: LightYellow" -->
-> __Project:__ Crosslab - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0 [BMBF](https://stiftung-hochschullehre.de/projekt/crosslab/) (2021 - 2024) - TU Bergakademie Freiberg, TU Illmenau, TU Dortmund, Nordakademie
+<!-- class="highlight" -->
+> __Project:__
+> Crosslab - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0
+> [BMBF](https://stiftung-hochschullehre.de/projekt/crosslab/) (2021 - 2024) - TU Bergakademie Freiberg, TU Illmenau, TU Dortmund, Nordakademie
 
-*****************************************************************************************
+</section>
 
-## TP3 - Modularization / Adaptibility of digital laboratories
+
+## TP3 - Modularization / Adaptability of Digital Laboratories
 
 
 `````````````````````````````````````````````````````
-                                      text based                                
-                                   .-----> -----------.                         
-                            OER   /   meta data        \                        
-             Remote       .------.------->              \                       
-           Laboratory    /        \   obstacles          \    Digital           
-                        /          .-O---> for OER        \  Laboratory         
-                       /             ^                     \  as OER            
-      -------O-*---O--.              |                      .----*----->        
- Traditional ^     ^   \            TP2      multi-typed   /         Visions and
- Laboratory  |     |    \            |    .---> ----------.           Challenges
- Concepts   TP0   TP1    \           v   /               /                      
-                          .----------O--.               /                       
-                            Digital      \  composable /                        
-                            Laboratories  .------o->--.                         
-                                                 ^                              
-                                                 | TP3                          
+                                      text based
+                                   .------>-----------.
+                            OER   /   meta data        \
+             Remote       .------+-------->             \
+           Laboratory    /        \   obstacles          \  Digital
+                        /          .-O---->               \  Laboratory
+                       /             ^                     \  as OER
+      --------O-*---O-+              |                      +----*----->
+ Traditional  ^     ^  \            TP2      multi-typed   /        Visions and
+ Laboratory   |     |   \            |    .--->-----------+          Challenges
+ Concepts    TP0   TP1   \           v   /               /
+                          .----------O--+               /
+                            Digital      \  composable /
+                            Laboratories  .-----o->---'
+                                                ^
+                                                | TP3
 `````````````````````````````````````````````````````
 
-__Motivation of TP 3:__  _Merge OER concepts and modular configuable digital laboratories as OER materials!_
+__Motivation of TP 3:__ 
+_Merge OER concepts and modular configurable digital laboratories as OER materials!_
 
-### Existierende Module und Stationen
 
-| Module                                         | Klassenräume                                          |
-|------------------------------------------------|-------------------------------------------------------|
-| Kollaboration (Chat, Video Call)               | Mikrocontroller (basierend auf der arduino-cli)       |
-| Interaktion (Whiteboard, Editoren)             | Programmierumgebungen für diverse Sprachen            |
-| Input/Output (Videostream, Konsole)            |                                                       |
-| Lehrmaterialien (LiaScript)                    |                                                       |
-| [Link](https://github.com/topics/edrys-module) | [Link](https://github.com/Cross-Lab-Project/openLabs) |
 
-> _Teile und Herrsche_ am Beispiel eines Remote-Labors
+
+### Existing Modules and Classrooms
+
+| [Modules](https://github.com/topics/edrys-module) | [Classrooms](https://github.com/Cross-Lab-Project/openLabs) |
+| ------------------------------------------------- | ----------------------------------------------------------- |
+| Collaboration (Chat, Video Call)                  | Micro-controller (based on arduino-cli)                     |
+| Interaction (Whiteboard, Editors)                 | Programming environments for various languages              |
+| Input/Output (Video stream, Console)              |                                                             |
+| Teaching Materials (LiaScript)                    |                                                             |
 
                                        {{1-2}}
 *****************************************************************************************
 
 ```ascii
-
-                                                      bestehende
-                                                 Modulimplementierungen                              
-                                                      aus dem Netz     
-                                                           |
-                                                           v                   .
+                                                    Existing
+                                             Module Implementations
+                                                  from the Web
+                                                       |
+                                                       v                       .
           +-----------------+                 +-----------------+              .  
-          |Instrumentierung |                 |Management       |              .
-          +---------+       |                 +---------+       |   
- +----------------+ |       |        +----------------+ |       |      +----------------+         
- |eigentlicher    | |       |========|Gateway         | |       |======|Webbrowser      |              
- |Laborgegenstand | |       |        |                | |       |      |                |     
- +----------------+ |       |        +----------------+ |       |      +----------------+   
-          +---------+       |                 +---------+       |      Studentischer Rechner
-          |                 |                 |                 |
-          +-----------------+                 +-----------------+              .
-                                                                               .
-
-          |                                 | |                   |
-          .---------------------------------. .-------------------.
-                    Edrys Station                Edrys Classroom
-                    PC im Browser!                    Server
-                          ^                       +-----------+    Klassenraum   
-                          |                       | * ...     |\    konfiguration  
-                          |                       | * ...     +-+    
-                          |                       | * Modul 1   |    
-                          |                       | * Modul 2   | 
-                          |                       |             | 
-                          |                       |             |            
-                          +-----------------------| * Station 0 |            
-                                                  | * ...       |
-                                                  +-------------+
-                                                       .yaml
-                                                       .json
-
+          | Instrumentation |░                |    Management   |░             .
+          +--------.        |░                +--------.        |░  
+ +---------------+  \       |░       +---------------+  \       |░     +----------------+
+ | Actual         \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
+ | Laboratory     /  /      |<-------|                /  /      |<-----|                |
+ +---------------+  /       |░       +---------------+  /       |░     +----------------+
+          +--------'        |░                +--------'        |░     Student's Computer
+          |                 |░                |                 |░
+          +-----------------+░                +-----------------+░             .
+            ░░░░░░░░░░░░░░░░░░                  ░░░░░░░░░░░░░░░░░░             .
+          |                                | |                     |
+          '--------------------------------' '---------------------'
+                         ^                       +-----------+     Classroom   
+                         |                       | * ...     |\    configuration  
+                         |                       | * ...     +-+    
+                         |                       | * Modul 1   |    
+                         |                       | * Modul 2   | 
+                         |                       |             | 
+                         |                       |             |            
+                         +-----------------------| * Station 0 |            
+                                                 | * ...       |
+                                                 +-------------+
+                                                      .yaml
+                                                      .json
 ```
 
 *****************************************************************************************
@@ -702,12 +768,16 @@ __Motivation of TP 3:__  _Merge OER concepts and modular configuable digital lab
 
 json File und Edrys Beispiel
 
-<!-- style="background: #D3D3D3" -->
-> __Reference:__ Ines Aubel et al _Adaptable Digital Labs - Motivation and Vision ofthe CrossLab Project_ GeCon 2022[Link](https://www.researchgate.net/publication/365384986_Adaptable_Digital_Labs_-Motivation_and_Vision_of_the_CrossLab_Project)
+<!-- class="reference" -->
+> __Reference:__
+> Ines Aubel et al
+> _Adaptable Digital Labs - Motivation and Vision ofthe CrossLab Project_
+> GeCon 2022
+> [Link](https://www.researchgate.net/publication/365384986_Adaptable_Digital_Labs_-Motivation_and_Vision_of_the_CrossLab_Project)
 
 *****************************************************************************************
 
-## Summary and next steps 
+## Summary & Next Steps
 
 Path traveled
 --------------------
@@ -754,16 +824,17 @@ Turning Points:
   - Description format for digital 
 
 
-Challenges
----------------------------
+## Challenges
 
-### Challenge I Application of Web 3.0 technologies
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/l2YWFxG9GxXk8A7w4" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/obama-barack-obama-potus-l2YWFxG9GxXk8A7w4">via GIPHY</a></p>
 
-
-### Challenge II Metadata formats for Digital Laboratories as OER  
+### I. Application of Web 3.0 technologies
 
 
-### Challenge III  Artificial Intelligence
+### II. Metadata formats for Digital Laboratories as OER  
+
+
+### III.  Artificial Intelligence
 
     {{1}}
 <section>

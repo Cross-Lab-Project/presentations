@@ -12,3 +12,12 @@
     padding-right: 1.5rem;
   }
 }
+
+.highlight {
+  border: 0.5rem solid darkorange;
+  border-radius: 5px;
+}
+
+.reference {
+  background: lightgray;
+}
