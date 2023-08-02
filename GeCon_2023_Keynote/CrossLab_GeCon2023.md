@@ -382,10 +382,11 @@ to release built up tension.
 
 > __Definition__: Meta data for OER describe the content, quality, and conditions of use of a learning resource.
 
-
-
+![Missing Meta Data](https://github.com/SebastianZug/WillkommenAufLiaScript/blob/master/images/OERMissingMetaInformation.png?raw=true "Analysis of existing Meta data in OPAL based OER materials")
 
 ### Obstacles for OER  
+
+The following list was extracted from a survey of 42 teachers at the TU Bergakademie Freiberg. The study focuses on the obstacles for the use of OER in teaching.
 
 |     | Ebene                        | Kernaussage                                                                                      |
 | --- | ---------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -399,7 +400,46 @@ to release built up tension.
 |     |                              | <!-- Style="color:red" -->"_Das OER kann ich nicht in mein LMS XY!_"                             |
 
 
-## TP2 - Seamless Integration of Laboratory Elements 
+`````````````````````````````````````````````````````
+                                      text based                                   
+                                   .-----> -----------.                              
+                            OER   /   meta data                                      
+             Remote       .------.------->                                          
+           Laboratory    /        \   obstacles               Digital                       
+                        /          .-O---> for OER           Laboratory                 
+                       /             ^                        as OER                 
+      -------O-*---O--.              |                       ----*----->             
+ Traditional  ^     ^   \           TP2      multi-typed             Visions and 
+ Laboratory   |     |    \           |    .--->                      Challenges
+ Concepts    TP0   TP1    \          v   /                              
+                          .----------O--.                                   
+                            Digital      \                           
+                            Laboratories  .---->  
+                                                                  
+                                                      
+`````````````````````````````````````````````````````
+
+## TP2 - Switching Laboratory Contexts 
+
+__Motivation of TP 2:__  _Do not cling to one concept!_
+
+
+| Type of Laboratory | Description                                                                       |
+| ------------------ | --------------------------------------------------------------------------------- |
+| Remote             | Access to real hardware over the internet without being near the actual equipment |
+| Virtual            | Simulation of real hardware with a software implementation                        |
+| Ultra concurrency  | Recorded runs of laboratory experiment covering all parameters                    |
+| ...                |                                                                                   |
+| Data sets          | Focusses the outcome of the experiment and provides material for analysis         |
+| Movies             | Static records of the experiment                                                  |
+
+### LiaScript Extensions
+
+                     {{0-1}}
+******************************************************
+
+Example 1: Simulation
+---------------------------
 
 <section>
 
@@ -435,69 +475,151 @@ void loop() {
 </section>
 
 
+******************************************************
+
+                     {{1-2}}
+******************************************************
+
+Example 2: Data evaluation
+---------------------------
+
+<!--
+data-type="heatmap"
+data-title="Seattle mean temperature in Fahrenheit"
+data-show
+-->
+| Seattle |  Jan |  Feb |  Mar |  Apr |  May |  Jun |  Jul |   Aug |  Sep |  Oct |  Nov |  Dec |
+| -------:| ----:| ----:| ----:| ----:| ----:| ----:| ----:| -----:| ----:| ----:| ----:| ----:|
+|       0 | 40.7 | 41.5 | 43.6 | 46.6 | 51.4 | 56.0 | 60.5 |  61.2 | 57.0 | 50.1 | 44.1 | 39.6 |
+|       2 | 40.2 | 40.7 | 42.7 | 45.3 | 50.0 | 54.4 | 58.5 |  59.2 | 55.4 | 49.2 | 43.5 | 39.3 |
+|       4 | 39.7 | 40.0 | 41.9 | 44.4 | 48.9 | 53.2 | 57.0 |  57.7 | 54.2 | 48.6 | 43.1 | 38.9 |
+|       6 | 39.6 | 39.5 | 41.3 | 44.2 | 49.5 | 54.2 | 57.8 |  57.4 | 53.6 | 48.2 | 42.8 | 38.7 |
+|       8 | 39.6 | 39.9 | 42.9 | 47.1 | 52.7 | 57.3 | 61.3 |  61.1 | 56.7 | 49.5 | 43.1 | 38.7 |
+|      10 | 41.3 | 42.7 | 46.4 | 50.7 | 56.4 | 60.9 | 65.2 |  65.4 | 60.9 | 52.8 | 45.5 | 40.4 |
+|      12 | 43.8 | 46.0 | 49.5 | 53.8 | 59.6 | 64.3 | 69.4 |  69.8 | 65.1 | 56.0 | 47.8 | 42.6 |
+|      14 | 45.1 | 47.7 | 51.3 | 55.9 | 61.9 | 66.9 | 72.6 |  73.2 | 67.7 | 57.8 | 48.8 | 43.6 |
+|      16 | 44.5 | 47.5 | 51.4 | 55.9 | 62.3 | 67.5 | 73.9 |  74.3 | 68.2 | 57.4 | 47.8 | 42.6 |
+|      18 | 42.6 | 44.7 | 48.7 | 53.8 | 60.3 | 65.9 | 72.3 |  72.2 | 64.6 | 53.9 | 46.0 | 41.2 |
+|      20 | 42.0 | 43.3 | 46.4 | 50.2 | 56.0 | 61.4 | 66.9 |  66.6 | 60.7 | 52.3 | 45.2 | 40.7 |
+|      22 | 41.4 | 42.5 | 45.0 | 48.3 | 53.5 | 58.2 | 63.2 |  63.5 | 58.7 | 51.1 | 44.5 | 40.1 |
+
+https://datavizpyr.com/heatmaps-with-seaborn-in-python/
+
+******************************************************
+
+### Edrys 
+
+                                      {{0-1}}
+*****************************************************************************************
+
+> Elemente der Umsetzung eines Remote-Labors
+
+```ascii
+
+    Laborebene      .                                                      Lernendensicht
+                    .
+    n Instanzen     .                                                      m Instanzen
+  
+                                                                               .
+          +-----------------+                 +-----------------+              .  
+          |Instrumentierung |                 |Management       |              .
+          +---------+       |                 +---------+       |   
+ +----------------+ |       |        +----------------+ |       |      +----------------+         
+ |eigentlicher    | |       |========|Gateway         | |       |======|Webbrowser      |              
+ |Laborgegenstand | |       |        |                | |       |      |                |     
+ +----------------+ |       |        +----------------+ |       |      +----------------+   
+          +---------+       |                 +---------+       |      Studentischer Rechner
+          |                 |                 |                 |
+          +-----------------+                 +-----------------+              .
+                                                                               .
+                    .                                                          .
+                    .
+                    .
+        
+
+```
+
+*****************************************************************************************
 
 
-`````````````````````````````````````````````````````
-                                      text based                                   
-                                   .-----> -----------.                              
-                            OER   /   meta data                                      
-             Remote       .------.------->                                          
-           Laboratory    /        \   obstacles               Digital                       
-                        /          .-O---> for OER           Laboratory                 
-                       /             ^                        as OER                 
-      -------O-*---O--.              |                       ----*----->             
- Traditional  ^     ^   \           TP2      multi-typed             Visions and 
- Laboratory   |     |    \           |    .--->                      Challenges
- Concepts    TP0   TP1    \          v   /                              
-                          .----------O--.                                   
-                            Digital      \                           
-                            Laboratories  .---->  
-                                                                  
-                                                      
-`````````````````````````````````````````````````````
+                                           {{1-2}}
+*****************************************************************************************
 
-
-### Multi-typed laboratories learning materials
+> Realisierung mittels zentraler Serverarchitektur
 
 
 ```ascii
 
-                            +----------------------------------------------------+
-         +-->    elements   | composition of varying laboratory objects          |
-         |                  +----------------------------------------------------+
-         |
-         |                  +----------------------------------------------------+
-         +-->       types   | mixture of different types of laboratories         |
-         |                  +----------------------------------------------------+
-CROSS ---+
-         |                  +----------------------------------------------------+
-         +--> disciplinary  | sharing laboratories between different disciplines |
-         |                  +----------------------------------------------------+
-         |
-         |                  +----------------------------------------------------+
-         +-->   university  | formation of a laboratory cluster                  |
-                            +----------------------------------------------------+
+    Laborebene                    Monolitische                             Lernendensicht
+                              Server-Infrastruktur
+    n Instanzen       .-----------------------------------------.          m Instanzen
+                      |                                         |
+                                                                               .
+          +-----------------+                 +-----------------+              .  
+          |Instrumentierung |                 |Management       |              .
+          +---------+       |                 +---------+       |   
+ +----------------+ |       |        +----------------+ |       |      +----------------+         
+ |eigentlicher    | |       |========|Gateway         | |       |======|Webbrowser      |              
+ |Laborgegenstand | |       |        |                | |       |      |                |     
+ +----------------+ |       |        +----------------+ |       |      +----------------+   
+          +---------+       |                 +---------+       |      Studentischer Rechner
+          |                 |                 |                 |
+          +-----------------+                 +-----------------+              .
+                                                                               .
+                    .                                                          .
+                    .
+                    .
+        
 
 ```
 
+*****************************************************************************************
 
-Types of digital Laboratories 
+                                       {{2-3}}
+*****************************************************************************************
 
-| Type of Laboratory | Description                                                                       |
-| ------------------ | --------------------------------------------------------------------------------- |
-| Remote             | Access to real hardware over the internet without being near the actual equipment |
-| Virtual            | Simulation of real hardware with a software implementation                        |
-| ...                |                                                                                   |
+> _Teile und Herrsche_ am Beispiel eines Remote-Labors
+
+```ascii
+
+                                                      bestehende
+                                                 Modulimplementierungen                              
+                                                      aus dem Netz     
+                                                           |
+                                                           v                   .
+          +-----------------+                 +-----------------+              .  
+          |Instrumentierung |                 |Management       |              .
+          +---------+       |                 +---------+       |   
+ +----------------+ |       |        +----------------+ |       |      +----------------+         
+ |eigentlicher    | |       |========|Gateway         | |       |======|Webbrowser      |              
+ |Laborgegenstand | |       |        |                | |       |      |                |     
+ +----------------+ |       |        +----------------+ |       |      +----------------+   
+          +---------+       |                 +---------+       |      Studentischer Rechner
+          |                 |                 |                 |
+          +-----------------+                 +-----------------+              .
+                                                                               .
+
+          |                                 | |                   |
+          .---------------------------------. .-------------------.
+                    Edrys Station                Edrys Classroom
+                    PC im Browser!                    Server
+```
+
+*****************************************************************************************
+
+                                       {{3-4}}
+*****************************************************************************************
 
 
+![](https://github.com/Cross-Lab-Project/presentations/blob/main/HDF_CommunityGroup_2022/Screenshot.png?raw=true "Remote Laboratory")
 
-> The extended bandwidth of digital laboratories requires a new description format for learning materials.
+<!-- style="background: LightYellow" -->
+> __Project:__ Crosslab - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0 [BMBF](https://stiftung-hochschullehre.de/projekt/crosslab/) (2021 - 2024) - TU Bergakademie Freiberg, TU Illmenau, TU Dortmund, Nordakademie
 
-
-
-
+*****************************************************************************************
 
 ## TP3 - Modularization / Adaptibility of digital laboratories
+
 
 `````````````````````````````````````````````````````
                                       text based                                
@@ -518,24 +640,77 @@ Types of digital Laboratories
                                                  | TP3                          
 `````````````````````````````````````````````````````
 
+__Motivation of TP 3:__  _Merge OER concepts and modular configuable digital laboratories as OER materials!_
+
+### Existierende Module und Stationen
+
+| Module                                         | Klassenräume                                          |
+|------------------------------------------------|-------------------------------------------------------|
+| Kollaboration (Chat, Video Call)               | Mikrocontroller (basierend auf der arduino-cli)       |
+| Interaktion (Whiteboard, Editoren)             | Programmierumgebungen für diverse Sprachen            |
+| Input/Output (Videostream, Konsole)            |                                                       |
+| Lehrmaterialien (LiaScript)                    |                                                       |
+| [Link](https://github.com/topics/edrys-module) | [Link](https://github.com/Cross-Lab-Project/openLabs) |
+
+> _Teile und Herrsche_ am Beispiel eines Remote-Labors
+
+                                       {{1-2}}
+*****************************************************************************************
+
+```ascii
+
+                                                      bestehende
+                                                 Modulimplementierungen                              
+                                                      aus dem Netz     
+                                                           |
+                                                           v                   .
+          +-----------------+                 +-----------------+              .  
+          |Instrumentierung |                 |Management       |              .
+          +---------+       |                 +---------+       |   
+ +----------------+ |       |        +----------------+ |       |      +----------------+         
+ |eigentlicher    | |       |========|Gateway         | |       |======|Webbrowser      |              
+ |Laborgegenstand | |       |        |                | |       |      |                |     
+ +----------------+ |       |        +----------------+ |       |      +----------------+   
+          +---------+       |                 +---------+       |      Studentischer Rechner
+          |                 |                 |                 |
+          +-----------------+                 +-----------------+              .
+                                                                               .
+
+          |                                 | |                   |
+          .---------------------------------. .-------------------.
+                    Edrys Station                Edrys Classroom
+                    PC im Browser!                    Server
+                          ^                       +-----------+    Klassenraum   
+                          |                       | * ...     |\    konfiguration  
+                          |                       | * ...     +-+    
+                          |                       | * Modul 1   |    
+                          |                       | * Modul 2   | 
+                          |                       |             | 
+                          |                       |             |            
+                          +-----------------------| * Station 0 |            
+                                                  | * ...       |
+                                                  +-------------+
+                                                       .yaml
+                                                       .json
+
+```
+
+*****************************************************************************************
+
+                                       {{2-3}}
+*****************************************************************************************
 
 json File und Edrys Beispiel
 
+<!-- style="background: #D3D3D3" -->
+> __Reference:__ Ines Aubel et al _Adaptable Digital Labs - Motivation and Vision ofthe CrossLab Project_ GeCon 2022[Link](https://www.researchgate.net/publication/365384986_Adaptable_Digital_Labs_-Motivation_and_Vision_of_the_CrossLab_Project)
 
-> Crosslab Projekt - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0 [BMBF](https://stiftung-hochschullehre.de/projekt/crosslab/) (2021 - 2024) - TU Bergakademie Freiberg, TU Illmenau, TU Dortmund, Nordakademie
-
-
+*****************************************************************************************
 
 ## Summary and next steps 
 
-| Turning Point | Identified requirements / drawbacks                       | Development goal                                       |
-| :------------ | :-------------------------------------------------------- | ------------------------------------------------------ |
-| TP0           | Disadvantages of traditional laboratories installations   | Remote Laboratories                                    |
-| TP1           | Limitations of the developed solution                     | Concepts for variable description of learning contents |
-| TP2           | Need for interactive laboratory elements in OER materials | Generic concepts for digital laboratories              |
-| TP3           |                                                           | Description format for digital                         |
-
-// TODO: Vorschlag, anstatt einer Tabelle eine Liste in dem folgenden Format? 
+Path traveled
+--------------------
 
 Turning Points:
 
@@ -578,6 +753,9 @@ Turning Points:
 
   - Description format for digital 
 
+
+Challenges
+---------------------------
 
 ### Challenge I Application of Web 3.0 technologies
 
