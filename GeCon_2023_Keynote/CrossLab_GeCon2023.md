@@ -217,7 +217,7 @@ LINK auf das Paper[^1]
            Laboratory    /        \   obstacles               Digital                      
                         /          .-----> for OER           Laboratory                 
                        /                                      as OER                 
-      -------O-*---O--                                       ----*----->             
+      -------O-*---O--.                                      ----*----->             
 Traditional  ^     ^                                                 Visions and 
 Laboratory   |     |                                                  Challenges
 Concepts    TP0   TP1                                                                
