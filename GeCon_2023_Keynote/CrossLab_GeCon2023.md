@@ -596,8 +596,8 @@ https://datavizpyr.com/heatmaps-with-seaborn-in-python/
           | Instrumentation |░                |    Management   |░             .
           +--------.        |░                +--------.        |░  
  +---------------+  \       |░       +---------------+  \       |░     +----------------+
- | Actual         \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
- | Laboratory     /  /      |<-------|                /  /      |<-----|                |
+ | 👩🏻‍🔬 Actual      \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
+ | Laboratory     /  /      |<-------|      🖥        /  /      |<-----|      🧑‍💻        |
  +---------------+  /       |░       +---------------+  /       |░     +----------------+
           +--------'        |░                +--------'        |░     Student's Computer
           |                 |░                |                 |░
@@ -629,8 +629,8 @@ https://datavizpyr.com/heatmaps-with-seaborn-in-python/
           | Instrumentation |░                |    Management   |░             .
           +--------.        |░                +--------.        |░
  +---------------+  \       |░       +---------------+  \       |░     +----------------+
- | Actual         \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
- | Laboratory     /  /      |<-------|                /  /      |<-----|                |
+ | 👩🏻‍🔬 Actual      \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
+ | Laboratory     /  /      |<-------|      🖥        /  /      |<-----|      🧑‍💻        |
  +---------------+  /       |░       +---------------+  /       |░     +----------------+
           +--------'        |░                +--------'        |░     Student's Computer
           |                 |░                |                 |░
@@ -660,8 +660,8 @@ https://datavizpyr.com/heatmaps-with-seaborn-in-python/
           | Instrumentation |░                |    Management   |░             .
           +--------.        |░                +--------.        |░   
  +---------------+  \       |░       +---------------+  \       |░     +----------------+
- | Actual         \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
- | Laboratory     /  /      |<-------|                /  /      |<-----|                |
+ | 👩🏻‍🔬 Actual      \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
+ | Laboratory     /  /      |<-------|      🖥        /  /      |<-----|      🧑‍💻        |
  +---------------+  /       |░       +---------------+  /       |░     +----------------+
           +--------'        |░                +--------'        |░     Student's Computer
           |                 |░                |                 |░
@@ -738,8 +738,8 @@ _Merge OER concepts and modular configurable digital laboratories as OER materia
           | Instrumentation |░                |    Management   |░             .
           +--------.        |░                +--------.        |░  
  +---------------+  \       |░       +---------------+  \       |░     +----------------+
- | Actual         \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
- | Laboratory     /  /      |<-------|                /  /      |<-----|                |
+ | 👩🏻‍🔬 Actual      \  \      |------->|    Gateway     \  \      |----->|  Web Browser   |
+ | Laboratory     /  /      |<-------|      🖥        /  /      |<-----|      🧑‍💻        |
  +---------------+  /       |░       +---------------+  /       |░     +----------------+
           +--------'        |░                +--------'        |░     Student's Computer
           |                 |░                |                 |░
