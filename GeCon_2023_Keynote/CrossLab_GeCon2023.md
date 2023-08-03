@@ -65,7 +65,7 @@ TU Bergakademie Freiberg
 
 
              Remote
-           Laboratory                                       Digital
+           Laboratory                                         Digital
                                                              Laboratory
                                                               as OER
       ----------*-----                                       ----*----->
@@ -157,7 +157,10 @@ TU Bergakademie Freiberg
 Auditorium's background 
 ----------------------------------------------
 
-- [ ] Who of you has already implemented a remote laboratory?
+- [ ] Who uses remote laboratory installations for teaching?
+- [ ] Who of you has already implemented an individual remote laboratory?
+
+
 - [ ] Who uses OER materials in his teaching?
 - [ ] Who provides OER materials for others?
 
@@ -172,7 +175,7 @@ Auditorium's background
 __Motivation of TP 0:__
 _Increase the distance between student and laboratory equipment :-)._
 
-![eLabRemoteInstallation](./batteryDesaster.png "Why does the robot not work?")<!-- width="50%" -->
+![eLabRemoteInstallation](./batteryDesaster.png "Why does the robot not work?")<!-- width="40%" -->
 
 > __Definition:__
 > Remote laboratories provide an access to real hardware over the internet without being near the actual equipment.
