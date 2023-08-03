@@ -704,7 +704,7 @@ _Merge OER concepts and modular configurable digital laboratories as OER materia
 
 ### Exemplary Edrys course as OER 
 
-```yaml   edrys_arduino_example.yaml
+```` yaml   edrys_arduino_example.yaml
 id: 867h9k2xYapYq324ezDQX
 createdBy: andredietrich@web.de
 dateCreated: 1683560033614
@@ -920,7 +920,7 @@ modules:
     width: full
     height: tall
 
-```
+````
 
 ## Summary & Next Steps
 
