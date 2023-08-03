@@ -974,12 +974,13 @@ Turning Points:
 
 ## Challenges
 
-
 1. Application of Web 3.0 technologies
 2. Metadata formats for Digital Laboratories as OER  
 3. Artificial Intelligence
 
-   {{1-2}}
+---
+
+   {{1}}
 > Many thanks for your interest and attention!
 
 
