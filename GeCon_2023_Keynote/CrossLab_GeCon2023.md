@@ -195,7 +195,7 @@ _Increase the distance between student and laboratory equipment :-)._
 
 
 <!-- class="highlight" -->
-> __Project:__ Industrial eLab Projekt - Industrial eLab [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html) - TU Freiberg, Otto-von-Guericke Universität Magdeburg (2017-2020)
+> __Project:__ [Industrial eLab Projekt - Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html), BMBF (2017-2020), TU Freiberg, Otto-von-Guericke Universität Magdeburg
 
 ************************************************************
 
@@ -274,13 +274,11 @@ __Motivation of TP 1:__  _Define a language not an environnement for Open Educat
 
 <!-- class="highlight" -->
 > __Project:__
-> MOER Projekt - Multi-Autoren-Tool für OER-Inhalte
-> [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/querschnittsprojekte/moer/moer_node.html) (2020) - TU Bergakademie Freiberg
+> [MOER Projekt - Multi-Autoren-Tool für OER-Inhalte](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/querschnittsprojekte/moer/moer_node.html), BMBF (2020) - TU Bergakademie Freiberg
 
 <!-- class="highlight" -->
 > __Project:__ 
-> Programmieren im Team - DiP-iT
-> [BMBF](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/dritte-foerderlinie-zur-digitalen-hochschulbildung/dip-it/dip-it_node) (2020-2023) - TU Bergakademie Freiberg, Otto-von-Guericke Universität Magdeburg, Humboldt Universität zu Berlin
+> [Programmieren im Team - DiP-iT](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/dritte-foerderlinie-zur-digitalen-hochschulbildung/dip-it/dip-it_node), BMBF, (2020-2023) - TU Bergakademie Freiberg, Otto-von-Guericke Universität Magdeburg, Humboldt Universität zu Berlin
 
 ************************************************************
 
@@ -620,8 +618,7 @@ https://datavizpyr.com/heatmaps-with-seaborn-in-python/
 
 <!-- class="highlight" -->
 > __Project:__
-> Crosslab - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0
-> [BMBF](https://stiftung-hochschullehre.de/projekt/crosslab/) (2021 - 2024) - TU Bergakademie Freiberg, TU Illmenau, TU Dortmund, Nordakademie
+> [Crosslab](https://stiftung-hochschullehre.de/projekt/crosslab/) - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0, Stiftung Innovation in der Hochschullehre (2021 - 2024) - TU Bergakademie Freiberg, TU Illmenau, TU Dortmund, Nordakademie
 
 </section>
 
@@ -983,6 +980,22 @@ Turning Points:
    {{1}}
 > Many thanks for your interest and attention!
 
+
+## References
+
+| Reference                | Link                                                                         |
+| ------------------------ | ---------------------------------------------------------------------------- |
+| Crosslab Projekt Website | [https://cross-lab.org/](https://cross-lab.org/)                             |
+| Project Repository       | [https://github.com/Cross-Lab-Project](https://github.com/Cross-Lab-Project) |
+| Edrys Repository         | [https://edrys.org/](https://github.com/Cross-Lab-Project/edrys)             |
+| LiaScript                | [https://LiaScript.github.io](https://LiaScript.github.io)                   |
+
+
+
+> Presentation materials:
+>
+> + [https://github.com/Cross-Lab-Project/presentations/blob/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md](https://github.com/Cross-Lab-Project/presentations/blob/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md),
+> + [https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md)
 
 ## Backup Slides
 
