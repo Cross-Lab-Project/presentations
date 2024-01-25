@@ -3,7 +3,7 @@ author:   Sebastian Zug; André Dietrich
 
 email:    sebastian.zug@informatik.tu-freiberg.de
 
-version:  0.0.1
+version:  0.1.0
 
 language: en
 
@@ -202,7 +202,7 @@ Gefolgt von einer Liste:
 ??[Familienschacht, Freiberg, Germany](https://sketchfab.com/3d-models/familienschacht-freiberg-germany-7c7d30506c554385a4a4321366e2e601)
 
     --{{5}}--
-Quizzes are also self-explanatory, we hope.
+Quizze sind mit der Notation auch selbsterklärend.
 
       {{5}}
 *******************************************************************
