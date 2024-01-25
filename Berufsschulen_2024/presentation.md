@@ -42,7 +42,13 @@ import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
 
 <h5> </h5>
 
-Dieser Vortrag ist eine Open Educational Resource (OER) und steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de). Alle enthaltenen Inhalte können frei verwendet werden und sind unter  verfügbar
+<div>
+
+---
+
+> Dieser Vortrag ist eine Open Educational Resource (OER) und steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de). Alle enthaltenen Inhalte können frei verwendet werden und sind unter https://github.com/Cross-Lab-Project/presentations/tree/main/Berufsschulen_2024 verfügbar
+
+</div>
 
 ## Motivation
 
@@ -92,7 +98,7 @@ Umsetzung eines Remote-Labors
 !?[Industrial eLab - Demo](https://www.youtube.com/watch?v=bICfKRyKTwE "eLab - Labor mit Fernzugriff an der Otto-von-Guericke-Universität Magdeburg")
 
 <!-- class="highlight" -->
-> __Project:__ [Industrial eLab Projekt - Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html), BMBF (2017-2020), TU Freiberg, Otto-von-Guericke Universität Magdeburg
+> __Projekt:__ [Industrial eLab Projekt - Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html), BMBF (2017-2020), TU Freiberg, Otto-von-Guericke Universität Magdeburg
 
 
 ************************************************************
@@ -124,7 +130,7 @@ Umsetzung eines Remote-Labors
               {{0-1}}
 ***********************************
 
-![eLabRemoteInstallation](./OldRemoteLabMagdeburg.png "First remote-lab implementation [Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html)")<!-- style="width: 50%; display: block; margin-left: auto; margin-right: auto;"-->
+![eLabRemoteInstallation](./OldRemoteLabMagdeburg.png "First remote-lab implementation [Industrial eLab](https://www.wihoforschung.de/wihoforschung/de/bmbf-projektfoerderung/foerderlinien/forschung-zur-digitalen-hochschulbildung/erste-foerderlinie-zur-digitalen-hochschulbildung/industrial-elab/industrial-elab_node.html)")<!-- style="width: 70%; display: block; margin-left: auto; margin-right: auto;"-->
 
 > __Herausforderung 1: Fehlende Flexibilität__ - Aufgaben anpassen oder neue Beispiele einfügen - Nur für Experten
 
@@ -156,37 +162,31 @@ $\sum = $ Offene Bildungsressourcen (OER)
 
 <!-- class="reference" -->
 > __Reference:__
-> The current presentation ist an OER too - 
+> Die vorliegende Präsentation ist ein textbasiertes OER - 
 > [Project](https://github.com/Cross-Lab-Project/presentations/blob/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md),
-> [Editor](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/GeCon_2023_Keynote/CrossLab_GeCon2023.md)
+> [Editor](https://liascript.github.io/LiveEditor/?/edit/iEAmFjiDKaxKd5UeYwu2oXAk)
 
-> __Definition:__ LiaScript is a Markdown dialect that allows you to create interactive online courses. The material is provided by textural content representations and semantic annotations. Common Markdown is enriched with interactive elements.
+> __Definition:__ LiaScript ist ein Markdown-Dialekt, mit dem Sie interaktive Online-Kurse erstellen können. Das Material wird durch textuelle Inhaltsdarstellungen und semantische Annotationen bereitgestellt. Common Markdown wird mit interaktiven Elementen angereichert.
 
-    --{{0}}--
-We have attempted to expand the text format around Markdown to make it equally understandable and straightforward while meeting today's demands.
-One advantage for us is that the same course can be consumed in different formats.
-If you click on the icon for the presentation mode above, you can choose between the formats _textbook_, _presentation_, and _slides_.
-In other words, a text document can be used either as a book or interactive presentation for self-study, or we can use the slides mode for our lectures.
-And yes, most browsers have a Text-To-Speech Engine, which allows you to have comments and dialogues read out loud.
-
-    --{{1}}--
-First, the paragraph appears in a single line.
+     {{0}}
+Wenn Sie oben auf das Symbol für den Präsentationsmodus klicken, können Sie zwischen den Formaten _Lehrbuch_, _Präsentation_ und _Folien_ wählen.
+Mit anderen Worten, ein Textdokument kann entweder als Buch oder als interaktive Präsentation zum Selbststudium verwendet werden, oder wir können den Folienmodus für unsere Vorlesungen nutzen.
 
       {{1}}
-A **thick** paragraph spans
-across two,
-no, three lines.
+Ein **dicker** Absatz erstreckt sich
+über zwei,
+nein, drei Zeilen.
 
     --{{2}}--
-Followed by the list.
+Gefolgt von einer Liste:
 
       {{2}}
-- List with
+- Liste mit 
 
-- Sub-points:
+- Unterpunkte:
 
-  1. Point
-  2. Points  
+  1. Punkt A
+  2. Punkt B  
 
       {{3}}
 | Animal          | weight in kg | Lifespan years | Mitogen |
@@ -197,11 +197,6 @@ Followed by the list.
 | Sheep           |           90 |             12 |      95 |
 | Human           |           68 |             70 |      10 |
 
-    --{{3}}--
-Tables are internally analyzed to see if they potentially represent a dataset that can be visualized in different formats and interactively.
-
-    --{{4}}--
-If possible, external sources can also be embedded. Two preceding question marks before a link tell LiaScript to try everything possible to display the content in the document.
 
       {{4}}
 ??[Familienschacht, Freiberg, Germany](https://sketchfab.com/3d-models/familienschacht-freiberg-germany-7c7d30506c554385a4a4321366e2e601)
@@ -212,11 +207,11 @@ Quizzes are also self-explanatory, we hope.
       {{5}}
 *******************************************************************
 
-How did you like the demo so far?
+Mögen Sie die Demo bis hier her?
 
-- [( )] Just okay ...
-- [( )] Not impressive
-- [(X)] Very good, but what's next?
+- [( )] Holt mich nur bedingt ab ...
+- [( )] Ich schaue es mir an, wenn ich Zeit habe.
+- [(X)] Cool
 
 
 *******************************************************************
@@ -333,34 +328,27 @@ void loop() {
 <section>
 
 ```ascii
-                                        Existing
-                                 Module Implementations
-                                     from the Web
-                                           |
-                                           v                     .
-      +-----------------+         +-----------------+            .  
-      | Instrumentation |░        |    Management   |░           .
-      +--------.        |░        +--------.        |░  
- +-----------+  \       |░   +-----------+  \       |░   +----------------+
- | 👩🏻‍🔬 Actual  \  \      |--->|  Gateway   \  \      |--->|  Web Browser   |
- | Laboratory /  /      |<---|     🖥     /  /      |<---|      🧑‍💻        |
- +-----------+  /       |░   +-----------+  /       |░   +----------------+
-      +--------'        |░        +--------'        |░   Student's Computer
-      |                 |░        |                 |░
-      +-----------------+░        +-----------------+░           .
-        ░░░░░░░░░░░░░░░░░░          ░░░░░░░░░░░░░░░░░░           .
-      |                        | |                     |
-      '------------------------' '---------------------'
-                     ^               +-----------+
-                     |               | * ...     |\
-                     |               | * ...     +-+
-                     |               | * Module 1  |     Classroom 
-                     |               | * Module 2  |     configuration
-                     |               |             |
-                     | .yaml / .json |             |
-                     +---------------| * Station 0 |
-                                     | * ...       |
-                                     +-------------+
+
+            Existing                         Learning Scenario              
+     Module Implementations                    Configuration             
+         from the Web                           (from web)                   
+               |                                     |         
+               +------------------+------------------+    
+                                  |
+                                  v             
+                        +-----------------+    
+                        | Browser based   |░   
+                        | Lab control     |░        
+                        +--------.        |░     
+                   +-----------+  \       |░
+                   | 👩🏻‍🔬 Actual  \  \      |-->  
+                   | Laboratory /  /      |<--
+                   +-----------+  /       |░      
+                        +--------'        |░      
+                        |                 |░   
+                        +-----------------+░              .
+                          ░░░░░░░░░░░░░░░░░░              .
+
 ```
 
 
@@ -379,9 +367,57 @@ void loop() {
 </section>
 
 
+        {{1-2}}
+<section>
+
+```` yaml   edrys_arduino_example.yaml
+id: 867h9k2xYapYq324ezDQX
+createdBy: andredietrich@web.de
+dateCreated: 1683560033614
+name: Arduino Kurs
+members:
+  teacher:
+    - andre.dietrich@informatik.tu-freiberg.de
+    - sebastian.zug@informatik.tu-freiberg.de
+    - test@web.de
+    - andredietrich@web.de
+  student: []
+modules:
+  - url: https://cross-lab-project.github.io/edrys_module-markdown-it/index.html
+    config: >-
+      # Was ist Arduino?
+
+
+      Arduino ist eine Open-Source-Plattform für Elektronik-Projekte, die aus
+      einer einfachen Hardware und einer benutzerfreundlichen Software besteht.
+
+    showInCustom: lobby
+    width: full
+    height: tall
+    ....  
+````
+
+> Demo: Laufendes Labor im Rahmen der Erstsemesterveranstaltung - Digitale Systeme
+
+</section>
+
 ### 3. Serverlose Infrastruktur
 
+> Remote-Labore für jedermann?
 
+``` ascii
+Bisheriges Serverbasiertes -Setup              Server-lose Peer-to-Peer Umsetzung
+                          
+      👨🏾‍💻 --.     .-- 👩‍💻                          - - - --👨🏾‍💻-----👩‍💻    
+            \   /                                              /  \ 
+                                                              /    \     
+  👩‍💻 ------  🖥️  ------ 👨🏾‍💻                           👩‍💻------+-----👨🏾‍💻- - -    
+                                                       \    /      /   
+            /   \                                       \  /      /    
+      👨🏾‍💻 --'     '-- 👩‍💻                                  👨🏾‍💻     👩‍💻- - - -    
+```
+
+> Demo: Ad-Hoc Remote-Labor
 
 
 ## Referenzen
