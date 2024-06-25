@@ -18,10 +18,10 @@ icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
 
 | Affilation               | Team members                                                                                                            |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| TU Bergakademie Freiberg | Ines Aubel, Sebastian Zug, André Dietrich                                                                               |
+| TU Bergakademie Freiberg | Ines Aubel, Sebastian Zug, André Dietrich, Henning Zeidler                                                              |
 | TU Ilmenau               | Johannes Nau,Karsten Henke, Pierre Helbing, Detlef Streitferdt                                                          |
 | TU Dortmund              | Claudius Terkowsky, Konrad Boettcher, Tobias R. Ortelt, Marcel Schade, Norbert Kockmann, Tobias Haertel, Uwe Wilkesmann |
-| Nordakademie             | Matthias Finck, Jan Haase, Franziska Herrmann, Louis Kobras, Bernhard Meussen, Marcus Soll, Daniel Versick             |
+| Nordakademie             | Matthias Finck, Jan Haase, Franziska Herrmann, Louis Kobras, Bernhard Meussen, Marcus Soll, Daniel Versick              |
 
 </div>
 
