@@ -7,7 +7,7 @@ version:  0.1.1
 
 language: de
 
-narrator: UK English Female
+narrator: Deutsch Female
 
 icon:     https://media.aubi-plus.com/institution/thumbnail/3f3de48-technische-universitaet-bergakademie-freiberg-logo.jpg
 
@@ -17,6 +17,7 @@ import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
           https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
           https://raw.githubusercontent.com/liaTemplates/TextAnalysis/main/README.md
           https://raw.githubusercontent.com/LiaScript/CodeRunner/master/README.md
+          https://raw.githubusercontent.com/LiaTemplates/LiveEdit-Embeddings/refs/tags/0.0.1/README.md
 
 @runManimAnimation
 ```text   -manim.cfg
@@ -32,58 +33,6 @@ images_dir = .
 @LIA.eval(`["main.py","manim.cfg"]`, `none`, `manim render --format=gif main.py MyScene -o animation`)
 @end
 
-
-@embed.edit
-@embed_(edit,height: 80vh; min-width: 100%; border: 1px black solid,````@0
-````)
-@end
-
-@embed.edit.style
-@embed_(edit,@0,````@1
-````)
-@end
-
-@embed.preview
-@embed_(preview,height: 80vh; min-width: 100%; border: 1px black solid,````@0
-````)
-@end
-
-
-@embed.preview.style
-@embed_(preview,@0,````@1
-````)
-@end
-
-
-@embed
-@embed_(none,height: 80vh; min-width: 100%; border: 1px black solid,````@0
-````)
-@end
-
-
-@embed.style
-@embed_( ,@0,````@1
-````)
-@end
-
-
-@embed_
-<script run-once modify="false">
-let code = `@'2`
-
-code = btoa(unescape(encodeURIComponent(code)))
-
-let embed ="@0"
-
-if (embed=="preview" || embed=="edit") {
-  embed += "/"
-} else {
-  embed = ""
-}
-
-'HTML: <iframe loading="lazy" style="@1" src="https://liascript.github.io/LiveEditor/?/embed/code/' + embed + code + '"></iframe>'
-</script>
-@end
 
 -->
 
