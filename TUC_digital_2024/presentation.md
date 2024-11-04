@@ -123,7 +123,7 @@ if (embed=="preview" || embed=="edit") {
 
 !?[3blue1brown](https://www.youtube.com/watch?v=r6sGWTCMz2k&t=719s "Video aus der Reihe zu Differentialgleichungen mit 17 Millionen Views")
 
-> Was macht diese Videos so besonders?
+> Was macht dieses Videos so besonders?
 
 - __gut designte Animationen__
 - eigene Lerngeschwindigkeit (Stop, Pause, Rückspulen)
@@ -155,17 +155,17 @@ $f(x) = x^2$
 
 __Tabellen__
 
-| A | B | C |
-|---|---|---|
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
+| X | B(y) | C(y) |
+|---|:----:|:----:|
+| 1 |   2  |   3  |
+| 4 |   5  |   6  |
 
 __Sprache__
 
 > Click to run!
-
-              --{{1 Deutsch Female}}--
-Markdown ist eine vereinfachte Auszeichnungssprache, die der Ausgangspunkt unserer Entwicklung von LiaScript war.
+>
+> {{|> Deutsch Female}}
+> Markdown ist eine vereinfachte Auszeichnungssprache, die der Ausgangspunkt unserer Entwicklung von LiaScript war.
 ```
 
 ### Konsequenzen
@@ -188,8 +188,9 @@ Die textuellen Repräsenation eröffnet die Möglichkeit, dass
 
 Die textuelle Repräsentation erlaubt den extensiven Einsatz von KIs für die Textgenerierung.
 
-```
-Generiere mir eine Animation, die die Multiplikation von zwei Matrizen mit manim im Stil von 3blue1brown zeigt.
+``` text
+Generiere mir eine Animation, die die Multiplikation von
+zwei Matrizen mit manim im Stil von 3blue1brown zeigt.
 ```
 
 ```python -manim.py
@@ -254,7 +255,7 @@ Welche der folgenden Matrizenprodukte ist NICHT möglich?
 
 <summary>__Abhängigkeit von einer Plattform__ </summary>
 
-Haben wir hier noch ein cooles Video vom Telefon?
+!?[LiaScript auf Nokia-Basis](https://www.youtube.com/watch?v=U_UW69w0uHE)
 
 </details>
 
@@ -262,17 +263,13 @@ Haben wir hier noch ein cooles Video vom Telefon?
 
 Übersicht zu den Datenformaten in OPAL
 
-
 > Hinweis auf OER-CL Projekt
 
 Hemmungen bei Lehrenden - Paradigmenwechsel
 
 ## Zusammenfassung
 
-
-
-
-> Dieser Vortrag ist eine Open Educational Resource (OER) und steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de). 
+> Dieser Vortrag ist eine Open Educational Resource (OER) und steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
 + Alle enthaltenen Inhalte können frei verwendet werden und sind unter https://github.com/Cross-Lab-Project/presentations/tree/main/Berufsschulen_2024 verfügbar
 
