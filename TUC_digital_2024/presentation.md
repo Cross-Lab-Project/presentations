@@ -87,7 +87,7 @@ if (embed=="preview" || embed=="edit") {
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/main/Berufsschulen_2024/presentation.md#1)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/refs/heads/main/TUC_digital_2024/presentation.md)
 
 # Warum braucht OER eine gemeinsame Sprache?!
 
