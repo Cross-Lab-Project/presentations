@@ -30,7 +30,7 @@ images_dir = .
 #quiet = True
 #progress_bar = none 
 ```
-@LIA.eval(`["main.py","manim.cfg"]`, `none`, `manim render --format=gif main.py MyScene -o animation`)
+@LIA.eval(`["main.py","manim.cfg"]`, `none`, `manim render --format=webm main.py MyScene -o animation`)
 @end
 
 
