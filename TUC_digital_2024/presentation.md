@@ -204,30 +204,6 @@ Wann wurde die TU Chemnitz gegründet?
 - [( )] 1996
 ```
 
-
-````markdown @embed.style(height: 550px; min-width: 100%; border: 1px black solid)
-
-<!--
-import: https://github.com/liascript/CodeRunner
--->
-
-# Programmierübungen
-
-Debuggen Sie den nachfolgenden Code
-
-```cpp                     ErroneousHelloWorld.cpp
-#include <iostream>
-
-imt main() {
-	std::cout << "Hello World!'';
-	std::cout << "Wo liegt der Fehler?";
-	return 0;
-}
-```
-@LIA.evalWithDebug(`["main.cpp"]`, `g++ main.cpp -o a.out`, `./a.out`)
-
-````
-
 </details>
 
 <details>
@@ -291,10 +267,12 @@ Durch die Trennung von Inhalt und Ausführung können die Kurse in LMS, Progress
 
 3. Die Abbildung der Inhalte als Text eröffnet in viel größerem Maße die Möglichkeit zu kollaborativer Erstellung und Anpassung.
 
+--------------------
+
+> ... Ach so, das Ganze ist keine "Spielwiese für Nerds", sondern schon in der TU Chemnitz fest verankert. https://www-user.tu-chemnitz.de/~herbs/lehrmaterial.html
+
 --------------------------------
 
 > Dieser Vortrag ist eine Open Educational Resource (OER) und steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
 + Alle enthaltenen Inhalte können frei verwendet werden und sind unter https://github.com/Cross-Lab-Project/presentations/blob/main/TUC_digital_2024/presentation.md verfügbar
-
-+ Sie können diesen unmittelbar im Online-Editor bearbeiten und anpassen: 
