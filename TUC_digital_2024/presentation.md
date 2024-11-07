@@ -204,6 +204,29 @@ Wann wurde die TU Chemnitz gegründet?
 - [( )] 1996
 ```
 
+
+````markdown @embed.style(height: 550px; min-width: 100%; border: 1px black solid)
+
+<!--
+import: https://github.com/liascript/CodeRunner
+-->
+
+# Programmierübungen
+
+Debuggen Sie den nachfolgenden Code
+
+```cpp                     ErroneousHelloWorld.cpp
+#include <iostream>
+
+imt main() {
+	std::cout << "Hello World!'';
+	std::cout << "Wo liegt der Fehler?";
+	return 0;
+}
+```
+\@LIA.evalWithDebug(`["main.cpp"]`, `g++ main.cpp -o a.out`, `./a.out`)
+````
+
 </details>
 
 <details>
