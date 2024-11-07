@@ -13,9 +13,7 @@ icon:     https://media.aubi-plus.com/institution/thumbnail/3f3de48-technische-u
 
 link:     style.css
 
-import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
-          https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
-          https://raw.githubusercontent.com/liaTemplates/TextAnalysis/main/README.md
+import:   https://raw.githubusercontent.com/liaTemplates/TextAnalysis/main/README.md
           https://raw.githubusercontent.com/LiaScript/CodeRunner/master/README.md
           https://raw.githubusercontent.com/LiaTemplates/LiveEdit-Embeddings/refs/tags/0.0.1/README.md
 
@@ -32,7 +30,6 @@ images_dir = .
 ```
 @LIA.eval(`["main.py","manim.cfg"]`, `none`, `manim render --format=webm main.py MyScene -o animation`)
 @end
-
 
 -->
 
@@ -68,9 +65,17 @@ images_dir = .
 
 ## Motivation
 
+                  {{0-1}}
+******************************************
+
 > Wer von Ihnen kennt die Videos von `3brown1blue`? 
 
 !?[3blue1brown](https://www.youtube.com/watch?v=r6sGWTCMz2k&t=719s "Video aus der Reihe zu Differentialgleichungen mit 17 Millionen Views")
+
+******************************************
+
+                  {{1-2}}
+******************************************
 
 > Was macht dieses Videos so besonders?
 
@@ -83,9 +88,11 @@ images_dir = .
 | Limitierung                                         | Erläuterungen                                                                                                                                               |
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | _Fehlende Anpassungsfähigkeit_                      | Das finale Material - ein Video - ist statisch und kann nur mit erheblichen Aufwand auf individuelle didaktische Ziele oder Vorkenntnisse angepasst werden. |
-| _Notwendige Fähigkeiten_                            | Die Umsetzung der Animationen, Gleichungen usw. erfordert spezielle Kenntnisse.                                                                             |
+| _Einstiegshürde Vorwissen/Fähigkeiten_              | Die Umsetzung der Animationen, Gleichungen usw. erfordert spezielle Kenntnisse / Technikaffinität.                                                          |
 | _Interaktivität ist konzeptionell nicht vorgesehen_ | Ein Eingriff des Nutzenden ist nicht vorgesehen.                                                                                                            |
 | _Abhängigkeit von einer Plattform_                  | Die Videos sind nur bei bestehender Internetverbindung verfügbar.                                                                                           |
+
+******************************************
 
 ## Lösungsansatz
 
@@ -117,11 +124,11 @@ __Sprache__
 > Markdown ist eine vereinfachte Auszeichnungssprache, die der Ausgangspunkt unserer Entwicklung von LiaScript war.
 ```
 
-### Konsequenzen
+### Konsequenzen und Chancen
 
 <details>
 
-<summary>__Fehlende Anpassungsfähigkeit__ </summary>
+<summary>__Fehlende Anpassungsfähigkeit__ -> Generelle Editierbarkeit </summary>
 
 Die textuellen Repräsenation eröffnet die Möglichkeit, dass
 + jeder Nutzende Materialien anpassen kann und
@@ -133,7 +140,7 @@ Die textuellen Repräsenation eröffnet die Möglichkeit, dass
 
 <details>
 
-<summary>__Notwendige Fähigkeiten__ </summary>
+<summary>__Einstiegshürde Vorwissen/Fähigkeiten__ -> Generierung von Inhalten </summary>
 
 Die textuelle Repräsentation erlaubt den extensiven Einsatz von KIs für die Textgenerierung.
 
@@ -183,26 +190,51 @@ class MyScene(Scene):
 
 <details>
 
-<summary>__Interaktivität für den Lehrenden__ </summary>
+<summary> __Fehlende Interaktivität__ -> Sprachfeatures und Plugins </summary>
+
+Die Sprachkonzepte von LiaScript und die Einbettung von Plugins ermöglichen die Integration von interaktiven Elementen.
 
 ```markdown @embed.style(height: 550px; min-width: 100%; border: 1px black solid)
-# Beispiele für Interaktionen
+# Quiz
 
-Quiz
+Wann wurde die TU Chemnitz gegründet?
 
-Welche der folgenden Matrizenprodukte ist NICHT möglich?
-
-- [( )] Eine 2×3 Matrix multipliziert mit einer 3×2 Matrix
-- [(X)] Eine 2×3 Matrix multipliziert mit einer 2×3 Matrix
-- [( )] Eine 3×3 Matrix multipliziert mit einer 3×1 Matrix
-- [( )] Eine 1×2 Matrix multipliziert mit einer 2×2 Matrix
+- [( )] 1886
+- [(X)] 1986
+- [( )] 1996
 ```
+
+
+````markdown @embed.style(height: 550px; min-width: 100%; border: 1px black solid)
+
+<!--
+import: https://github.com/liascript/CodeRunner
+-->
+
+# Programmierübungen
+
+Debuggen Sie den nachfolgenden Code
+
+```cpp                     ErroneousHelloWorld.cpp
+#include <iostream>
+
+imt main() {
+	std::cout << "Hello World!'';
+	std::cout << "Wo liegt der Fehler?";
+	return 0;
+}
+```
+@LIA.evalWithDebug(`["main.cpp"]`, `g++ main.cpp -o a.out`, `./a.out`)
+
+````
 
 </details>
 
 <details>
 
-<summary>__Abhängigkeit von einer Plattform__ </summary>
+<summary>__Abhängigkeit von einer Plattform__ -> Exportierbarkeit </summary>
+
+Durch die Trennung von Inhalt und Ausführung können die Kurse in LMS, Progressive Web Apps oder als PDF exportiert werden.
 
 !?[LiaScript auf Nokia-Basis](https://www.youtube.com/watch?v=U_UW69w0uHE)
 
@@ -210,16 +242,59 @@ Welche der folgenden Matrizenprodukte ist NICHT möglich?
 
 ## Warum funktioniert das bisher nicht?
 
-Übersicht zu den Datenformaten in OPAL
+             {{0-1}}
+******************************************
 
-> Hinweis auf OER-CL Projekt
+> Wir nutzen die falschen Werkzeuge!
 
-Hemmungen bei Lehrenden - Paradigmenwechsel
+<!-- data-type="none"-->
+| OPAL OER Materialien | Anzahl | Limitierung                              |
+| -------------------- | -----: | ---------------------------------------- |
+| Kurse                |   3828 | + nur über "Umwege" exportierbar         |
+|                      |        | + Infrastruktur für Ausführung notwendig |
+| einzelne Dateien     |  11322 | + überwiegend unveränderliche Inhalte    |
+|                      |        | + fehlende Metadaten                     |
 
-## Zusammenfassung
+<!-- data-type="barchart" data-show="true" data-xlabel="Dateitypen"
+     data-ylabel="Anteil in Prozent" data-title="Dominierend Dateitypen im OPAL OER Datenbestand" -->
+| Format | Anteil [%]  |
+| ------ | ---------: |
+| pdf    |       53.0 |
+| jpg    |       10.5 |
+| mkv    |        8.8 |
+| mp4    |        5.9 |
+| png    |        5.0 |
+| zip    |        4.4 | 
+| html   |        3.9 |
+| docx   |        3.8 |
+| pptx   |        2.4 |
+| xlsx   |        1.9 |
+
+> Untersuchungen des Projektes "OER-Connected Lectures", dass durch den AK Elearning Sachsen 2024/25 gefördert wird (https://github.com/TUBAF-IFI-ConnectedLecturer)
+
+******************************************
+
+             {{1-2}}
+******************************************
+
+> Wir brauchen Überwindung auf Seiten der Lehrenden und der Studierenden!
+
+![Screenshot Shrimpp](SceenshotShrimpp.png "Screenshot der [Shrimpp-Plattform](https://www.shrimpp.de/) (Uni Leipzig) zum kooperativen Editieren von pdf-Dateien")
+
+******************************************
+
+## Ausblick und Vision
+
+1. Wir brauchen eine Loslösung von Frameworks und Plattformen und einen Fokus auf die Inhalte als Gelingensbedingung für OER.
+
+2. AI wird die Diskussionen im Bereich von OER dahingehend verändern, dass die Generierung von Inhalten und die Anpassung an individuelle Bedürfnisse im Vordergrund stehen.
+
+3. Die Abbildung der Inhalte als Text eröffnet in viel größerem Maße die Möglichkeit zu kollaborativer Erstellung und Anpassung.
+
+--------------------------------
 
 > Dieser Vortrag ist eine Open Educational Resource (OER) und steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
-+ Alle enthaltenen Inhalte können frei verwendet werden und sind unter https://github.com/Cross-Lab-Project/presentations/tree/main/Berufsschulen_2024 verfügbar
++ Alle enthaltenen Inhalte können frei verwendet werden und sind unter https://github.com/Cross-Lab-Project/presentations/blob/main/TUC_digital_2024/presentation.md verfügbar
 
 + Sie können diesen unmittelbar im Online-Editor bearbeiten und anpassen: 
