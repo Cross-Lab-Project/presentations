@@ -11,27 +11,50 @@ narrator: UK English Female
 
 icon:     https://media.aubi-plus.com/institution/thumbnail/3f3de48-technische-universitaet-bergakademie-freiberg-logo.jpg
 
-link:     style.css
+link:     ./style.css
 
-import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
-          https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
-          https://raw.githubusercontent.com/liaTemplates/TextAnalysis/main/README.md
-          https://raw.githubusercontent.com/LiaScript/CodeRunner/master/README.md
+@style
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap as needed */
+    align-items: stretch;
+    gap: 20px; /* Adds both horizontal and vertical spacing between items */
+}
+
+.flex-child { 
+    flex: 1;
+    margin-right: 20px; /* Adds space between the columns */
+}
+
+@media (max-width: 600px) {
+    .flex-child {
+        flex: 100%; /* Makes the child divs take up the full width on slim devices */
+        margin-right: 0; /* Removes the right margin */
+    }
+}
+@end
+
 -->
+
 # Adaptable Digital Labs
-<h2>Motivation and Results of the CrossLab Project </h2>
 
-<div style="width: 46%; float: left">
+Motivation and Results of the CrossLab Project
+----------------------------------------------
 
-<!-- class="highlight" -->
+<section class="flex-container">
+
+<!-- class="flex-child" style="min-width: 250px;" -->
 > __Project:__
 > [Crosslab](https://stiftung-hochschullehre.de/projekt/crosslab/) - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0, Stiftung Innovation in der Hochschullehre (2021 - 2024) - TU Bergakademie Freiberg, TU Illmenau, TU Dortmund, Nordakademie
 
-</div>
 
-![partner_map](./Partners.png "Consortium of CrossLab Project")<!-- style="width: 50%; float: right" -->
+<!-- class="flex-child" style="min-width: 250px;" -->
+![partner_map](./Partners.png "Consortium of CrossLab Project")
 
-<h5>CrossLab meets Friends, Dortmund, 27.11.2024</h5>
+</section>
+
+CrossLab meets Friends, Dortmund, 27.11.2024
+--------------------------------------------
 
 ## CrossLab-Motivation
 
@@ -119,7 +142,35 @@ CROSS ---+       -------------+----------------+-----------------+--------------
 
 ### TU Freiberg
 
-+ Edrys + div. Labs (TUBAF)
+<section class="flex-container">
+
+<div class="flex-child" style="min-width: 250px;">
+
+![](https://media.aubi-plus.com/institution/thumbnail/3f3de48-technische-universitaet-bergakademie-freiberg-logo.jpg)
+
+hier steht noch ein Text asdfds
+figurationsfadfasdf
+
+dasf
+accesssfd
+
+
+asdfafsd
+
+asdfafsd
+
+
+asdfasd
+
+</div>
+
+<!-- class="flex-child reference" style="min-width: 250px;" -->
+> __Reference:__ 
+> Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich
+> _Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden._
+> [Link](https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145)
+
+</section>
 
 <!-- class="reference" -->
 > __Reference:__ 
