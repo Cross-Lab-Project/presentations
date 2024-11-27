@@ -3,7 +3,7 @@ author:   Sebastian Zug; André Dietrich
 
 email:    sebastian.zug@informatik.tu-freiberg.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: en
 
@@ -38,7 +38,7 @@ icon:     ./Logo_mehrfarbig.png
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://raw.githubusercontent.com/Cross-Lab-Project/presentations/refs/heads/main/Dortmund_Friends_2024/CrossLab_Friends.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Cross-Lab-Project/presentations/refs/heads/main/Dortmund_Friends_2024/CrossLab_Friends.md)
 
 # Adaptable Digital Labs
 
