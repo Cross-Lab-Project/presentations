@@ -3,7 +3,7 @@ author:   Sebastian Zug; André Dietrich
 
 email:    sebastian.zug@informatik.tu-freiberg.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: en
 
@@ -12,6 +12,8 @@ narrator: UK English Female
 icon:     https://media.aubi-plus.com/institution/thumbnail/3f3de48-technische-universitaet-bergakademie-freiberg-logo.jpg
 
 link:     ./style.css
+
+icon:     ./Logo_mehrfarbig.png
 
 @style
 .flex-container {
@@ -36,6 +38,8 @@ link:     ./style.css
 
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://raw.githubusercontent.com/Cross-Lab-Project/presentations/refs/heads/main/Dortmund_Friends_2024/CrossLab_Friends.md)
+
 # Adaptable Digital Labs
 
 Motivation and Results of the CrossLab Project
@@ -45,20 +49,18 @@ Motivation and Results of the CrossLab Project
 
 <!-- class="flex-child" style="min-width: 250px;" -->
 > __Project:__
-> [Crosslab](https://stiftung-hochschullehre.de/projekt/crosslab/) - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0, Stiftung Innovation in der Hochschullehre (2021 - 2024)
+> [Crosslab](https://stiftung-hochschullehre.de/projekt/crosslab/) - _Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0, Stiftung Innovation in der Hochschullehre (2021 - 2024)_
 > 
 > * TU Bergakademie Freiberg
 > * TU Ilmenau
 > * TU Dortmund
 > * Nordakademie Elmshorn
 
-
 <!-- class="flex-child" style="min-width: 250px;" -->
 ![partner_map](./Partners.png "Consortium of CrossLab Project")
 
 </section>
 
-CrossLab meets Friends, Dortmund, 27.11.2024
 --------------------------------------------
 
 ## CrossLab-Motivation
