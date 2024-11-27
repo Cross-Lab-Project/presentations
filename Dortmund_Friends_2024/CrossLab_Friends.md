@@ -45,7 +45,12 @@ Motivation and Results of the CrossLab Project
 
 <!-- class="flex-child" style="min-width: 250px;" -->
 > __Project:__
-> [Crosslab](https://stiftung-hochschullehre.de/projekt/crosslab/) - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0, Stiftung Innovation in der Hochschullehre (2021 - 2024) - TU Bergakademie Freiberg, TU Illmenau, TU Dortmund, Nordakademie
+> [Crosslab](https://stiftung-hochschullehre.de/projekt/crosslab/) - Flexibel kombinierbare Cross-Reality Labore in der Hochschullehre: zukunftsfähige Kompetenzentwicklung für ein Lernen und Arbeiten 4.0, Stiftung Innovation in der Hochschullehre (2021 - 2024)
+> 
+> * TU Bergakademie Freiberg
+> * TU Ilmenau
+> * TU Dortmund
+> * Nordakademie Elmshorn
 
 
 <!-- class="flex-child" style="min-width: 250px;" -->
@@ -84,7 +89,7 @@ CROSS ---+
          |                  +--------------------------------------------------------+
          +-->   university  | formation of a laboratory cluster                      |
                             +--------------------------------------------------------+
-
+                                                                                                          .
 ```
 
 ### Challenges
@@ -111,6 +116,7 @@ CROSS ---+                   |              |   |              |   |            
                             +--------------------------------------------------------+
                              |              |   |              |   |              |
                              .--------------.   .--------------.   .--------------.
+                                                                                                          .
 ```
 
 ### Requierments
@@ -136,64 +142,146 @@ CROSS ---+       -------------+----------------+-----------------+--------------
          +-->      university |                | tical profiles  | monitoring
                               |                | and formalisms  |
                  -------------+----------------+-----------------+------------------
+                                                                                                           .
 ```
 
 ## Solutions
 
-### TU Freiberg
+<iframe src="https://giphy.com/embed/l0MYODQzHE3ibZ62A" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/vintage-chemistry-lab-l0MYODQzHE3ibZ62A">via GIPHY</a></p>
+
+### TU Bergakademie Freiberg
 
 <section class="flex-container">
 
 <div class="flex-child" style="min-width: 250px;">
 
-![](https://media.aubi-plus.com/institution/thumbnail/3f3de48-technische-universitaet-bergakademie-freiberg-logo.jpg)
+__Remote Labs as Open Educational Ressoureces__
 
-hier steht noch ein Text asdfds
-figurationsfadfasdf
-
-dasf
-accesssfd
-
-
-asdfafsd
-
-asdfafsd
-
-
-asdfasd
+![](./concept_TUBAF.png)
 
 </div>
 
-<!-- class="flex-child reference" style="min-width: 250px;" -->
-> __Reference:__ 
-> Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich
-> _Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden._
-> [Link](https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145)
+<div class="flex-child" style="min-width: 250px;">
+
+__Available Demos: Chemical Lab / Robotics Lab / Computer Science Lab__
+
+![](./lab_TUBAF.png)
+
+</div>
 
 </section>
 
 <!-- class="reference" -->
 > __Reference:__ 
-> Anja Hawlitschek, Sarah Berndt, Sebastian Zug, André Dietrich
-> _Iterative Adaption eines Remote-Labors unter Berücksichtigung des Feedbacks der Studierenden._
-> [Link](https://www.wbv.de/shop/Iterative-Adaption-eines-Remote-Labors-unter-Beruecksichtigung-des-Feedbacks-der-Studierenden-6004804w145)
+> Ines Aubel, Sebastian Zug, Martin Bertau
+> _Potential of Innovative Concepts STEM Education for Industry 4.0: CrossLab an Example._ Chemie Ingenieur Technik, 2024
+> [Link](https://onlinelibrary.wiley.com/doi/10.1002/cite.202400114)
 
 
 ### TU Illmenau
 
-+ Architektur + div. Labs (Ilmenau)
+<section class="flex-container">
+
+<div class="flex-child" style="min-width: 250px;">
+
+__Remote Labs as Systems of Systems__
+
+![](./concept_TUIL.png)
+
+</div>
+
+<div class="flex-child" style="min-width: 250px;">
+
+__Available Demos: Take away lab__
+
+![](./lab_TUIL.png)
+
+</div>
+
+</section>
+
+<!-- class="reference" -->
+> __Reference:__ 
+> Johannes Nau, Marcus Soll, _An Extendable Microservice Architecture for Remotely Coupled Online Laboratories._ In: Auer, M.E., Langmann, R., Tsiatsos, T. (eds) Open Science in Engineering. REV 2023. Lecture Notes in Networks and Systems, Springer, 2023 
+> [Link](https://doi.org/10.1007/978-3-031-42467-0_9)
 
 ### TU Dortmund
 
-+ Evaluationsstrategie + div. Labs (Dortmund)
+<section class="flex-container">
+
+<div class="flex-child" style="min-width: 250px;">
+
+__Taxonomies for (Remote) Laboratories__
+
+![](./concept_TUDO.png)
+
+</div>
+
+<div class="flex-child" style="min-width: 250px;">
+
+__Available Demos: AR/VR laboratories for fluid mechanics__
+
+![](./lab_TUDO.png)
+
+</div>
+
+</section>
+
+<!-- class="reference" -->
+> __Reference:__ 
+> Online Laboratories in Higher Engineering Education: Solutions, challenges, and future directions from a pedagogical perspective. European Journal of Engineering Education, Volume 48, Issue 5 (2023). Special Issue, guest edited by: Dominik May, Claudius Terkowsky, Valérie Varney and David  
+> [Link](https://www.tandfonline.com/toc/ceee20/48/5)
 
 ### Nordakademie
 
-+ Usability + div. Labs (Nordakademie)
+<section class="flex-container">
 
-## References
+<div class="flex-child" style="min-width: 250px;">
+
+__Usability analysis for Remote Laboratories__
+
+![](./concept_NAK.svg)
+
+</div>
+
+<div class="flex-child" style="min-width: 250px;">
+
+__Available Demos: Embedded Systems__
+
+![](./lab_NAK.png)
+
+</div>
+
+</section>
+
+<!-- class="reference" -->
+> __Reference:__ 
+> Kobras, Louis, Marcus Soll, Franziska Herrmann,  Annette Bock „Usability and User Experience Challenges of Cross Reality Laboratories Experienced by Creators“. Chemie Ingenieur Technik, Bd. 96, Nr. 11, November 2024, S. 1516–21. 
+> [Link](https://doi.org/10.1002/cite.202400060)
+
+## Referencess
+
+<section class="flex-container">
+
+<div class="flex-child" style="min-width: 250px;">
+
+> Enjoy the meeting - looking forward to inspiring discussions!
 
 | Reference                | Link                                                                         |
 | ------------------------ | ---------------------------------------------------------------------------- |
 | Crosslab Projekt Website | [https://cross-lab.org/](https://cross-lab.org/)                             |
 | Project Repository       | [https://github.com/Cross-Lab-Project](https://github.com/Cross-Lab-Project) |
+
+</div>
+
+<div class="flex-child" style="min-width: 250px;">
+
+{{1-2}}
+!?[](./Robot-CrossLab_edit.mp4)<!--
+autoplay="true"
+muted="true"
+-->
+
+</div>
+
+</section>
