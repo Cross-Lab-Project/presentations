@@ -13,10 +13,7 @@ icon:     https://media.aubi-plus.com/institution/thumbnail/3f3de48-technische-u
 
 link:     style.css
 
-import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
-          
-          https://raw.githubusercontent.com/liaTemplates/TextAnalysis/main/README.md
-          https://raw.githubusercontent.com/LiaScript/CodeRunner/master/README.md
+import:   https://raw.githubusercontent.com/LiaScript/CodeRunner/master/README.md
           https://raw.githubusercontent.com/LiaTemplates/LiveEdit-Embeddings/refs/tags/0.0.1/README.md
 
 @style
@@ -46,9 +43,12 @@ import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
 
 # Edrys Framework für die Entwicklung von digitalen Laboren
 
-<h2>Konzepte und Erfahrungen des CrossLab-Projektes </h2>
+Konzepte und Erfahrungen des CrossLab-Projektes
+-----------------------------------------------
 
-<div style="width: 34%; float: left">
+<section class="flex-container">
+
+<div class="flex-child" style="width: 34%; max-width: 400px">
 
 | Partner                  |
 |--------------------------|
@@ -59,21 +59,18 @@ import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
 
 </div>
 
-![partner_map](./Partners.png)<!-- style="width: 60%; float: right" -->
+<!-- class="flex-child" -->
+![partner_map](Partners.png)
 
-<h5>
-<p>Dr. Ines Aubel, Dr. Andre Dietrich, Prof. Dr. Sebastian Zug</p>
-<p>Werkstatt & Laborpause</p>
-<p>Januar 2025</p>
-</h5>
+
+</section>
+
+<!-- style="font-weight: bold" -->
+Dr. Ines Aubel, Dr. Andre Dietrich, Prof. Dr. Sebastian Zug \
+Werkstatt & Laborpause \
+Januar 2025
 
 <div>
-
----
-
-> Dieser Vortrag ist eine Open Educational Resource (OER) und steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de). Alle enthaltenen Inhalte können frei verwendet werden und sind unter https://github.com/Cross-Lab-Project/presentations/tree/main/Werkstattpause_2025 verfügbar
-
-</div>
 
 ## Ausgangspunkt: Digitale Lehre
  
@@ -254,27 +251,25 @@ $\sum = $ Digitale Labore als offene Bildungsressourcen (OER)
 <section>
 
 ```ascii
-
-            Existing                         Learning Scenario              
-     Module Implementations                    Configuration             
-         from the Web                           (from web)                   
-               |                                     |         
-               +------------------+------------------+    
-                                  |
-                                  v             
-                        +-----------------+    
-                        | Browser based   |░   
-                        | Lab control     |░        
-                        +--------.        |░     
-                   +-----------+  \       |░
-                   | 👩🏻‍🔬 Actual  \  \      |-->  
-                   | Laboratory /  /      |<--
-                   +-----------+  /       |░      
-                        +--------'        |░      
-                        |                 |░   
-                        +-----------------+░              .
-                          ░░░░░░░░░░░░░░░░░░              .
-
+       Existing                         Learning Scenario
+Module Implementations                    Configuration
+    from the Web                           (from web)
+          |                                     |
+          +------------------+------------------+
+                             |
+                             v
+                   +-----------------+
+                   | Browser based   |░
+                   | Lab control     |░
+                   +--------.        |░
+              +-----------+  \       |░
+              | 👩🏻‍🔬 Actual  \  \      |-->
+              | Laboratory /  /      |<--
+              +-----------+  /       |░
+                   +--------'        |░
+                   |                 |░
+                   +-----------------+░
+                     ░░░░░░░░░░░░░░░░░░
 ```
 
 
@@ -350,18 +345,18 @@ Bisheriges Serverbasiertes -Setup              Server-lose Peer-to-Peer Umsetzun
 
 __Links auf die Implementierungen__
 
-| Reference                 | Link                                                             |
-| ------------------------- | ---------------------------------------------------------------- |
-| Crosslab Projekt Webseite | [https://cross-lab.org/](https://cross-lab.org/)                 |
-| Edrys Repository          | [https://edrys.org/](https://github.com/Cross-Lab-Project/edrys) |
-|                           | [https://edrys.org/](https://github.com/Cross-Lab-Project/edrys) |
-| LiaScript                 | [https://LiaScript.github.io](https://LiaScript.github.io)       |
+| Reference                 | Link                          |
+| ------------------------- | ----------------------------- |
+| Crosslab Projekt Webseite | https://cross-lab.org         |
+| Edrys Repository          | https://edrys-labs.github.io  |
+|                           | https://github.com/edrys-labs |
+| LiaScript                 | https://LiaScript.github.io   |
 
 __Kontinuierlich laufende Beispiellabore__
 
-+ Einführung Mikrocontroller: https://edrys-labs.github.io/?/classroom/wrFIoY73UQ8skrwj
-+ Analog Digitalwandler: https://edrys-labs.github.io/?/classroom/1Sjgqpq8CaIKAsJh
-+ Interrupts und Timer: https://edrys-labs.github.io/?/classroom/9yQ6z0IMPYoKymKR
+1. Einführung Mikrocontroller: https://edrys-labs.github.io/?/classroom/wrFIoY73UQ8skrwj
+2. Analog Digitalwandler: https://edrys-labs.github.io/?/classroom/1Sjgqpq8CaIKAsJh
+3. Interrupts und Timer: https://edrys-labs.github.io/?/classroom/9yQ6z0IMPYoKymKR
 
 ***********************************************************
 
