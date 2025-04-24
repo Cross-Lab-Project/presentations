@@ -70,8 +70,6 @@ Dr. Ines Aubel, Dr. Andre Dietrich, Prof. Dr. Sebastian Zug \
 Werkstatt & Laborpause \
 Januar 2025
 
-<div>
-
 ## Ausgangspunkt: Digitale Lehre
  
 [LiaScript](https://liascript.github.io/) wird seit 2017 als Open Source Lernplattform für die digitale Lehre an der TU Bergakademie Freiberg gemeinsam mit einer internationalen Community entwickelt wird.
