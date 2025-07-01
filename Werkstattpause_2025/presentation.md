@@ -3,7 +3,7 @@ author:   Sebastian Zug; André Dietrich
 
 email:    sebastian.zug@informatik.tu-freiberg.de
 
-version:  0.1.1
+version:  0.1.2
 
 language: de
 
@@ -359,9 +359,9 @@ __Links auf die Implementierungen__
 
 __Kontinuierlich laufende Beispiellabore__
 
-+ Einführung Mikrocontroller: https://edrys-labs.github.io/?/classroom/wrFIoY73UQ8skrwj
-+ Analog Digitalwandler: https://edrys-labs.github.io/?/classroom/1Sjgqpq8CaIKAsJh
-+ Interrupts und Timer: https://edrys-labs.github.io/?/classroom/9yQ6z0IMPYoKymKR
++ Einführung Mikrocontroller: https://edrys-labs.github.io/?/classroom/Ri1DZZcHzTzv5y15
++ Analog Digitalwandler: https://edrys-labs.github.io/?/classroom/MOy80MsaTmmd41yF#comm=ws
++ Interrupts und Timer: https://edrys-labs.github.io/?/classroom/sEHRNUR9TnhA8wYs
 
 ***********************************************************
 
