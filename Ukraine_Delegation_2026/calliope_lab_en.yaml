@@ -1,0 +1,336 @@
+id: 52mGc0WgirIzBJQ1
+dateCreated: 1793750400
+name: Calliope Mini Lab (English)
+meta:
+  logo: >-
+    https://raw.githubusercontent.com/edrys-labs/lab-calliope-mini/main/media/lab-logo.png
+  description: >-
+    Students develop an application for the Calliope mini that reads
+    environmental data from the built-in sensors and visualises it on the LED
+    matrix. The goal is a dynamic weather display that detects temperature
+    changes and indicates strong fluctuations. English version of
+    https://github.com/edrys-labs/lab-calliope-mini
+  selfAssign: true
+  defaultNumberOfRooms: '2'
+members:
+  teacher: []
+  student: []
+modules:
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config:
+      content: |-
+        # Calliope Mini Lab – Introduction to MicroPython & Sensors
+
+        Dear participants,
+
+        this lab gives you a first hands-on introduction to programming embedded systems with MicroPython, using the Calliope mini as an example.
+
+        The central task is a weather display: you read environmental data from the sensors of the Calliope mini, show it on the LED matrix and detect strong temperature changes. You are welcome to extend the application with your own ideas.
+
+        You can upload your programs from the editor directly to the real device and test them. Please check whether someone else is already working at the station before you upload your code. The last program stays on the device, so please leave the station in a comprehensible state.
+
+        In **Room 1** you get basic information about the Calliope mini and the learning objectives of this lab. In **Room 2** you develop and test your program in a simulator, where you can set temperature and brightness yourself. At the **Station** you then run it on the real Calliope mini.
+
+        > Your code changes at the station are stored **anonymously**. We use them to identify actual difficulties and to improve the course systematically. The data does not allow any conclusions about the participants or their computers.
+
+        We look forward to your feedback and suggestions.
+
+        _Your CrossLab team_
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: ''
+    showInCustom: lobby
+    width: full
+    height: huge
+    id: 73230c92-11c5-496b-b9c9-c5d6d3e8a46d
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config:
+      content: |-
+        # Tutorial
+
+        A short introduction video on Edrys and how to use the remote labs
+
+        <video
+        controls
+        src="https://github.com/edrys-labs/lab-calliope-mini/raw/refs/heads/main/media/demo.webm"
+        width="100%">
+        Your browser cannot embed the video. You can
+        <a href="https://github.com/edrys-labs/lab-calliope-mini/raw/refs/heads/main/media/demo.webm">download it</a>
+        and watch it with a video player of your choice.
+        </video>
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: ''
+    showInCustom: lobby
+    width: full
+    height: 600
+    id: c7fc65e3-6c2d-4dd9-bd88-f514d364c971
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config:
+      content: |-
+        # Task
+
+        ## Learning objectives
+
+        * First steps in programming embedded systems with MicroPython
+        * Getting to know the hardware of the Calliope mini (sensors, LED matrix, buttons)
+        * Reading environmental sensors and showing the values on the LED matrix
+        * Developing structured, reusable programs in MicroPython
+        * Using the serial interface for communication and debugging
+
+        ## Assignment
+
+        > **Main task**: Develop a weather display that measures the temperature regularly, shows it as a symbol on the LED matrix, and detects and indicates strong temperature changes between two measurements.
+
+        You find the individual steps in the simulator exercise in **Room 2**. Once your weather display works, you can extend it, for example:
+
+        * An alarm that shows a warning symbol on the LED matrix when it gets dark.
+        * Switching between temperature and brightness display with buttons A and B.
+        * Continuous transmission of the measurements over the serial interface, e.g. as a table with time stamps.
+
+        You are also welcome to implement your own ideas and try out further functions of the Calliope mini.
+
+        ## Simulator and station
+
+        In the simulator (**Room 2**) you set temperature and brightness with sliders and press the buttons with a mouse click. This lets you test every branch of your program.
+
+        At the **Station** your program runs on the real Calliope mini, which you watch through the camera. There you cannot change the sensor values: the room temperature is nearly constant, the station light is on while someone is in the room, and the buttons cannot be pressed remotely. So develop and test the logic of your program in the simulator, and check at the station that it runs on the real hardware and delivers plausible values.
+
+        ## Technical basis
+
+        The lab uses the Calliope mini 3.
+
+        | Component          | Function                  |
+        | ------------------ | ------------------------- |
+        | Nordic nRF52820    | Interface processor       |
+        | Nordic nRF52833    | Application processor     |
+        | Light sensor       | Environmental data        |
+        | Temperature sensor | Environmental data        |
+        | LED matrix (5x5)   | Output of information     |
+        | RGB LEDs (3x)      | Output of information     |
+        | Buttons (2x)       | User interaction          |
+        | Bluetooth module   | Communication             |
+
+        More information and technical details on the Calliope mini:
+
+        * [Calliope mini overview](https://calliope.cc/en)
+        * [Calliope mini MicroPython API](https://calliope.cc/programmieren/editoren/python/python-api)
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: ''
+    showInCustom: Room 1
+    width: full
+    height: tall
+    id: 624c4adb-6404-4e99-b62e-48c2d6cda105
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config:
+      content: |-
+        # Calliope Mini V3 Layout
+
+        ![Calliope](https://calliope.cc/media/pages/calliope-mini/technische-daten/6b2510621e-1695728195/calliopev3_front.svg)
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: ''
+    showInCustom: Room 1
+    width: 700
+    height: 700
+    id: e5265453-d7bf-4804-9cdf-8d69c9b55e42
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config:
+      content: |-
+        # Simulator exercise
+
+        Here you develop the weather display from the main task. The simulator models a Calliope mini 3: LED matrix, buttons and pins work as on the real device. The output of `print()` appears in the terminal below the board.
+
+        You set the environmental data with the sliders below the board: temperature between 0 and 40 °C and brightness between 0 and 255. Press buttons A and B with a mouse click on the board. The program next to this text reads the temperature every second and prints it to the serial interface. Start it with the run button in the editor and change the temperature.
+
+        > **Practical task 1**: Extend the program into a weather display: above 25 °C show a happy face (`Image.HAPPY`), below 15 °C a sad one (`Image.SAD`), and in between a sleeping one (`Image.ASLEEP`).
+
+        > **Practical task 2**: Detect when the temperature changes by more than 2 °C between two measurements. In that case briefly show an arrow in the direction of the change (`Image.ARROW_N` or `Image.ARROW_S`) and print a warning to the serial interface. Test your program by moving the slider quickly and slowly.
+
+        > **Conceptual task 1**: The function `temperature()` returns the temperature of the processor, not of the environment. Think about how this affects your measurements on the real device, and how often a measurement makes sense for a weather display.
+
+        ## Preparing for the remote lab
+
+        Once your weather display works in the simulator, copy the code into the station's editor and run it on the real Calliope mini. There the sensor values cannot be changed and the buttons cannot be pressed. So test all branches of your program here in the simulator, including the extensions from Room 1 (read the brightness with `display.read_light_level()`).
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: ''
+    showInCustom: Room 2
+    width: half
+    height: medium
+    id: 1f2c79f0-e39a-4449-a6d8-6ea62ebc638a
+  - url: https://edrys-labs.github.io/module-monaco-editor/
+    config:
+      editorId: simulator
+      value: |
+        from calliopemini import *
+
+        while True:
+            temp = temperature()
+            print('Temperature:', temp, 'deg')
+            sleep(1000)
+      runCommand: execute
+      language: python
+      theme: auto
+      synchronize: false
+      readOnly: false
+      showLanguageSelector: true
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: Room 2
+    width: full
+    height: huge
+    id: b4a899dd-f44b-4040-a52d-f04fb6f4cde3
+  - url: https://edrys-labs.github.io/module-micropython-simulator/index.html
+    config:
+      board: calliope-mini-3
+      execute: execute
+      sensors: temperature:0:40, lightLevel
+      synchronize: false
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: Room 2
+    width: half
+    height: huge
+    id: 79092ef5-beba-4018-97f0-f0b0ea1ae66b
+  - url: https://edrys-labs.github.io/module-monaco-editor/
+    config:
+      editorId: station
+      value: |-
+        from calliopemini import *
+
+        while True:
+            print('Temperature:', temperature(), 'Brightness:', display.read_light_level())
+            sleep(1000)
+      runCommand: execute
+      language: python
+      theme: auto
+      synchronize: true
+      readOnly: false
+      showLanguageSelector: true
+    showInCustom: station
+    width: full
+    height: medium
+    id: 7147f956-f81a-499a-a3aa-65d5799529bd
+  - url: https://edrys-labs.github.io/module-streaming/index.html
+    stationConfig:
+      streamName: Stream 1
+      streamQuality: medium
+      video: true
+      audio: false
+      mirrorX: false
+      mirrorY: false
+      rotate: 0
+      streamMethod: webrtc
+      websocketUrl: ''
+    showInCustom: station
+    width: half
+    height: medium
+    id: a77ce770-5ad9-4d1b-b81c-ee76bb64965d
+  - url: https://edrys-labs.github.io/module-pyxtermjs/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig:
+      server: http://localhost:5000/pty
+      execute: execute
+      workflow: micropython
+      enable:
+        teacher: true
+        student: true
+    showInCustom: station
+    width: half
+    height: medium
+    id: 13c884ca-d721-4869-b8dd-c48f4d31ca5f
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config:
+      content: |-
+        # Getting started with the Calliope mini and MicroPython
+
+        > This station trains your skills in working with embedded systems. You program the Calliope mini with MicroPython to implement basic functions such as reading environmental sensors and output on the LED matrix.
+
+        The Calliope mini 3 is based on a Nordic nRF52833 microcontroller. Sensors and actuators are directly accessible through the MicroPython API.
+
+        The goal is to get familiar with the platform, read sensor values, show them on the LED matrix and implement simple logic.
+
+        ## Remote lab
+
+        > **Practical task 3**: First run the starter code below. It prints the temperature and brightness of the real Calliope mini to the serial interface every second. Compare the values with those you set in the simulator.
+
+        > **Practical task 4**: Run the weather display you developed in the simulator on the station. Check through the camera whether the right symbol appears on the LED matrix.
+
+        > **Conceptual task 2**: Why do the measurements at the station hardly change? How would you test your program on a real device whose environment you cannot influence?
+
+        **Starter code**
+
+        ```python
+        from calliopemini import *
+
+        while True:
+            print('Temperature:', temperature(), 'Brightness:', display.read_light_level())
+            sleep(1000)
+        ```
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: ''
+    showInCustom: station
+    width: half
+    height: tall
+    id: ea751d3a-01fa-43c9-8238-235aea06c7ac
+  - url: https://edrys-labs.github.io/module-survey/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig:
+      survey: |-
+        {
+          "title": "Feedback on the lab",
+          "pages": [
+            {
+              "name": "page1",
+              "elements": [
+                { "type": "rating", "name": "experience", "title": "How do you rate this lab?", "rateMax": 5 },
+                { "type": "comment", "name": "suggestions", "title": "Do you have suggestions for improvement?" }
+              ]
+            }
+          ]
+        }
+      allowRetake: false
+    showInCustom: station
+    width: half
+    height: tall
+    id: 0ead87d3-0ece-4cf9-a981-fe7fc8073bd7
+  - url: https://edrys-labs.github.io/module-code-logger/
+    config:
+      runCommand: execute
+      language: python
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: station, station-only
+    width: full
+    height: tall
+    id: 2d6235d2-b0ba-4fac-a86c-90a25b012d49
+communicationConfig: null
+keepUrlConfig: true

@@ -1,0 +1,173 @@
+id: Z5CpuQ2nERzV2r8R
+dateCreated: 1793768777
+name: Arduino Nano ESP32 Lab (English)
+meta:
+  logo: >-
+    https://raw.githubusercontent.com/edrys-labs/lab-arduino-basics/main/logo.jpeg
+  description: >-
+    A first remote lab with a real Arduino Nano ESP32: write C++ code in the
+    browser, compile and upload it to the board, and watch the result through
+    the camera and the serial monitor.
+  selfAssign: true
+  defaultNumberOfRooms: '1'
+members:
+  teacher: []
+  student: []
+modules:
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config:
+      content: |-
+        # Welcome to the Arduino Nano ESP32 Remote Lab
+
+        Dear participants,
+
+        this lab gives you direct access to a real microcontroller: an **Arduino Nano ESP32**, connected to a computer in our RoboLab in Freiberg.
+
+        **How it works**
+
+        1. Open the **Station** in the menu on the left.
+        2. Edit the C++ code in the editor and press the **run** button.
+        3. The station compiles your code and uploads it to the board. This takes about 15 seconds.
+        4. Watch the board through the **camera** and read its output in the **terminal**.
+
+        Everything runs in your browser, and there is nothing to install. The station itself is just a browser window and a small Docker container on a laptop.
+
+        > Only one person can program the board at a time. If someone else is working at the station, please wait a moment and watch together.
+
+        _Your CrossLab team, TU Bergakademie Freiberg_
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: ''
+    showInCustom: lobby
+    width: full
+    height: huge
+    id: 8a1f0c3e-2b7d-4e59-9c61-0d4a7e2f5b13
+  - url: https://edrys-labs.github.io/module-monaco-editor/
+    config:
+      editorId: station
+      value: |
+        // Arduino Nano ESP32: the RGB LED is active LOW
+        // (LOW = on, HIGH = off)
+        const int leds[] = {LED_RED, LED_GREEN, LED_BLUE};
+        const char* names[] = {"red", "green", "blue"};
+
+        void setup() {
+          Serial.begin(115200);
+          for (int i = 0; i < 3; i++) {
+            pinMode(leds[i], OUTPUT);
+            digitalWrite(leds[i], HIGH);  // off
+          }
+        }
+
+        void loop() {
+          for (int i = 0; i < 3; i++) {
+            digitalWrite(leds[i], LOW);   // on
+            Serial.print("Colour: ");
+            Serial.println(names[i]);
+            delay(700);
+            digitalWrite(leds[i], HIGH);  // off
+          }
+        }
+      runCommand: execute
+      language: cpp
+      theme: auto
+      synchronize: true
+      readOnly: false
+      showLanguageSelector: false
+    showInCustom: station
+    width: full
+    height: huge
+    id: 3c9e7b21-6f4a-4d8e-a1b5-7e2c9d0f4a68
+  - url: https://edrys-labs.github.io/module-streaming/index.html
+    stationConfig:
+      streamName: Stream 1
+      streamQuality: medium
+      video: true
+      audio: false
+      mirrorX: false
+      mirrorY: false
+      rotate: 0
+      streamMethod: webrtc
+      websocketUrl: ''
+    showInCustom: station
+    width: half
+    height: medium
+    id: 5d2a8f47-9e1b-4c63-b7d0-2f8e6a1c9b35
+  - url: https://edrys-labs.github.io/module-pyxtermjs/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig:
+      server: http://localhost:5000/pty
+      execute: execute
+      workflow: arduino-nano-esp32
+      port: /dev/ttyACM0
+      enable:
+        teacher: true
+        student: true
+    showInCustom: station
+    width: half
+    height: medium
+    id: 7b4e1d93-2a6c-4f85-8e07-c3d9a5b1f246
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config:
+      content: |-
+        # Tasks
+
+        > **Task 1**: Run the starter code. Watch the RGB LED in the camera and the colour names in the terminal. Do they match?
+
+        > **Task 2**: Make the LED blink faster, and add a fourth state in which all three colours are on at the same time. Which colour do you see?
+
+        > **Task 3**: Let the LED send `SOS` in Morse code (`... --- ...`): short = 200 ms, long = 600 ms, pause between letters = 600 ms. Print each letter to the serial monitor.
+
+        > **Conceptual task**: The camera shows the board with a delay. How would you measure the real timing of your blink pattern without trusting the video?
+
+        ## Hardware
+
+        | Component        | Details                                    |
+        | ---------------- | ------------------------------------------ |
+        | Microcontroller  | Espressif ESP32-S3 (u-blox NORA-W106)      |
+        | RGB LED          | `LED_RED`, `LED_GREEN`, `LED_BLUE`, active LOW |
+        | Builtin LED      | `LED_BUILTIN` (active HIGH)                 |
+        | Connectivity     | Wi-Fi, Bluetooth LE                        |
+        | Toolchain        | `arduino-cli`, core `arduino:esp32`        |
+
+        More information: [Arduino Nano ESP32 documentation](https://docs.arduino.cc/hardware/nano-esp32/)
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: ''
+    showInCustom: station
+    width: half
+    height: tall
+    id: 9e6c3a15-4b8f-4d27-a0e9-1f5b7c2d8e43
+  - url: https://edrys-labs.github.io/module-survey/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig:
+      survey: |-
+        {
+          "title": "Feedback on the lab",
+          "pages": [
+            {
+              "name": "page1",
+              "elements": [
+                { "type": "rating", "name": "experience", "title": "How do you rate this remote lab?", "rateMax": 5 },
+                { "type": "comment", "name": "ideas", "title": "Which of your own labs could work like this?" }
+              ]
+            }
+          ]
+        }
+      allowRetake: false
+    showInCustom: station
+    width: half
+    height: tall
+    id: 2f8d5b39-7c1e-4a96-b3e4-6a0c9f2d7b51
+communicationConfig: null
+keepUrlConfig: true
