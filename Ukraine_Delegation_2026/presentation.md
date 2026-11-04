@@ -397,6 +397,21 @@ I now turn my own laptop into a remote lab station, with an Arduino Nano ESP32 p
 4. Station: change the C++ code and press run. It is compiled and uploaded to the real board.
 5. Watch the RGB LED in the stream and the output in the serial monitor.
 
+The complete station software, started with one command:
+
+``` bash
+docker run -d --name edrys-station \
+  -p 127.0.0.1:5000:5000 \
+  --device /dev/ttyACM0 \
+  -v /dev/bus/usb:/dev/bus/usb \
+  --device-cgroup-rule 'c 166:* rmw' \
+  --device-cgroup-rule 'c 189:* rmw' \
+  edryslabs/module-pyxtermjs:latest
+```
+
+    --{{0}}--
+This one command is the whole station software. The container brings the Arduino toolchain and a small terminal server. The serial port and the USB bus are passed through, so the container can upload the program to the board.
+
 Classroom link for the demo:
 
 <script input="text" placeholder="paste the classroom URL here" aria-label="classroom URL for the live demo" style="display: block">
@@ -406,9 +421,9 @@ url === ""
   : "HTML: <img src='https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=" + encodeURIComponent(url) + "' alt='QR code for the classroom' width='300' height='300'>"
 </script>
 
-### Running in everyday teaching
+## Labs running in the RoboLab
 
-These labs are used in our courses on embedded systems. The tasks are in German, the hardware runs around the clock.
+Besides the demo station on my laptop, these stations run permanently in our RoboLab. We use them in our courses on embedded systems, so the tasks are in German.
 
 <section class="flex-container">
 
